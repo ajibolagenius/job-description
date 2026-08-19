@@ -172,12 +172,12 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 - **Databases & data layer:** PostgreSQL, Supabase, Neon Postgres, Drizzle ORM, SQLAlchemy, MongoDB, IndexedDB / Dexie.js, schema design
 - **State & fetching:** Zustand, TanStack Query, React Hook Form, Zod
 - **Payments:** Paystack (Nigeria), Stripe, custom wallet/coin systems, automated escrow
-- **Cloud & infra:** Vercel, Cloudflare Pages / Workers / Wrangler, Turborepo monorepos, Git/GitHub, Docker, Redis
+- **Cloud & infra:** Vercel, Cloudflare Pages / Workers / Wrangler, Turborepo monorepos, Git/GitHub, Docker, Redis, Google Cloud Platform
 - **Backend frameworks (familiarity, not yet a shipped production project):** NestJS, Prisma — conceptually transferable from his Express/FastAPI and Drizzle/SQLAlchemy work, but he has not shipped a production app on either. Frame as "familiar with," not "built with."
 - **Auth & security:** Supabase Auth, Neon Auth, biometric authentication, client-side token authorisation, OWASP-aligned security auditing
 - **AI/ML & LLM:** XGBoost, CatBoost, Scikit-Learn, Pandas, Streamlit, Plotly, OpenRouter, Gemini, Groq, YarnGPT (TTS), speech synthesis
-- **AI Development & Productivity Tools:** Advanced proficiency with AI development, agentic workflows, and productivity tools, including Gemini Codex, ChatGPT, Claude, and similar AI CLI tools (agent skills, CLI-driven development, prompt engineering, rapid prototyping, and automated code review)
-- **Motion & 3D:** GSAP + ScrollTrigger, Framer Motion, Lenis, Three.js, WebGL, React Three Fiber
+- **AI Development & Productivity Tools:** Advanced proficiency with AI development, agentic workflows, and productivity tools, including Gemini, Codex, ChatGPT, Claude, and similar AI CLI tools (agent skills, CLI-driven development, prompt engineering, rapid prototyping, and automated code review)
+- **Motion & 3D:** GSAP + ScrollTrigger, Framer Motion, Lenis, Three.js, React Three Fiber
 - **Design & CMS / No-Code:** Figma, Adobe Creative Suite, Affinity Suite, UI/UX, design systems, WCAG 2.1 AA accessibility, Webflow (shipped 2022 personal portfolio at https://ajibolagenius.webflow.io)
 - **Ops & tooling:** Resend (email), Cloudinary, Plausible, GlitchTip, Mintlify, Recharts, Google Maps, ESLint, Chrome MV3 / Firefox extensions
 
