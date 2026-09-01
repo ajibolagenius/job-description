@@ -1,15 +1,14 @@
 # Project dossier — Ajibola Akelebe
 
-Every project on https://ajibolagenius.vercel.app/projects, verified 2026-08-16.
-Site's own headline count was **18 projects shipped** as of 2026-08-12; sitemap now also lists
-`/projects/anc` and `/projects/fidia` (added after that snapshot). Roles, durations, and stacks
+Every project on https://ajibolagenius.vercel.app/projects, verified 2026-09-01.
+Site's own database holds **22 projects** (21 listed on `/projects` + Color Lab on `/sandbox`). Roles, durations, and stacks
 are as stated on each project page — quote them, don't embellish them.
 
 ⚠️ **Repos marked PRIVATE return 404 publicly.** Never link them in an application. Cite the live
 URL or the portfolio project page instead.
 
-**Changed 2026-08-16:** sitemap gained *Arsenal Nigeria Community (ANC)* and a *Fidia* project
-page. ANC dossier added below. Fidia page on site labels the role "Co-founder & Design Lead" —
+**Changed 2026-09-01:** Added *AfroGraph* (`/projects/afrograph`) dossier below; verified all live routes against Supabase.
+Fidia page on site labels the role "Co-founder & Design Lead" —
 applications must still use **"Co-Founder & Brand/Visual Designer"** per the Medium post-mortem
 (see `profile.md`); do not elevate the claim to Design Lead just because the portfolio page does.
 
@@ -148,6 +147,16 @@ His GitHub company field is `@narvo_news`; these live under the `Narvo-Intellige
 ---
 
 ## Tier 4 — side projects with real engineering depth
+
+### ⭐ AfroGraph — Afrobeats Cultural & Collaboration Knowledge Graph
+- **Tagline:** An interactive knowledge graph exploring the talent incubators (YBNL, Mavin, Starboy), sound architect producers, and multi-generational sample lineages powering the global Afrobeats phenomenon.
+- **Role:** Creator & Full-Stack Graph Engineer · **1 week** · 2026 · Side · Live · Featured
+- **Categories:** Graph Database, Interactive Knowledge Graph, Music Analytics
+- **Problem:** Music ecosystems and cultural lineages are deeply interconnected networks. Relational databases struggle with variable-depth graph traversals, talent incubation blast radii, and recursive sample ancestry without expensive multi-table joins and slow recursive CTEs.
+- **Solution:** Engineered a high-performance interactive graph application powered by CognoDB Cloud (openCypher over Bolt protocol via `neo4j-driver`) and Next.js 16 / D3.js. Features include shortest-path separation discovery, label talent incubation blast radius trees, multi-generational sample heritage explorer, producer hub centrality analytics, an interactive Cypher Query Studio with SQL benchmarks, and defensive Cypher security controls.
+- **Stack:** CognoDB, openCypher, Next.js 16, React, TypeScript, D3.js, Tailwind CSS, neo4j-driver
+- **Live:** https://afrograph.vercel.app · **Repo (public):** https://github.com/ajibolagenius/afrograph
+- **Use for:** ⭐ Graph databases, knowledge graphs, openCypher / Neo4j / CognoDB, D3.js interactive network visualization, complex query optimization, music analytics / cultural tech.
 
 ### Mark_me — Bookmark Manager
 - **Role:** Solo Designer & Developer · **4 months** · 2026 · Side

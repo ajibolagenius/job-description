@@ -8,9 +8,9 @@ Projects https://ajibolagenius.vercel.app/projects ·
 Sandbox https://ajibolagenius.vercel.app/sandbox ·
 GitHub https://github.com/ajibolagenius
 
-**Last verified: 2026-08-16** — cheap change-detection via sitemap + GitHub API. New since the
-2026-08-12 afternoon revision: `/projects/anc` (Arsenal Nigeria Community) and `/projects/fidia`
-on the sitemap; GitHub public repo count now 42 (was 41). Zora Market mobile and public
+**Last verified: 2026-09-01** — cheap change-detection via sitemap + GitHub API + Supabase database. New since the
+previous revision: `/projects/afrograph` (AfroGraph - Afrobeats Cultural & Collaboration Knowledge Graph) and
+Lagos Data School Software Developer Instructor role on CV; GitHub public repo count now 47. Zora Market mobile and public
 `vibe-secure-me` remain as previously recorded.
 
 **Experience-years correction (2026-08-18, stated directly by Ajibola):** his professional
@@ -48,13 +48,13 @@ traction, downloads, or user numbers.
 - **Title:** Full Stack Developer
 - **Positioning strip on site:** FULL-STACK · DESIGN · EDUCATOR — "Design & Engineering. No Boundaries."
 - **Location:** Lagos, Nigeria
-- **Experience:** **3+ years professional software engineering · 5+ years professional design · 10+ years combined** (per Ajibola directly, 2026-08-18 — use this, not the line below, when a JD asks for years of experience) · 10 companies · **20 projects shipped** (site's own headline stats, project/company counts still stand)
+- **Experience:** **3+ years professional software engineering · 5+ years professional design · 10+ years combined** (per Ajibola directly, 2026-08-18 — use this, not the line below, when a JD asks for years of experience) · 11 companies / institutions · **22 projects in database** (21 listed on `/projects` + Color Lab in sandbox)
 - **Availability:** "Currently available for full-time roles, freelance work, and collaborations." Use this exact framing — it explicitly covers full-time, which matters for permanent-role applications.
 - **Site banner, verbatim:** "Full Stack Developer ✦ Based in Lagos, Nigeria ✦ Available for projects ✦ FULL-STACK · DESIGN · EDUCATOR"
 - **Email:** ajiboladolapogenius@gmail.com
 - **Phone / WhatsApp:** +234 806 328 1921
 - **LinkedIn:** linkedin.com/in/ajibolaakelebe
-- **GitHub:** github.com/ajibolagenius — 41 public repos, joined 2017, 4,966 contributions in the last year
+- **GitHub:** github.com/ajibolagenius — 47 public repos, joined 2017, 4,966+ contributions in the last year
 - **X/Twitter:** twitter.com/ajibolagenius
 - **Affiliation:** GitHub company field reads `@narvo_news`; the Narvo product family (News, Platform, Intelligence) lives under the `Narvo-Intelligence` GitHub org
 - **Summary:** "A developer and designer based in Nigeria, creating for a global audience. I teach what I know and share what I learn."
@@ -88,7 +88,7 @@ portfolio's own "Source" buttons link to some of them, but an outsider gets a 40
 Cite the live product URL or the portfolio project page instead. All live product URLs and the App
 Store listing were confirmed 200 on 2026-08-12.
 
-Public repos safe to link directly: `nego`, `mark_me`, `olamideverse`, `hotbite`, `gorant`, `rant`,
+Public repos safe to link directly: `afrograph`, `nego`, `mark_me`, `olamideverse`, `hotbite`, `gorant`, `rant`,
 `football-predictive-model`, `corpsmart`, `claude-ai-theme`, `narvo-news-theme`,
 `3d_todo_tobamsgroup`, `vibe-secure-me`, `narvo` (archived).
 
@@ -100,14 +100,15 @@ on the repo yet, so the portfolio page tells the story better).
 
 | Role | Company | Type | Dates | Substance |
 |---|---|---|---|---|
+| Part-Time Software Developer Instructor | Lagos Data School (Mangrove Technologies) | Part-Time | 2026–Present | Delivering software development instruction and technical mentorship; teaching programming fundamentals, modern web development, and practical software engineering workflows |
 | Backend Developer | ALU Exchange | Contract | 2026 | Microservice APIs for trading, ledger, wallet, and identity systems; real-time financial calculation logic, state management, database schemas |
-| Full Stack Developer & Tutor | Deejoft | Full-time | 2025–2026 | Led the development department; tutored programming; training in Python, HTML/CSS/JS, React, React Native; designed hands-on projects bridging theory and practice |
-| Web Tutor | APTECH Computer Education | Part-time | 2025 | Built curricula for HTML, CSS, JavaScript fundamentals; mentored learners with growth-focused feedback |
+| Full Stack Developer & Tutor | Deejoft | Full-Time | 2025–2026 | Led the development department; tutored programming; training in Python, HTML/CSS/JS, React, React Native; designed hands-on projects bridging theory and practice |
+| Web Tutor | APTECH Computer Education | Part-Time | 2024–2025 | Built curricula for HTML, CSS, JavaScript fundamentals; mentored learners with growth-focused feedback |
 | Co-Founder & Brand/Visual Designer | Fidia | Co-founded startup | 2020–2023 (closed) | Crowdfunding and monetisation platform for African creators — payment links, creator profiles, product pages, creator education. One of three co-founders (with Soliudeen Ogunsola and Gbadebo Bello); designed logos, banners, and motion graphics. Featured in TechCabal (2022). Company shut down September 2023 when a promised investor wire never came through. |
 | Lead Designer | Cavemen Agency | Contract | 2020–2021 | Brand identity and marketing visuals; directed initiatives; optimised team workflows under tight deadlines |
 | Visual Designer | Quru Lab | Contract | 2021 | Social, presentation, and product demo visuals; print and digital launch assets; design standards and delivery processes |
 | Visual Designer | Kuwego Global | Contract | 2020 | Defined product design strategy and creative goals; built and led a design team; managed vendors |
-| Brand Designer | Imagine Cinemas | Part-time | 2019–2020 | Social graphics, demos, presentations; led redesign and marketing campaigns; managed outsourced resources |
+| Brand Designer | Imagine Cinemas | Part-Time | 2019–2020 | Social graphics, demos, presentations; led redesign and marketing campaigns; managed outsourced resources |
 | Graphic Designer | EasyFarm Hub | Contract | 2019–2020 | Print and digital marketing visuals; design standards and processes |
 | Graphic Designer | Google Business Group, Abeokuta | Volunteer | 2019–2021 | Branded visuals for community events promoting digital literacy |
 
@@ -166,10 +167,10 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 ## Skills
 
 - **Languages:** TypeScript, JavaScript, Python
-- **Frontend:** React, React 19, Next.js (13→16), Tailwind CSS (v3/v4), shadcn/ui, HTML/CSS, MDX
+- **Frontend:** React, React 19, Next.js (13→16), Tailwind CSS (v3/v4), shadcn/ui, HTML/CSS, MDX, D3.js
 - **Mobile (shipped to the App Store):** React Native 0.83, Expo SDK 55, Expo Router, EAS build/submit, Expo Updates (OTA), NativeWind, MMKV, AsyncStorage persistence, Reanimated, expo-local-authentication (Face ID/Touch ID), expo-notifications (push), React Native Maps, Stripe React Native (native payment sheets, Apple Pay/Google Pay), PWA (Serwist), offline-first architecture
 - **Backend & APIs:** Node.js, Express, FastAPI, REST, GraphQL, tRPC, microservices
-- **Databases & data layer:** PostgreSQL, Supabase, Neon Postgres, Drizzle ORM, SQLAlchemy, MongoDB, IndexedDB / Dexie.js, schema design
+- **Databases, Graph & Data Layer:** PostgreSQL, Supabase, Neon Postgres, CognoDB Cloud, openCypher, neo4j-driver, Drizzle ORM, SQLAlchemy, MongoDB, IndexedDB / Dexie.js, schema design
 - **State & fetching:** Zustand, TanStack Query, React Hook Form, Zod
 - **Payments:** Paystack (Nigeria), Stripe, custom wallet/coin systems, automated escrow
 - **Cloud & infra:** Vercel, Cloudflare Pages / Workers / Wrangler, Turborepo monorepos, Git/GitHub, Docker, Redis, Google Cloud Platform
@@ -195,27 +196,28 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 | CRM, admin panels, internal tools | Zora (vendor + admin dashboards), Nego (tiered Client/Talent/Admin dashboards, verification workflows), Narvo Platform (analytics dashboards) |
 | APIs, third-party integrations | ALU Exchange microservices; Narvo Platform (developer portal, API playground, Mintlify docs); Zora (Stripe, Google Maps); football model (4 external data APIs) |
 | Databases / data management | Supabase and Postgres across most projects; Neon + Drizzle (Mark_me); SQLAlchemy + Postgres (football model); schema design at ALU Exchange |
+| **Graph databases / Knowledge graphs / Network visualization / openCypher / D3.js** | **AfroGraph** (CognoDB Cloud, openCypher over Bolt via neo4j-driver, Next.js 16, D3.js, shortest-path algorithms, blast radius trees, interactive Cypher Query Studio) |
 | **Native mobile / iOS / Android / app store** | ⭐ **Zora Market — Mobile App: live on the Apple App Store**, single Expo codebase, Face ID, native Stripe payment sheets, OTA updates via EAS. The only portfolio item that survived app-store review — lead with it for any mobile role. |
 | Mobile / cross-platform | Zora Market mobile app + Zora web from one Turborepo (shared TypeScript types and API client), Heka IQ (offline-first PWA + native) |
 | Push notifications, biometrics, OTA delivery | Zora Market mobile (expo-notifications, expo-local-authentication, Expo Updates, EAS) |
 | Apple Pay / Google Pay / native checkout | Zora Market mobile (Stripe React Native native payment sheets) |
 | Offline / low-bandwidth / emerging markets | Heka IQ (IndexedDB caching for 3G), Narvo News (offline PWA), Mark_me (Serwist sync) |
 | Community ops / WhatsApp automation / raffles / RBAC | **ANC** (Baileys bot, cron digests, automated raffles, PostgreSQL RLS, fine-grained RBAC, Sentry) |
-| Frontend frameworks, HTML/CSS/JS | Entire portfolio; also taught these at APTECH and Deejoft |
+| Frontend frameworks, HTML/CSS/JS | Entire portfolio; also taught these at Lagos Data School, Deejoft, and APTECH |
 | Animation, motion, premium UI | NEGOtivity, OlamideVerse (GSAP scrollytelling), Hotbite, GSAP repos, 3d_todo (React Three Fiber) |
 | AI / ML / data science | Football analytics (XGBoost, xG, Elo, PPDA), Heka IQ (CatBoost "Sphinx" model), Narvo News (Gemini, YarnGPT), Mark_me (OpenRouter assistant) |
 | **AI development / productivity tools / AI-assisted engineering / AI CLI tools** | Advanced proficiency across AI development and productivity tools (Gemini Codex, ChatGPT, Claude, and similar AI CLI tools / coding assistants); authored agent skills (e.g. Vibe Secure Me for automated security auditing across AI assistants); ships production AI features (Narvo News with Gemini/YarnGPT/Groq, Mark_me with OpenRouter, Heka IQ with CatBoost) |
-| Analytics, reporting, dashboards | Football analytics (Streamlit + Plotly), JobHustles (Recharts), Narvo Platform, Plausible |
+| Analytics, reporting, dashboards | Football analytics (Streamlit + Plotly), JobHustles (Recharts), Narvo Platform, AfroGraph (centrality analytics), Plausible |
 | Security / auditing / compliance | Vibe Secure Me (OWASP Top 10, API, Mobile, LLM Top 10), Narvo Intelligence (WCAG 2.1 AA) |
 | Automation / process improvement | Vibe Secure Me (automated auditing), football model (scraping and feature pipelines) |
-| Documentation & technical writing | Narvo Platform (Mintlify API docs), APTECH curricula, Deejoft training, `lecture_notes` repo |
-| Training, mentoring, enablement | Deejoft (led dept, built training), APTECH (wrote curricula) |
+| Documentation & technical writing | Narvo Platform (Mintlify API docs), Lagos Data School course materials, APTECH curricula, Deejoft training, `lecture_notes` repo |
+| Training, mentoring, enablement | **Lagos Data School** (Software Developer Instructor), **Deejoft** (led dev dept, built curriculum), **APTECH** (wrote curricula, hands-on tutoring) |
 | Design / UI-UX / brand / design systems | Five years lead designer; NEGOtivity Figma-accurate build; Narvo design systems; two published VS Code themes |
 | Accessibility | Narvo Intelligence (WCAG 2.1 AA), Color Lab (WCAG contrast tooling) |
-| Speed of delivery under pressure | Hotbite (48 hours), Vibe Secure Me (1 weekend), the VS Code themes (1 weekend each) |
+| Speed of delivery under pressure | Hotbite (48 hours), AfroGraph (1 week), Vibe Secure Me (1 weekend), the VS Code themes (1 weekend each) |
 | Long-haul ownership / persistence | Narvo News (18 months), OlamideVerse (13 months), football model (10 months), Rant (1 year) |
 | Working independently / owning projects | Credited "Solo Developer" or "Solo Designer & Developer" on **9 of 18** projects (Hotbite, Mark_me, Rant, OlamideVerse, Narvo Platform, Narvo Intelligence, Vibe Secure Me, and both VS Code themes); led the dev department at Deejoft |
-| B2B / developer tooling | Narvo Platform (NaaS developer portal), the VS Code themes, Vibe Secure Me |
+| B2B / developer tooling | Narvo Platform (NaaS developer portal), AfroGraph (Cypher Query Studio), the VS Code themes, Vibe Secure Me |
 | Startup / founder / 0-to-1 / early-stage | Fidia — first-time co-founder, 2020–2023, brand/visual design for a crowdfunding platform for African creators |
 | Resilience / failure / honest reflection under pressure | Fidia — company closed Sept 2023 when promised investor funding fell through; he can speak to this candidly if asked |
 | Crowdfunding / creator economy / fintech-adjacent | Fidia (crowdfunding, payment links, creator monetisation), alongside ALU Exchange and Nego for fintech proper |
