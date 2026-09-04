@@ -1,13 +1,13 @@
 # Project dossier — Ajibola Akelebe
 
-Every project on https://ajibolagenius.vercel.app/projects, verified 2026-09-01.
-Site's own database holds **22 projects** (21 listed on `/projects` + Color Lab on `/sandbox`). Roles, durations, and stacks
+Every project on https://ajibolagenius.vercel.app/projects, verified 2026-09-04.
+Site's own database holds **23 projects & sandbox toys** (21 listed on `/projects` + Color Lab and Mesh Lab on `/sandbox`). Roles, durations, and stacks
 are as stated on each project page — quote them, don't embellish them.
 
 ⚠️ **Repos marked PRIVATE return 404 publicly.** Never link them in an application. Cite the live
 URL or the portfolio project page instead.
 
-**Changed 2026-09-01:** Added *AfroGraph* (`/projects/afrograph`) dossier below; verified all live routes against Supabase.
+**Changed 2026-09-04:** Added *Mesh Lab* 3D experiment (`/sandbox/mesh-lab`), *AI Assistant* with tool-calling & RAG over Supabase, *Notes & Writing* platform (`/notes`), global *Command Palette (⌘K)*, native *View Transitions API*, and *OKLCH / P3 wide-gamut* design system.
 Fidia page on site labels the role "Co-founder & Design Lead" —
 applications must still use **"Co-Founder & Brand/Visual Designer"** per the Medium post-mortem
 (see `profile.md`); do not elevate the claim to Design Lead just because the portfolio page does.
@@ -195,6 +195,19 @@ His GitHub company field is `@narvo_news`; these live under the `Narvo-Intellige
 - **Live:** https://olamideverse.vercel.app · **Repo (public):** https://github.com/ajibolagenius/olamideverse
 - **Use for:** editorial and storytelling builds, advanced scroll animation, content architecture and validation, design systems, cultural/media products.
 
+### ⭐ Ajibola Portfolio & AI Concierge (Next.js 16 + Vercel AI SDK + Supabase)
+- **Tagline:** High-performance personal CMS, AI concierge with tool calling, and technical publication platform.
+- **Role:** Solo Designer & Developer · Continuous · Live · Featured
+- **Problem:** Portfolios often act as static brochureware disconnected from live engineering activity, lacking modern interaction primitives, and failing to demonstrate claimed AI, design-system, or creative engineering capabilities.
+- **Solution:** Engineered a dynamic personal platform featuring:
+  - **AI Concierge & Tool Calling**: Streaming assistant built with Vercel AI SDK (`ai`), rate-limited in-process API, RAG grounding across projects and experience, and client-rendered tool calls (`recommendProject`, `recommendNote`, `getLiveStatus`) showcasing interactive UI components directly in chat.
+  - **Notes Publication Platform**: Full-stack technical article CMS with dynamic per-slug OpenGraph cards, admin CMS editing, rich-text typography, and GEO/SEO architecture.
+  - **Design System & Visual Engineering**: Modernized design tokens in `oklch()` color space with `@media (color-gamut: p3)` wide-gamut accents, asymmetric Bento grid with persistent `useSyncExternalStore` view switcher, and responsive `xl`/`2xl` scaling.
+  - **App-Grade Interaction Primitives**: Global Command Palette (⌘K) with fuzzy indexing, native cross-route View Transitions API (`document.startViewTransition`), and live "Now" activity widget tracking Lagos WAT time and real-time GitHub commits.
+- **Stack:** Next.js 16, React 19, TypeScript, Supabase, Vercel AI SDK, Tailwind CSS 4, OKLCH, Three.js, Phosphor Icons
+- **Live:** https://ajibolagenius.vercel.app · **Repo:** https://github.com/ajibolagenius/ajibola-portfolio
+- **Use for:** ⭐ AI engineering, agentic UI / tool calling, RAG, Next.js 16 App Router architecture, modern CSS/OKLCH, View Transitions, design systems, performance, technical writing.
+
 ---
 
 ## Tier 5 — small, fast, and public
@@ -217,6 +230,12 @@ Both themes and the Webflow build are good proof of **design-system thinking, co
 
 ### Sandbox — https://ajibolagenius.vercel.app/sandbox
 "Small experiments you can open and play with. Some are finished toys; others are still on the bench."
+- **Mesh Lab** (`/sandbox/mesh-lab`) — an interactive 3D geometry and WebGL rendering playground.
+  - **Role:** Solo Developer · 2026 · Sandbox Toy · Live
+  - **Features:** Four parametric buffer geometries (Torus Knot, Icosahedron, Dodecahedron, Octahedron), three rendering styles (shaded material, wireframe, particle points), wireframe overlay toggle, variable rotation speed, pointer-drag with inertial damping, particle count telemetry, and automatic reduced-motion suspension.
+  - **Stack:** Three.js, WebGL, React 19, TypeScript, Tailwind CSS
+  - **Live:** https://ajibolagenius.vercel.app/sandbox/mesh-lab
+  - **Use for:** ⭐ Three.js, WebGL, creative development, 3D math and geometry, interactive canvas physics, reduced-motion accessibility. Closes the credibility gap for the Bruno Simon Three.js certification on CV.
 - **Color Lab** (`/sandbox/color-lab`) — a contrast playground: drag or type hex values, real-time **WCAG contrast ratio** calculation with pass/fail status, Site/Invert/Accent/Muted modes. Described as "a tiny scratch space for testing weird CSS grid layouts and micro-animations." Useful evidence for accessibility literacy.
 
 ---
@@ -237,6 +256,8 @@ Worth mentioning only when directly relevant:
 
 - **A shipped app-store product:** Zora Market on the Apple App Store, with a release history (1.0.14). Passing review and shipping updates is a different skill from building a demo, and it is the rarest thing in this portfolio. Lead with it whenever the role is remotely mobile- or product-adjacent.
 - **Nigeria-first engineering:** Paystack, Naira currency systems, 3G-optimised offline caching, five-language localisation, NYSC and diaspora marketplaces. He builds for real Nigerian constraints, not just for a global template.
+- **Agentic AI & Tool Calling in production:** The portfolio AI concierge isn't a wrapper or chatbot iframe — it's an integrated streaming agent built on Vercel AI SDK with custom client-rendered tool calling (`recommendProject`, `recommendNote`, `getLiveStatus`), in-process rate-limiting, and dynamic Supabase context grounding.
+- **Modern CSS & wide-gamut design systems:** OKLCH perceptually uniform color tokens, Display-P3 wide-gamut media queries, asymmetric Bento grid architecture with persistent `useSyncExternalStore` view switcher, responsive `xl`/`2xl` scaling, and native cross-route View Transitions API (`document.startViewTransition`).
 - **End-to-end ownership:** credited "Solo Designer & Developer" or "Solo Developer" on **9 of the 18** projects — design, build, deploy, and maintain.
 - **Range of tempo:** 48 hours (Hotbite) to 18 months (Narvo News). Pick whichever the JD implies it values.
 - **Production payments across two gateways:** Paystack and Stripe, plus a custom wallet with automated escrow.

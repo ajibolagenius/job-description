@@ -49,8 +49,9 @@ No JD present? Ask for one. Never produce a generic letter.
 
 Read `profile.md`. Read `projects.md` too unless the JD is trivial.
 
-Both were last verified on **2026-09-01** (sitemap + GitHub change-detection + database check;
-AfroGraph project and Lagos Data School instructor role added). Refresh when the snapshot looks stale, the user says something changed, or
+Both were last verified on **2026-09-04** (sitemap + GitHub change-detection + database check;
+Mesh Lab 3D sandbox, AI Assistant with tool-calling & RAG, Notes & Writing platform, Command Palette,
+and OKLCH wide-gamut theme added to portfolio). Refresh when the snapshot looks stale, the user says something changed, or
 the role is high-stakes.
 
 **Cheap change-detection first.** `curl` the sitemap and compare `<loc>`/`<lastmod>` against

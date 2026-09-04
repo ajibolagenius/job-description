@@ -8,10 +8,11 @@ Projects https://ajibolagenius.vercel.app/projects ·
 Sandbox https://ajibolagenius.vercel.app/sandbox ·
 GitHub https://github.com/ajibolagenius
 
-**Last verified: 2026-09-01** — cheap change-detection via sitemap + GitHub API + Supabase database. New since the
-previous revision: `/projects/afrograph` (AfroGraph - Afrobeats Cultural & Collaboration Knowledge Graph) and
-Lagos Data School Software Developer Instructor role on CV; GitHub public repo count now 47. Zora Market mobile and public
-`vibe-secure-me` remain as previously recorded.
+**Last verified: 2026-09-04** — verified against latest codebase, database, sitemap, and live deployment.
+New since the previous revision: Mesh Lab 3D experiment (`/sandbox/mesh-lab`), interactive portfolio AI Assistant with
+tool-calling & dynamic RAG (`ai` / Vercel AI SDK over Supabase), Notes & Writing platform (`/notes` and `/notes/[slug]`),
+global Command Palette (⌘K), View Transitions API (`use-route-transition.ts`), live "Now" activity widget with real-time
+GitHub commit polling, and OKLCH / P3 wide-gamut design tokens. Zora Market mobile and public `vibe-secure-me` remain as previously recorded.
 
 **Experience-years correction (2026-08-18, stated directly by Ajibola):** his professional
 experience is **3+ years in software engineering, 5+ years in design, 10+ years combined as a
@@ -48,7 +49,7 @@ traction, downloads, or user numbers.
 - **Title:** Full Stack Developer
 - **Positioning strip on site:** FULL-STACK · DESIGN · EDUCATOR — "Design & Engineering. No Boundaries."
 - **Location:** Lagos, Nigeria
-- **Experience:** **3+ years professional software engineering · 5+ years professional design · 10+ years combined** (per Ajibola directly, 2026-08-18 — use this, not the line below, when a JD asks for years of experience) · 11 companies / institutions · **22 projects in database** (21 listed on `/projects` + Color Lab in sandbox)
+- **Experience:** **3+ years professional software engineering · 5+ years professional design · 10+ years combined** (per Ajibola directly, 2026-08-18 — use this, not the line below, when a JD asks for years of experience) · 11 companies / institutions · **23 projects & experiments in database and sandbox** (21 listed on `/projects` + Color Lab and Mesh Lab in sandbox)
 - **Availability:** "Currently available for full-time roles, freelance work, and collaborations." Use this exact framing — it explicitly covers full-time, which matters for permanent-role applications.
 - **Site banner, verbatim:** "Full Stack Developer ✦ Based in Lagos, Nigeria ✦ Available for projects ✦ FULL-STACK · DESIGN · EDUCATOR"
 - **Email:** ajiboladolapogenius@gmail.com
@@ -77,7 +78,8 @@ App Store: https://apps.apple.com/us/app/zora-market/id6764317880
 
 Note the route: the projects index is **`/projects`**, with per-project pages at
 `/projects/<slug>`. An older `/work` path appeared in earlier drafts — do not use it.
-There is also a `/sandbox` section for small experiments.
+There is also a **`/sandbox`** section for small experiments (`/sandbox/color-lab`, `/sandbox/mesh-lab`)
+and a **`/notes`** section for published technical articles and case studies.
 
 **Link policy — this matters.** **Eight** of the project repos are private or org-restricted and
 return 404 to anyone not signed in: `zora`, `hekaiq`, `negotivity`, `sonasdigital`,
@@ -167,20 +169,20 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 ## Skills
 
 - **Languages:** TypeScript, JavaScript, Python
-- **Frontend:** React, React 19, Next.js (13→16), Tailwind CSS (v3/v4), shadcn/ui, HTML/CSS, MDX, D3.js
+- **Frontend:** React, React 19, Next.js (13→16), Tailwind CSS (v3/v4), OKLCH & Display-P3 wide-gamut design tokens, shadcn/ui, HTML/CSS, MDX, D3.js
 - **Mobile (shipped to the App Store):** React Native 0.83, Expo SDK 55, Expo Router, EAS build/submit, Expo Updates (OTA), NativeWind, MMKV, AsyncStorage persistence, Reanimated, expo-local-authentication (Face ID/Touch ID), expo-notifications (push), React Native Maps, Stripe React Native (native payment sheets, Apple Pay/Google Pay), PWA (Serwist), offline-first architecture
-- **Backend & APIs:** Node.js, Express, FastAPI, REST, GraphQL, tRPC, microservices
+- **Backend & APIs:** Node.js, Express, FastAPI, REST, GraphQL, tRPC, microservices, Vercel AI SDK
 - **Databases, Graph & Data Layer:** PostgreSQL, Supabase, Neon Postgres, CognoDB Cloud, openCypher, neo4j-driver, Drizzle ORM, SQLAlchemy, MongoDB, IndexedDB / Dexie.js, schema design
 - **State & fetching:** Zustand, TanStack Query, React Hook Form, Zod
 - **Payments:** Paystack (Nigeria), Stripe, custom wallet/coin systems, automated escrow
 - **Cloud & infra:** Vercel, Cloudflare Pages / Workers / Wrangler, Turborepo monorepos, Git/GitHub, Docker, Redis, Google Cloud Platform
 - **Backend frameworks (familiarity, not yet a shipped production project):** NestJS, Prisma — conceptually transferable from his Express/FastAPI and Drizzle/SQLAlchemy work, but he has not shipped a production app on either. Frame as "familiar with," not "built with."
 - **Auth & security:** Supabase Auth, Neon Auth, biometric authentication, client-side token authorisation, OWASP-aligned security auditing
-- **AI/ML & LLM:** XGBoost, CatBoost, Scikit-Learn, Pandas, Streamlit, Plotly, OpenRouter, Gemini, Groq, YarnGPT (TTS), speech synthesis
-- **AI Development & Productivity Tools:** Advanced proficiency with AI development, agentic workflows, and productivity tools, including Gemini, Codex, ChatGPT, Claude, and similar AI CLI tools (agent skills, CLI-driven development, prompt engineering, rapid prototyping, and automated code review)
-- **Motion & 3D:** GSAP + ScrollTrigger, Framer Motion, Lenis, Three.js, React Three Fiber
-- **Design & CMS / No-Code:** Figma, Adobe Creative Suite, Affinity Suite, UI/UX, design systems, WCAG 2.1 AA accessibility, Webflow (shipped 2022 personal portfolio at https://ajibolagenius.webflow.io)
-- **Ops & tooling:** Resend (email), Cloudinary, Plausible, GlitchTip, Mintlify, Recharts, Google Maps, ESLint, Chrome MV3 / Firefox extensions
+- **AI/ML & LLM:** Vercel AI SDK (tool-calling, streaming, dynamic RAG grounding), OpenRouter, Gemini, Groq, XGBoost, CatBoost, Scikit-Learn, Pandas, Streamlit, Plotly, YarnGPT (TTS), speech synthesis
+- **AI Development & Productivity Tools:** Advanced proficiency with AI development, agentic workflows, and productivity tools, including Gemini, Codex, ChatGPT, Claude, and similar AI CLI tools (agent skills, CLI-driven development, prompt engineering, rapid prototyping, and automated code review). Built and shipped the portfolio AI concierge with custom tool calling (`recommendProject`, `recommendNote`, `getLiveStatus`).
+- **Motion & 3D:** Three.js & WebGL (custom parametric buffer geometries, wireframe/shaded/points shaders, inertial drag physics, reduced-motion compliance in Mesh Lab), GSAP + ScrollTrigger, Framer Motion, Lenis, React Three Fiber, View Transitions API (`document.startViewTransition`)
+- **Design & CMS / No-Code:** Figma, Adobe Creative Suite, Affinity Suite, UI/UX, design systems, OKLCH color spaces, WCAG 2.1 AA accessibility, Webflow (shipped 2022 personal portfolio at https://ajibolagenius.webflow.io)
+- **Ops & tooling:** Resend (email), Cloudinary, Plausible, GlitchTip, Mintlify, Recharts, Google Maps, ESLint, Chrome MV3 / Firefox extensions, Vercel Analytics & Speed Insights
 
 ## Mapping cheatsheet — JD requirement to strongest evidence
 
@@ -203,17 +205,19 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 | Apple Pay / Google Pay / native checkout | Zora Market mobile (Stripe React Native native payment sheets) |
 | Offline / low-bandwidth / emerging markets | Heka IQ (IndexedDB caching for 3G), Narvo News (offline PWA), Mark_me (Serwist sync) |
 | Community ops / WhatsApp automation / raffles / RBAC | **ANC** (Baileys bot, cron digests, automated raffles, PostgreSQL RLS, fine-grained RBAC, Sentry) |
-| Frontend frameworks, HTML/CSS/JS | Entire portfolio; also taught these at Lagos Data School, Deejoft, and APTECH |
-| Animation, motion, premium UI | NEGOtivity, OlamideVerse (GSAP scrollytelling), Hotbite, GSAP repos, 3d_todo (React Three Fiber) |
+| Frontend frameworks, HTML/CSS/JS | Entire portfolio (Next.js 16, React 19, Tailwind CSS v4, OKLCH tokens, responsive 2xl grids); also taught these at Lagos Data School, Deejoft, and APTECH |
+| Animation, motion, premium UI | Native View Transitions API (`useRouteTransition`), NEGOtivity, OlamideVerse (GSAP scrollytelling), Hotbite, GSAP repos, 3d_todo (React Three Fiber) |
+| **3D / WebGL / Three.js / Creative web engineering** | ⭐ **Mesh Lab** (`/sandbox/mesh-lab` — interactive Three.js/WebGL playground with 4 parametric buffer geometries, 3 render styles, pointer-drag physics, particle telemetry, reduced-motion compliance), `3d_todo_tobamsgroup` (React Three Fiber), Bruno Simon Three.js certification |
 | AI / ML / data science | Football analytics (XGBoost, xG, Elo, PPDA), Heka IQ (CatBoost "Sphinx" model), Narvo News (Gemini, YarnGPT), Mark_me (OpenRouter assistant) |
-| **AI development / productivity tools / AI-assisted engineering / AI CLI tools** | Advanced proficiency across AI development and productivity tools (Gemini Codex, ChatGPT, Claude, and similar AI CLI tools / coding assistants); authored agent skills (e.g. Vibe Secure Me for automated security auditing across AI assistants); ships production AI features (Narvo News with Gemini/YarnGPT/Groq, Mark_me with OpenRouter, Heka IQ with CatBoost) |
+| **AI development / productivity tools / AI-assisted engineering / AI CLI tools** | Advanced proficiency across AI development and productivity tools (Gemini Codex, ChatGPT, Claude, and similar AI CLI tools / coding assistants); authored agent skills (e.g. Vibe Secure Me); ships production AI features (**interactive portfolio concierge with client-rendered tool calling and dynamic Supabase RAG**; Narvo News with Gemini/YarnGPT/Groq, Mark_me with OpenRouter, Heka IQ with CatBoost) |
+| **App-grade UX / Micro-interactions / Search / Real-time** | **Global Command Palette (⌘K)** with fuzzy indexing; **native View Transitions API** cross-route morphing; **live "Now" activity widget** with real-time GitHub commit polling and Lagos WAT live clock; circular theme reveal |
 | Analytics, reporting, dashboards | Football analytics (Streamlit + Plotly), JobHustles (Recharts), Narvo Platform, AfroGraph (centrality analytics), Plausible |
 | Security / auditing / compliance | Vibe Secure Me (OWASP Top 10, API, Mobile, LLM Top 10), Narvo Intelligence (WCAG 2.1 AA) |
 | Automation / process improvement | Vibe Secure Me (automated auditing), football model (scraping and feature pipelines) |
-| Documentation & technical writing | Narvo Platform (Mintlify API docs), Lagos Data School course materials, APTECH curricula, Deejoft training, `lecture_notes` repo |
+| Documentation & technical writing | **Notes & Technical Articles** (`/notes` — database-backed CMS, dynamic per-slug OpenGraph cards, rich typography, GEO/SEO engine), Lagos Data School course materials, Narvo Platform (Mintlify API docs), APTECH curricula, Deejoft training, `lecture_notes` repo |
 | Training, mentoring, enablement | **Lagos Data School** (Software Developer Instructor), **Deejoft** (led dev dept, built curriculum), **APTECH** (wrote curricula, hands-on tutoring) |
-| Design / UI-UX / brand / design systems | Five years lead designer; NEGOtivity Figma-accurate build; Narvo design systems; two published VS Code themes |
-| Accessibility | Narvo Intelligence (WCAG 2.1 AA), Color Lab (WCAG contrast tooling) |
+| Design / UI-UX / brand / design systems | Five years lead designer; **OKLCH & Display-P3 wide-gamut design tokens**; **asymmetric Bento grid** layout with persistent view switcher (`useSyncExternalStore`); NEGOtivity Figma-accurate build; Narvo design systems; two published VS Code themes |
+| Accessibility | Narvo Intelligence (WCAG 2.1 AA), Color Lab (WCAG contrast tooling), Mesh Lab (prefers-reduced-motion suspension), WCAG 2.4.1 bypass skip-links, focus traps |
 | Speed of delivery under pressure | Hotbite (48 hours), AfroGraph (1 week), Vibe Secure Me (1 weekend), the VS Code themes (1 weekend each) |
 | Long-haul ownership / persistence | Narvo News (18 months), OlamideVerse (13 months), football model (10 months), Rant (1 year) |
 | Working independently / owning projects | Credited "Solo Developer" or "Solo Designer & Developer" on **9 of 18** projects (Hotbite, Mark_me, Rant, OlamideVerse, Narvo Platform, Narvo Intelligence, Vibe Secure Me, and both VS Code themes); led the dev department at Deejoft |
