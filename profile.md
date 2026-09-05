@@ -14,6 +14,15 @@ tool-calling & dynamic RAG (`ai` / Vercel AI SDK over Supabase), Notes & Writing
 global Command Palette (⌘K), View Transitions API (`use-route-transition.ts`), live "Now" activity widget with real-time
 GitHub commit polling, and OKLCH / P3 wide-gamut design tokens. Zora Market mobile and public `vibe-secure-me` remain as previously recorded.
 
+**Tools added (2026-09-05, stated directly by Ajibola):** Render, Railway, Upstash, Turso, Locomotive
+Scroll, Firebase — used at least once each, depth not yet itemized against a shipped project (see the
+"Used-at-least-once tier" note under Skills below). **Core stack, per Ajibola's own correction the
+same day:** NativeWind (already covered — confirmed as shipped, see Zora Market mobile stack), Tone.js,
+Howler.js, Resend/React Email, Google Stitch, Claude Design, OpenRouter (already covered — confirmed
+as shipped, see Mark_me AI assistant). These six are tools he's used **very well** and considers core
+to his stack — claim them directly and with confidence, not hedged (see the "Core stack" note under
+Skills below). None of this is sourced from the portfolio site.
+
 **Experience-years correction (2026-08-18, stated directly by Ajibola):** his professional
 experience is **3+ years in software engineering, 5+ years in design, 10+ years combined as a
 working professional.** This supersedes the portfolio site's own "7 years" headline stat below,
@@ -172,17 +181,18 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 - **Frontend:** React, React 19, Next.js (13→16), Tailwind CSS (v3/v4), OKLCH & Display-P3 wide-gamut design tokens, shadcn/ui, HTML/CSS, MDX, D3.js
 - **Mobile (shipped to the App Store):** React Native 0.83, Expo SDK 55, Expo Router, EAS build/submit, Expo Updates (OTA), NativeWind, MMKV, AsyncStorage persistence, Reanimated, expo-local-authentication (Face ID/Touch ID), expo-notifications (push), React Native Maps, Stripe React Native (native payment sheets, Apple Pay/Google Pay), PWA (Serwist), offline-first architecture
 - **Backend & APIs:** Node.js, Express, FastAPI, REST, GraphQL, tRPC, microservices, Vercel AI SDK
-- **Databases, Graph & Data Layer:** PostgreSQL, Supabase, Neon Postgres, CognoDB Cloud, openCypher, neo4j-driver, Drizzle ORM, SQLAlchemy, MongoDB, IndexedDB / Dexie.js, schema design
+- **Databases, Graph & Data Layer:** PostgreSQL, Supabase, Neon Postgres, Firebase (Firestore / Realtime Database), Turso (edge SQLite / libSQL), Upstash (serverless Redis, Vector), CognoDB Cloud, openCypher, neo4j-driver, Drizzle ORM, SQLAlchemy, MongoDB, IndexedDB / Dexie.js, schema design
 - **State & fetching:** Zustand, TanStack Query, React Hook Form, Zod
 - **Payments:** Paystack (Nigeria), Stripe, custom wallet/coin systems, automated escrow
-- **Cloud & infra:** Vercel, Cloudflare Pages / Workers / Wrangler, Turborepo monorepos, Git/GitHub, Docker, Redis, Google Cloud Platform
+- **Cloud & infra:** Vercel, Cloudflare Pages / Workers / Wrangler, Render, Railway, Firebase, Turborepo monorepos, Git/GitHub, Docker, Redis, Google Cloud Platform
 - **Backend frameworks (familiarity, not yet a shipped production project):** NestJS, Prisma — conceptually transferable from his Express/FastAPI and Drizzle/SQLAlchemy work, but he has not shipped a production app on either. Frame as "familiar with," not "built with."
 - **Auth & security:** Supabase Auth, Neon Auth, biometric authentication, client-side token authorisation, OWASP-aligned security auditing
 - **AI/ML & LLM:** Vercel AI SDK (tool-calling, streaming, dynamic RAG grounding), OpenRouter, Gemini, Groq, XGBoost, CatBoost, Scikit-Learn, Pandas, Streamlit, Plotly, YarnGPT (TTS), speech synthesis
 - **AI Development & Productivity Tools:** Advanced proficiency with AI development, agentic workflows, and productivity tools, including Gemini, Codex, ChatGPT, Claude, and similar AI CLI tools (agent skills, CLI-driven development, prompt engineering, rapid prototyping, and automated code review). Built and shipped the portfolio AI concierge with custom tool calling (`recommendProject`, `recommendNote`, `getLiveStatus`).
-- **Motion & 3D:** Three.js & WebGL (custom parametric buffer geometries, wireframe/shaded/points shaders, inertial drag physics, reduced-motion compliance in Mesh Lab), GSAP + ScrollTrigger, Framer Motion, Lenis, React Three Fiber, View Transitions API (`document.startViewTransition`)
-- **Design & CMS / No-Code:** Figma, Adobe Creative Suite, Affinity Suite, UI/UX, design systems, OKLCH color spaces, WCAG 2.1 AA accessibility, Webflow (shipped 2022 personal portfolio at https://ajibolagenius.webflow.io)
-- **Ops & tooling:** Resend (email), Cloudinary, Plausible, GlitchTip, Mintlify, Recharts, Google Maps, ESLint, Chrome MV3 / Firefox extensions, Vercel Analytics & Speed Insights
+- **Motion & 3D:** Three.js & WebGL (custom parametric buffer geometries, wireframe/shaded/points shaders, inertial drag physics, reduced-motion compliance in Mesh Lab), GSAP + ScrollTrigger, Framer Motion, Lenis, Locomotive Scroll, React Three Fiber, View Transitions API (`document.startViewTransition`)
+- **Audio & Sound (core stack):** Tone.js (Web Audio framework for interactive music/synthesis), Howler.js (cross-browser audio playback)
+- **Design & CMS / No-Code:** Figma, Google Stitch and Claude Design (AI-assisted UI design/prototyping — core tools, not just familiarity), Adobe Creative Suite, Affinity Suite, UI/UX, design systems, OKLCH color spaces, WCAG 2.1 AA accessibility, Webflow (shipped 2022 personal portfolio at https://ajibolagenius.webflow.io)
+- **Ops & tooling:** Resend + React Email (transactional email and templates), Cloudinary, Plausible, GlitchTip, Mintlify, Recharts, Google Maps, ESLint, Chrome MV3 / Firefox extensions, Vercel Analytics & Speed Insights
 
 ## Mapping cheatsheet — JD requirement to strongest evidence
 
@@ -225,6 +235,15 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 | Startup / founder / 0-to-1 / early-stage | Fidia — first-time co-founder, 2020–2023, brand/visual design for a crowdfunding platform for African creators |
 | Resilience / failure / honest reflection under pressure | Fidia — company closed Sept 2023 when promised investor funding fell through; he can speak to this candidly if asked |
 | Crowdfunding / creator economy / fintech-adjacent | Fidia (crowdfunding, payment links, creator monetisation), alongside ALU Exchange and Nego for fintech proper |
+| Deployment platforms / PaaS beyond Vercel (Render, Railway) | Has used both directly (see Used-at-least-once tier) — say "has deployed on Render/Railway," not "extensive experience" |
+| BaaS / Firebase-style backends | Firebase — has used directly; production BaaS depth otherwise sits with Supabase and Neon |
+| Serverless Redis, caching, rate limiting, vector search at the edge | Upstash (Redis, Vector) |
+| Edge SQLite / libSQL / lightweight embedded-replica databases | Turso |
+| **Web Audio, interactive sound, music-making in the browser** | ⭐ **Tone.js** — core stack, claim with confidence |
+| **Cross-browser audio playback, game/UI sound effects** | ⭐ **Howler.js** — core stack, claim with confidence |
+| **Transactional email, email templating (React-based)** | ⭐ **Resend + React Email** — core stack, claim with confidence |
+| Smooth scroll / parallax (Locomotive Scroll specifically named) | Locomotive Scroll — used at least once; alongside Lenis, which has actual shipped-project evidence (NEGOtivity, Hotbite) |
+| **AI-assisted UI design / rapid prototyping / mockup generation** | ⭐ **Google Stitch and Claude Design** — core stack, claim with confidence, alongside Figma |
 
 ## Known gaps — never claim these
 
@@ -244,6 +263,23 @@ link getfidia.com (dead). Never imply the company still operates — it closed S
 **Familiar-but-not-shipped tier (be precise about this distinction in applications):** NestJS,
 Prisma — he has exposure/familiarity but no production project on either. Say "familiar with," never
 "built with" or "shipped with."
+
+**Used-at-least-once tier (confirmed directly by Ajibola, 2026-09-05):** Render, Railway, Firebase,
+Upstash, Turso, Locomotive Scroll. He has hands-on experience with each, but depth hasn't been
+itemized against a specific shipped project in `projects.md` the way Vercel/Cloudflare or Resend
+have. Say "has used" or "hands-on experience with," not "extensive experience with" or "production
+expertise in," unless a later project audit turns up a specific shipped example — then move the
+tool into its project's dossier entry and drop this caveat for it. Fine to state plainly (no need
+to hedge with "familiar with" the way NestJS/Prisma are hedged) — the difference is he's actually
+used these, just not at production scale yet.
+
+**Core stack tier (corrected directly by Ajibola, 2026-09-05 — do not down-rank these):** NativeWind,
+Tone.js, Howler.js, Resend/React Email, Google Stitch, Claude Design. He has used these **very
+well** and considers them core to his stack, not one-off tools — treat them the same as anything
+else in the main Skills list above. Claim them plainly and with confidence ("built with," "core
+to my stack," "extensive experience with"), the same register used for React, Next.js, or Supabase.
+Do not apply the hedged "has used" / "hands-on experience with" phrasing from the tier above to
+these six.
 
 When a JD requires one of these, name the closest thing he **has** shipped and let the parallel
 argue for itself. State the parallel; never state the tool.
