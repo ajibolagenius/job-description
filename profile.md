@@ -8,11 +8,8 @@ Projects https://ajibolagenius.vercel.app/projects ·
 Sandbox https://ajibolagenius.vercel.app/sandbox ·
 GitHub https://github.com/ajibolagenius
 
-**Last verified: 2026-09-04** — verified against latest codebase, database, sitemap, and live deployment.
-New since the previous revision: Mesh Lab 3D experiment (`/sandbox/mesh-lab`), interactive portfolio AI Assistant with
-tool-calling & dynamic RAG (`ai` / Vercel AI SDK over Supabase), Notes & Writing platform (`/notes` and `/notes/[slug]`),
-global Command Palette (⌘K), View Transitions API (`use-route-transition.ts`), live "Now" activity widget with real-time
-GitHub commit polling, and OKLCH / P3 wide-gamut design tokens. Zora Market mobile and public `vibe-secure-me` remain as previously recorded.
+**Last verified: 2026-09-09** — verified against latest codebase, database, sitemap, and live deployment.
+New since the previous revision: "Match My Job Description" AI Recruiter Mode (`matchJobDescription` tool in streaming AI concierge and global Command Palette ⌘K), Tactile Micro-Audio & Procedural Sound Engine (zero-asset Web Audio API synthesis via `sound.ts`, SoundToggle mute control, and sound cues on theme switcher, palette, and assistant), Interactive System Architecture Visualizer (multi-node animated topology visualizer for Zora Market and AfroGraph), and confirmed canonical role as Full Stack Engineer across personal info, Supabase database, and CVs. Mesh Lab 3D experiment, Notes platform, View Transitions API, and OKLCH / P3 tokens remain as previously recorded.
 
 **Tools added (2026-09-05, stated directly by Ajibola):** Render, Railway, Upstash, Turso, Locomotive
 Scroll, Firebase — used at least once each, depth not yet itemized against a shipped project (see the
@@ -55,19 +52,19 @@ traction, downloads, or user numbers.
 ## Identity
 
 - **Name:** Ajibola Akelebe (GitHub display name: AJIBOLA (DON_GENIUS) AKELEBE)
-- **Title:** Full Stack Developer
+- **Title:** Full Stack Engineer
 - **Positioning strip on site:** FULL-STACK · DESIGN · EDUCATOR — "Design & Engineering. No Boundaries."
 - **Location:** Lagos, Nigeria
 - **Experience:** **3+ years professional software engineering · 5+ years professional design · 10+ years combined** (per Ajibola directly, 2026-08-18 — use this, not the line below, when a JD asks for years of experience) · 11 companies / institutions · **23 projects & experiments in database and sandbox** (21 listed on `/projects` + Color Lab and Mesh Lab in sandbox)
 - **Availability:** "Currently available for full-time roles, freelance work, and collaborations." Use this exact framing — it explicitly covers full-time, which matters for permanent-role applications.
-- **Site banner, verbatim:** "Full Stack Developer ✦ Based in Lagos, Nigeria ✦ Available for projects ✦ FULL-STACK · DESIGN · EDUCATOR"
+- **Site banner, verbatim:** "Full Stack Engineer ✦ Based in Lagos, Nigeria ✦ Available for projects ✦ FULL-STACK · DESIGN · EDUCATOR"
 - **Email:** ajiboladolapogenius@gmail.com
 - **Phone / WhatsApp:** +234 806 328 1921
 - **LinkedIn:** linkedin.com/in/ajibolaakelebe
 - **GitHub:** github.com/ajibolagenius — 47 public repos, joined 2017, 4,966+ contributions in the last year
 - **X/Twitter:** twitter.com/ajibolagenius
 - **Affiliation:** GitHub company field reads `@narvo_news`; the Narvo product family (News, Platform, Intelligence) lives under the `Narvo-Intelligence` GitHub org
-- **Summary:** "A developer and designer based in Nigeria, creating for a global audience. I teach what I know and share what I learn."
+- **Summary:** "A full-stack engineer and designer based in Nigeria, creating for a global audience. I teach what I know and share what I learn."
 - **Languages:** Yoruba (native/bilingual), English (professional working proficiency)
 
 ## Links — the canonical block for every application
@@ -188,9 +185,9 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 - **Backend frameworks (familiarity, not yet a shipped production project):** NestJS, Prisma — conceptually transferable from his Express/FastAPI and Drizzle/SQLAlchemy work, but he has not shipped a production app on either. Frame as "familiar with," not "built with."
 - **Auth & security:** Supabase Auth, Neon Auth, biometric authentication, client-side token authorisation, OWASP-aligned security auditing
 - **AI/ML & LLM:** Vercel AI SDK (tool-calling, streaming, dynamic RAG grounding), OpenRouter, Gemini, Groq, XGBoost, CatBoost, Scikit-Learn, Pandas, Streamlit, Plotly, YarnGPT (TTS), speech synthesis
-- **AI Development & Productivity Tools:** Advanced proficiency with AI development, agentic workflows, and productivity tools, including Gemini, Codex, ChatGPT, Claude, and similar AI CLI tools (agent skills, CLI-driven development, prompt engineering, rapid prototyping, and automated code review). Built and shipped the portfolio AI concierge with custom tool calling (`recommendProject`, `recommendNote`, `getLiveStatus`).
-- **Motion & 3D:** Three.js & WebGL (custom parametric buffer geometries, wireframe/shaded/points shaders, inertial drag physics, reduced-motion compliance in Mesh Lab), GSAP + ScrollTrigger, Framer Motion, Lenis, Locomotive Scroll, React Three Fiber, View Transitions API (`document.startViewTransition`)
-- **Audio & Sound (core stack):** Tone.js (Web Audio framework for interactive music/synthesis), Howler.js (cross-browser audio playback)
+- **AI Development & Productivity Tools:** Advanced proficiency with AI development, agentic workflows, and productivity tools, including Gemini, Codex, ChatGPT, Claude, and similar AI CLI tools (agent skills, CLI-driven development, prompt engineering, rapid prototyping, and automated code review). Built and shipped the portfolio AI concierge with custom tool calling (`recommendProject`, `recommendNote`, `getLiveStatus`, and `"Match My Job Description"` recruiter mode via `matchJobDescription`).
+- **Motion, 3D & Interactive Systems:** Three.js & WebGL (custom parametric buffer geometries, wireframe/shaded/points shaders, inertial drag physics, reduced-motion compliance in Mesh Lab), Interactive System Architecture Visualizer (`architecture-visualizer.tsx` multi-node animated packet simulation for Zora Market and AfroGraph), GSAP + ScrollTrigger, Framer Motion, Lenis, Locomotive Scroll, React Three Fiber, View Transitions API (`document.startViewTransition`)
+- **Audio & Sound (core stack):** Web Audio API (custom procedural sound synthesis via `sound.ts` with zero-asset high-frequency tactile micro-audio and global SoundToggle controls), Tone.js (Web Audio framework for interactive music/synthesis), Howler.js (cross-browser audio playback)
 - **Design & CMS / No-Code:** Figma, Google Stitch and Claude Design (AI-assisted UI design/prototyping — core tools, not just familiarity), Adobe Creative Suite, Affinity Suite, UI/UX, design systems, OKLCH color spaces, WCAG 2.1 AA accessibility, Webflow (shipped 2022 personal portfolio at https://ajibolagenius.webflow.io)
 - **Ops & tooling:** Resend + React Email (transactional email and templates), Cloudinary, Plausible, GlitchTip, Mintlify, Recharts, Google Maps, ESLint, Chrome MV3 / Firefox extensions, Vercel Analytics & Speed Insights
 
@@ -219,8 +216,9 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 | Animation, motion, premium UI | Native View Transitions API (`useRouteTransition`), NEGOtivity, OlamideVerse (GSAP scrollytelling), Hotbite, GSAP repos, 3d_todo (React Three Fiber) |
 | **3D / WebGL / Three.js / Creative web engineering** | ⭐ **Mesh Lab** (`/sandbox/mesh-lab` — interactive Three.js/WebGL playground with 4 parametric buffer geometries, 3 render styles, pointer-drag physics, particle telemetry, reduced-motion compliance), `3d_todo_tobamsgroup` (React Three Fiber), Bruno Simon Three.js certification |
 | AI / ML / data science | Football analytics (XGBoost, xG, Elo, PPDA), Heka IQ (CatBoost "Sphinx" model), Narvo News (Gemini, YarnGPT), Mark_me (OpenRouter assistant) |
-| **AI development / productivity tools / AI-assisted engineering / AI CLI tools** | Advanced proficiency across AI development and productivity tools (Gemini Codex, ChatGPT, Claude, and similar AI CLI tools / coding assistants); authored agent skills (e.g. Vibe Secure Me); ships production AI features (**interactive portfolio concierge with client-rendered tool calling and dynamic Supabase RAG**; Narvo News with Gemini/YarnGPT/Groq, Mark_me with OpenRouter, Heka IQ with CatBoost) |
-| **App-grade UX / Micro-interactions / Search / Real-time** | **Global Command Palette (⌘K)** with fuzzy indexing; **native View Transitions API** cross-route morphing; **live "Now" activity widget** with real-time GitHub commit polling and Lagos WAT live clock; circular theme reveal |
+| **AI development / productivity tools / AI-assisted engineering / AI CLI tools** | Advanced proficiency across AI development and productivity tools (Gemini Codex, ChatGPT, Claude, and similar AI CLI tools / coding assistants); authored agent skills (e.g. Vibe Secure Me); ships production AI features (**interactive portfolio concierge with client-rendered tool calling, dynamic Supabase RAG, and "Match My Job Description" recruiter mode**; Narvo News with Gemini/YarnGPT/Groq, Mark_me with OpenRouter, Heka IQ with CatBoost) |
+| **App-grade UX / Micro-interactions / Search / Real-time** | **Global Command Palette (⌘K)** with fuzzy indexing and recruiter match shortcut; **Tactile Micro-Audio** procedural Web Audio API engine; **native View Transitions API** cross-route morphing; **live "Now" activity widget** with real-time GitHub commit polling; circular theme reveal |
+| **System architecture modeling / Technical diagrams / Flow visualization** | ⭐ **Interactive System Architecture Visualizer** (`architecture-visualizer.tsx` with animated packet flow simulation for Zora Market monorepo and AfroGraph Bolt/graph database topology) |
 | Analytics, reporting, dashboards | Football analytics (Streamlit + Plotly), JobHustles (Recharts), Narvo Platform, AfroGraph (centrality analytics), Plausible |
 | Security / auditing / compliance | Vibe Secure Me (OWASP Top 10, API, Mobile, LLM Top 10), Narvo Intelligence (WCAG 2.1 AA) |
 | Automation / process improvement | Vibe Secure Me (automated auditing), football model (scraping and feature pipelines) |
@@ -239,7 +237,7 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 | BaaS / Firebase-style backends | Firebase — has used directly; production BaaS depth otherwise sits with Supabase and Neon |
 | Serverless Redis, caching, rate limiting, vector search at the edge | Upstash (Redis, Vector) |
 | Edge SQLite / libSQL / lightweight embedded-replica databases | Turso |
-| **Web Audio, interactive sound, music-making in the browser** | ⭐ **Tone.js** — core stack, claim with confidence |
+| **Web Audio, interactive sound, music-making in the browser** | ⭐ **Tone.js & Web Audio API** (`sound.ts` procedural synthesis engine) — core stack, claim with confidence |
 | **Cross-browser audio playback, game/UI sound effects** | ⭐ **Howler.js** — core stack, claim with confidence |
 | **Transactional email, email templating (React-based)** | ⭐ **Resend + React Email** — core stack, claim with confidence |
 | Smooth scroll / parallax (Locomotive Scroll specifically named) | Locomotive Scroll — used at least once; alongside Lenis, which has actual shipped-project evidence (NEGOtivity, Hotbite) |

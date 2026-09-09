@@ -49,9 +49,10 @@ No JD present? Ask for one. Never produce a generic letter.
 
 Read `profile.md`. Read `projects.md` too unless the JD is trivial.
 
-Both were last verified on **2026-09-04** (sitemap + GitHub change-detection + database check;
-Mesh Lab 3D sandbox, AI Assistant with tool-calling & RAG, Notes & Writing platform, Command Palette,
-and OKLCH wide-gamut theme added to portfolio). Refresh when the snapshot looks stale, the user says something changed, or
+Both were last verified on **2026-09-09** (database, sitemap, codebase, and CV check;
+"Match My Job Description" AI recruiter mode, Tactile Micro-Audio Web Audio engine, Interactive System
+Architecture Visualizer, Mesh Lab 3D sandbox, AI Assistant with tool-calling & RAG, Notes & Writing platform,
+Command Palette, and Full Stack Engineer positioning). Refresh when the snapshot looks stale, the user says something changed, or
 the role is high-stakes.
 
 **Cheap change-detection first.** `curl` the sitemap and compare `<loc>`/`<lastmod>` against
@@ -92,7 +93,8 @@ things well beats listing ten.
 - Turn the **design career and teaching work** into role-specific arguments, not biography. Design → customer experience, brand judgment, design-to-code fidelity. Teaching → explaining trade-offs to non-technical stakeholders, and documentation discipline.
 - Match **tempo** to what the JD values: Hotbite (48 hours) for speed under deadline; Narvo News (18 months) or OlamideVerse (13 months) for long-haul ownership.
 - **Nigeria-first engineering** is a differentiator for Nigerian and Africa-focused employers: Paystack, Naira handling, 3G optimisation, local-language localisation. Say it plainly.
-- **AI development & productivity tooling:** For roles valuing engineering velocity, modern AI workflows, AI-assisted development, or prompt engineering, highlight his advanced proficiency with AI development and productivity tools (Gemini Codex, ChatGPT, Claude, and similar AI CLI tools / coding assistants), backed by custom agent skill authoring (Vibe Secure Me) and production AI integrations (Narvo News, Mark_me, Heka IQ).
+- **AI development & productivity tooling:** For roles valuing engineering velocity, modern AI workflows, AI-assisted development, or prompt engineering, highlight his advanced proficiency with AI development and productivity tools (Gemini Codex, ChatGPT, Claude, and similar AI CLI tools / coding assistants), backed by custom agent skill authoring (Vibe Secure Me), production AI integrations (Narvo News, Mark_me, Heka IQ), and the portfolio's streaming AI concierge with tool calling (including the `"Match My Job Description"` recruiter mode).
+- **Interactive engineering & tactile sound:** Point to the interactive System Architecture Visualizer (multi-node packet simulation) and custom Web Audio API synthesis engine as proof of creative frontend and systems engineering beyond standard component assembly.
 - Where the JD names a tool he hasn't used, do **not** claim it. Use the substitution table at the end of `profile.md` — name the transferable thing he shipped and let the parallel do the work.
 
 ### Link safety — do not skip this

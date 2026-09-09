@@ -7,7 +7,7 @@ are as stated on each project page — quote them, don't embellish them.
 ⚠️ **Repos marked PRIVATE return 404 publicly.** Never link them in an application. Cite the live
 URL or the portfolio project page instead.
 
-**Changed 2026-09-04:** Added *Mesh Lab* 3D experiment (`/sandbox/mesh-lab`), *AI Assistant* with tool-calling & RAG over Supabase, *Notes & Writing* platform (`/notes`), global *Command Palette (⌘K)*, native *View Transitions API*, and *OKLCH / P3 wide-gamut* design system.
+**Changed 2026-09-09:** Shipped *"Match My Job Description" AI Recruiter Mode* (`matchJobDescription` tool in AI assistant & Command Palette), *Tactile Micro-Audio Sound Design* (zero-asset Web Audio API synthesis via `sound.ts` with global SoundToggle), and *Interactive System Architecture Visualizer* (`architecture-visualizer.tsx` multi-node packet simulation for Zora Market and AfroGraph). Confirmed canonical title as **Full Stack Engineer** across all platforms. *Mesh Lab* 3D experiment (`/sandbox/mesh-lab`), *Notes & Writing* platform (`/notes`), global *Command Palette (⌘K)*, native *View Transitions API*, and *OKLCH / P3 wide-gamut* design system remain as previously recorded.
 Fidia page on site labels the role "Co-founder & Design Lead" —
 applications must still use **"Co-Founder & Brand/Visual Designer"** per the Medium post-mortem
 (see `profile.md`); do not elevate the claim to Design Lead just because the portfolio page does.
@@ -200,10 +200,14 @@ His GitHub company field is `@narvo_news`; these live under the `Narvo-Intellige
 - **Role:** Solo Designer & Developer · Continuous · Live · Featured
 - **Problem:** Portfolios often act as static brochureware disconnected from live engineering activity, lacking modern interaction primitives, and failing to demonstrate claimed AI, design-system, or creative engineering capabilities.
 - **Solution:** Engineered a dynamic personal platform featuring:
-  - **AI Concierge & Tool Calling**: Streaming assistant built with Vercel AI SDK (`ai`), rate-limited in-process API, RAG grounding across projects and experience, and client-rendered tool calls (`recommendProject`, `recommendNote`, `getLiveStatus`) showcasing interactive UI components directly in chat.
+  - **AI Concierge & "Match My Job Description" Recruiter Mode**: Streaming assistant built with Vercel AI SDK (`ai`), rate-limited in-process API, RAG grounding across projects and experience, and client-rendered tool calls:
+    - `matchJobDescription`: parses pasted job specs, returns structured match score %, key alignment points, and honest gaps.
+    - `recommendProject`, `recommendNote`, `getLiveStatus`: interactive visual cards directly inside chat.
+  - **Tactile Micro-Audio Engine**: Custom procedural Web Audio API synthesizer (`sound.ts`) producing crisp high-frequency clicks, pops, and chimes without external audio files; integrated with global `SoundToggle` state in navigation, and audio cues for theme switches, command palette triggers, and assistant events.
+  - **Interactive System Architecture Visualizer**: Multi-tier SVG topology explorer (`architecture-visualizer.tsx`) visualizing distributed systems (e.g. Zora Market monorepo and AfroGraph Bolt/graph database architecture) with real-time animated packet simulation and node inspection.
   - **Notes Publication Platform**: Full-stack technical article CMS with dynamic per-slug OpenGraph cards, admin CMS editing, rich-text typography, and GEO/SEO architecture.
   - **Design System & Visual Engineering**: Modernized design tokens in `oklch()` color space with `@media (color-gamut: p3)` wide-gamut accents, asymmetric Bento grid with persistent `useSyncExternalStore` view switcher, and responsive `xl`/`2xl` scaling.
-  - **App-Grade Interaction Primitives**: Global Command Palette (⌘K) with fuzzy indexing, native cross-route View Transitions API (`document.startViewTransition`), and live "Now" activity widget tracking Lagos WAT time and real-time GitHub commits.
+  - **App-Grade Interaction Primitives**: Global Command Palette (⌘K) with fuzzy indexing and recruiter match shortcut, native cross-route View Transitions API (`document.startViewTransition`), and live "Now" activity widget tracking Lagos WAT time and real-time GitHub commits.
 - **Stack:** Next.js 16, React 19, TypeScript, Supabase, Vercel AI SDK, Tailwind CSS 4, OKLCH, Three.js, Phosphor Icons
 - **Live:** https://ajibolagenius.vercel.app · **Repo:** https://github.com/ajibolagenius/ajibola-portfolio
 - **Use for:** ⭐ AI engineering, agentic UI / tool calling, RAG, Next.js 16 App Router architecture, modern CSS/OKLCH, View Transitions, design systems, performance, technical writing.
