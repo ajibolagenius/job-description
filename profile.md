@@ -183,13 +183,14 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 - **Payments:** Paystack (Nigeria), Stripe, custom wallet/coin systems, automated escrow
 - **Cloud & infra:** Vercel, Cloudflare Pages / Workers / Wrangler, Render, Railway, Firebase, Turborepo monorepos, Git/GitHub, Docker, Redis, Google Cloud Platform
 - **Backend frameworks (familiarity, not yet a shipped production project):** NestJS, Prisma — conceptually transferable from his Express/FastAPI and Drizzle/SQLAlchemy work, but he has not shipped a production app on either. Frame as "familiar with," not "built with."
-- **Auth & security:** Supabase Auth, Neon Auth, biometric authentication, client-side token authorisation, OWASP-aligned security auditing
-- **AI/ML & LLM:** Vercel AI SDK (tool-calling, streaming, dynamic RAG grounding), OpenRouter, Gemini, Groq, XGBoost, CatBoost, Scikit-Learn, Pandas, Streamlit, Plotly, YarnGPT (TTS), speech synthesis
+- **Auth & security:** Supabase Auth, Neon Auth, Clerk, biometric authentication, client-side token authorisation, OWASP-aligned security auditing
+- **AI/ML & LLM:** Vercel AI SDK (tool-calling, streaming, dynamic RAG grounding), OpenAI, OpenRouter, Gemini, Groq, MCP-grounded retrieval (Sanity Context MCP → LLM-generated GROQ queries), XGBoost, CatBoost, Scikit-Learn, Pandas, Streamlit, Plotly, YarnGPT (TTS), speech synthesis
 - **AI Development & Productivity Tools:** Advanced proficiency with AI development, agentic workflows, and productivity tools, including Gemini, Codex, ChatGPT, Claude, and similar AI CLI tools (agent skills, CLI-driven development, prompt engineering, rapid prototyping, and automated code review). Built and shipped the portfolio AI concierge with custom tool calling (`recommendProject`, `recommendNote`, `getLiveStatus`, and `"Match My Job Description"` recruiter mode via `matchJobDescription`).
 - **Motion, 3D & Interactive Systems:** Three.js & WebGL (custom parametric buffer geometries, wireframe/shaded/points shaders, inertial drag physics, reduced-motion compliance in Mesh Lab), Interactive System Architecture Visualizer (`architecture-visualizer.tsx` multi-node animated packet simulation for Zora Market and AfroGraph), GSAP + ScrollTrigger, Framer Motion, Lenis, Locomotive Scroll, React Three Fiber, View Transitions API (`document.startViewTransition`)
 - **Audio & Sound (core stack):** Web Audio API (custom procedural sound synthesis via `sound.ts` with zero-asset high-frequency tactile micro-audio and global SoundToggle controls), Tone.js (Web Audio framework for interactive music/synthesis), Howler.js (cross-browser audio playback)
+- **Headless CMS & structured content:** Sanity (schemas, Studio), GROQ, Portable Text, Sanity Context MCP, MDX, Zod-validated content pipelines, custom Supabase-backed CMS (portfolio projects + notes)
 - **Design & CMS / No-Code:** Figma, Google Stitch and Claude Design (AI-assisted UI design/prototyping — core tools, not just familiarity), Adobe Creative Suite, Affinity Suite, UI/UX, design systems, OKLCH color spaces, WCAG 2.1 AA accessibility, Webflow (shipped 2022 personal portfolio at https://ajibolagenius.webflow.io)
-- **Ops & tooling:** Resend + React Email (transactional email and templates), Cloudinary, Plausible, GlitchTip, Mintlify, Recharts, Google Maps, ESLint, Chrome MV3 / Firefox extensions, Vercel Analytics & Speed Insights
+- **Ops & tooling:** Resend + React Email (transactional email and templates), Cloudinary, Plausible, PostHog, GlitchTip, Mintlify, Recharts, Google Maps, ESLint, Chrome MV3 / Firefox extensions, Vercel Analytics & Speed Insights
 
 ## Mapping cheatsheet — JD requirement to strongest evidence
 
@@ -219,6 +220,11 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 | **AI development / productivity tools / AI-assisted engineering / AI CLI tools** | Advanced proficiency across AI development and productivity tools (Gemini Codex, ChatGPT, Claude, and similar AI CLI tools / coding assistants); authored agent skills (e.g. Vibe Secure Me); ships production AI features (**interactive portfolio concierge with client-rendered tool calling, dynamic Supabase RAG, and "Match My Job Description" recruiter mode**; Narvo News with Gemini/YarnGPT/Groq, Mark_me with OpenRouter, Heka IQ with CatBoost) |
 | **App-grade UX / Micro-interactions / Search / Real-time** | **Global Command Palette (⌘K)** with fuzzy indexing and recruiter match shortcut; **Tactile Micro-Audio** procedural Web Audio API engine; **native View Transitions API** cross-route morphing; **live "Now" activity widget** with real-time GitHub commit polling; circular theme reveal |
 | **System architecture modeling / Technical diagrams / Flow visualization** | ⭐ **Interactive System Architecture Visualizer** (`architecture-visualizer.tsx` with animated packet flow simulation for Zora Market monorepo and AfroGraph Bolt/graph database topology) |
+| **Headless CMS / Sanity / GROQ / structured content modelling** | **Vertex** (Sanity schemas, GROQ, Portable Text, Sanity Context MCP) — flag it as a tutorial build-along; pair with the custom Supabase-backed CMS behind the portfolio and `/notes`, and Zod-validated MDX content in OlamideVerse |
+| **MCP / grounded AI search / anti-hallucination retrieval** | **Vertex** (Sanity Context MCP generating GROQ queries so answers cite real lessons, with timestamp deep-links) + the portfolio concierge's dynamic Supabase RAG grounding |
+| **Auth-as-a-service (Clerk, Auth0-style)** | **Vertex** (Clerk); otherwise Supabase Auth and Neon Auth across most projects, plus biometric auth on Zora Market mobile |
+| **Product analytics / event instrumentation** | **Vertex** (PostHog), Plausible on the portfolio, Recharts dashboards in JobHustles, Streamlit + Plotly in the football model |
+| Video / learning platforms / EdTech | **Vertex** (transcript ingestion, timestamp deep-linking, quizzes, learning paths, progress tracking) alongside the teaching record at Lagos Data School, Deejoft, and APTECH |
 | Analytics, reporting, dashboards | Football analytics (Streamlit + Plotly), JobHustles (Recharts), Narvo Platform, AfroGraph (centrality analytics), Plausible |
 | Security / auditing / compliance | Vibe Secure Me (OWASP Top 10, API, Mobile, LLM Top 10), Narvo Intelligence (WCAG 2.1 AA) |
 | Automation / process improvement | Vibe Secure Me (automated auditing), football model (scraping and feature pipelines) |
@@ -257,6 +263,12 @@ adaptable to Bitbucket," not "used Bitbucket").
 the co-founder's own post-mortem attributes that to Soliudeen Ogunsola. Say "Co-Founder &
 Brand/Visual Designer" and keep the claimed scope to logos, banners, and motion graphics. Never
 link getfidia.com (dead). Never imply the company still operates — it closed September 2023.
+
+**Tutorial build-along tier (added 2026-09-10):** **Vertex** — the portfolio page itself states his role
+as "build-along learner & implementing engineer" on a tutorial build. The Sanity, GROQ, Sanity Context
+MCP, Clerk, and PostHog work is real and he wrote the code, but the product concept is not his. Claim
+the tools, never the product. Say "shipped a Sanity/GROQ build-along" — never "built an AI learning
+platform" as if it were an original product or client work.
 
 **Familiar-but-not-shipped tier (be precise about this distinction in applications):** NestJS,
 Prisma — he has exposure/familiarity but no production project on either. Say "familiar with," never

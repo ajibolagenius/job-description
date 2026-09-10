@@ -1,11 +1,13 @@
 # Project dossier — Ajibola Akelebe
 
-Every project on https://ajibolagenius.vercel.app/projects, verified 2026-09-04.
-Site's own database holds **23 projects & sandbox toys** (21 listed on `/projects` + Color Lab and Mesh Lab on `/sandbox`). Roles, durations, and stacks
+Every project on https://ajibolagenius.vercel.app/projects, verified 2026-09-10.
+Site's own database holds **24 projects & sandbox toys** (22 listed on `/projects` + Color Lab and Mesh Lab on `/sandbox`). Roles, durations, and stacks
 are as stated on each project page — quote them, don't embellish them.
 
 ⚠️ **Repos marked PRIVATE return 404 publicly.** Never link them in an application. Cite the live
 URL or the portfolio project page instead.
+
+**Changed 2026-09-10:** New project page **Vertex** (`/projects/vertex`) — AI-driven learning platform on Sanity + GROQ + Sanity Context MCP, public repo `vertex-lms`, live at https://vertex-lms-app.vercel.app. First Sanity/headless-CMS, Clerk, and PostHog evidence in the portfolio. ⚠️ It is a **tutorial build-along**, not an original product — see its dossier entry for how to frame it honestly.
 
 **Changed 2026-09-09:** Shipped *"Match My Job Description" AI Recruiter Mode* (`matchJobDescription` tool in AI assistant & Command Palette), *Tactile Micro-Audio Sound Design* (zero-asset Web Audio API synthesis via `sound.ts` with global SoundToggle), and *Interactive System Architecture Visualizer* (`architecture-visualizer.tsx` multi-node packet simulation for Zora Market and AfroGraph). Confirmed canonical title as **Full Stack Engineer** across all platforms. *Mesh Lab* 3D experiment (`/sandbox/mesh-lab`), *Notes & Writing* platform (`/notes`), global *Command Palette (⌘K)*, native *View Transitions API*, and *OKLCH / P3 wide-gamut* design system remain as previously recorded.
 Fidia page on site labels the role "Co-founder & Design Lead" —
@@ -158,6 +160,18 @@ His GitHub company field is `@narvo_news`; these live under the `Narvo-Intellige
 - **Live:** https://afrograph.vercel.app · **Repo (public):** https://github.com/ajibolagenius/afrograph
 - **Use for:** ⭐ Graph databases, knowledge graphs, openCypher / Neo4j / CognoDB, D3.js interactive network visualization, complex query optimization, music analytics / cultural tech.
 
+### Vertex — AI-Driven Learning Platform  *(tutorial build-along — frame honestly)*
+- **Tagline:** An AI-driven learning platform that responds to plain-English questions with ranked cards, each linking directly to the precise second in a lesson video.
+- **Role (as stated on the site):** Build-along learner & implementing engineer · **1 week** · 2026 · Side · Live
+- **Categories:** Tutorial build-along, AI search, Headless CMS
+- **Problem:** Course videos are hard to search. Learners guess which lesson covers a topic and scrub through long videos; keyword search misses, and AI chatbots fabricate lessons that do not exist.
+- **Solution:** An offline ingestion pipeline turns videos into timestamped transcript segments. Sanity Context MCP lets an LLM generate GROQ queries against the real content, so results are grounded in the course itself and returned as ranked cards that deep-link to the exact second in a lesson.
+- **Features:** AI semantic search with timestamp deep-linking; in-lesson interactive transcript panel; grounded Q&A with verified citations; offline-generated quizzes with streak tracking; learning paths and curated collections; progress tracking and playback resumption; PostHog analytics; PWA with offline support; "Signal" design system with light/dark themes.
+- **Stack:** Next.js, React, TypeScript, Sanity, GROQ, Sanity Context MCP, Vercel AI SDK, OpenAI, Clerk, PostHog, Tailwind CSS, Portable Text, Zod
+- **Live:** https://vertex-lms-app.vercel.app · **Repo (public):** https://github.com/ajibolagenius/vertex-lms
+- **Use for:** headless CMS / Sanity / GROQ / structured content, MCP-grounded AI search (RAG without hallucination), Clerk auth, PostHog product analytics, video/learning products, PWA.
+- ⚠️ **Honesty rule:** the site itself labels this a **tutorial build-along** and his role "build-along learner & implementing engineer." Never present it as an original product or a client build. Cite it as *"followed a build-along to ship X, which is where my Sanity/GROQ/MCP work comes from"* — the tools are real evidence, the product concept is not his. If a JD's core requirement rests on Sanity alone, say so plainly rather than inflating this.
+
 ### Mark_me — Bookmark Manager
 - **Role:** Solo Designer & Developer · **4 months** · 2026 · Side
 - **Problem:** Browser bookmark managers bury links in folder trees, lack visual previews and intelligent search/tagging, and make saving on the fly across devices hard.
@@ -248,6 +262,8 @@ Both themes and the Webflow build are good proof of **design-system thinking, co
 
 Worth mentioning only when directly relevant:
 
+- **lagos-spots** — HTML. Full-stack app for exploring Lagos attractions, restaurants, and landmarks. Another Nigeria-first build; light on depth, cite only if the role is local-discovery or maps adjacent.
+- **massweddings** — TypeScript. Data mappings of mass weddings in Nigeria over the past 10 years. Data-collection/mapping side work.
 - **corpsmart** — TypeScript. "Nigeria's most trusted marketplace exclusively for NYSC corps members." Another Nigerian marketplace build.
 - **narvo** — JavaScript, archived. The original mobile-first, voice-first news platform that became Narvo News.
 - **3d_todo_tobamsgroup** — TypeScript, MIT. Next.js + React Three Fiber 3D to-do app with progress visualisation.

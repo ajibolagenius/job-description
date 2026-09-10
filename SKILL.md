@@ -49,7 +49,9 @@ No JD present? Ask for one. Never produce a generic letter.
 
 Read `profile.md`. Read `projects.md` too unless the JD is trivial.
 
-Both were last verified on **2026-09-09** (database, sitemap, codebase, and CV check;
+Both were last verified on **2026-09-10** (sitemap, GitHub API, and CV check; added **Vertex** —
+Sanity / GROQ / Sanity Context MCP / Clerk / PostHog, public repo `vertex-lms`, flagged as a tutorial
+build-along — plus the public `lagos-spots` and `massweddings` repos. Previously verified 2026-09-09:
 "Match My Job Description" AI recruiter mode, Tactile Micro-Audio Web Audio engine, Interactive System
 Architecture Visualizer, Mesh Lab 3D sandbox, AI Assistant with tool-calling & RAG, Notes & Writing platform,
 Command Palette, and Full Stack Engineer positioning). Refresh when the snapshot looks stale, the user says something changed, or
@@ -95,6 +97,7 @@ things well beats listing ten.
 - **Nigeria-first engineering** is a differentiator for Nigerian and Africa-focused employers: Paystack, Naira handling, 3G optimisation, local-language localisation. Say it plainly.
 - **AI development & productivity tooling:** For roles valuing engineering velocity, modern AI workflows, AI-assisted development, or prompt engineering, highlight his advanced proficiency with AI development and productivity tools (Gemini Codex, ChatGPT, Claude, and similar AI CLI tools / coding assistants), backed by custom agent skill authoring (Vibe Secure Me), production AI integrations (Narvo News, Mark_me, Heka IQ), and the portfolio's streaming AI concierge with tool calling (including the `"Match My Job Description"` recruiter mode).
 - **Interactive engineering & tactile sound:** Point to the interactive System Architecture Visualizer (multi-node packet simulation) and custom Web Audio API synthesis engine as proof of creative frontend and systems engineering beyond standard component assembly.
+- **Vertex is a tutorial build-along.** It is the only Sanity / GROQ / Clerk / PostHog evidence he has, so cite it when a JD needs those — but the site itself calls his role "build-along learner & implementing engineer." Claim the tools, never the product. Never describe it as an original product or client work.
 - Where the JD names a tool he hasn't used, do **not** claim it. Use the substitution table at the end of `profile.md` — name the transferable thing he shipped and let the parallel do the work.
 
 ### Link safety — do not skip this
@@ -106,7 +109,7 @@ Eight project repos are **private and return 404** to anyone not signed in: `zor
 Cite the **live product URL**, the **App Store listing**, or the portfolio project page instead.
 Live URLs in `projects.md` were confirmed reachable on 2026-08-12 (ANC portfolio page added
 2026-08-16 — no separate live product URL captured yet). Public repos safe to link are listed in
-`profile.md` — `vibe-secure-me` joined that list on 2026-08-12.
+`profile.md` — `vibe-secure-me` joined that list on 2026-08-12; `vertex-lms` on 2026-09-10.
 
 Also: the projects index is **`/projects`**, not `/work`. Verify any project link against
 `projects.md` before writing it.
