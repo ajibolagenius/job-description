@@ -220,7 +220,7 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 | **AI development / productivity tools / AI-assisted engineering / AI CLI tools** | Advanced proficiency across AI development and productivity tools (Gemini Codex, ChatGPT, Claude, and similar AI CLI tools / coding assistants); authored agent skills (e.g. Vibe Secure Me); ships production AI features (**interactive portfolio concierge with client-rendered tool calling, dynamic Supabase RAG, and "Match My Job Description" recruiter mode**; Narvo News with Gemini/YarnGPT/Groq, Mark_me with OpenRouter, Heka IQ with CatBoost) |
 | **App-grade UX / Micro-interactions / Search / Real-time** | **Global Command Palette (⌘K)** with fuzzy indexing and recruiter match shortcut; **Tactile Micro-Audio** procedural Web Audio API engine; **native View Transitions API** cross-route morphing; **live "Now" activity widget** with real-time GitHub commit polling; circular theme reveal |
 | **System architecture modeling / Technical diagrams / Flow visualization** | ⭐ **Interactive System Architecture Visualizer** (`architecture-visualizer.tsx` with animated packet flow simulation for Zora Market monorepo and AfroGraph Bolt/graph database topology) |
-| **Headless CMS / Sanity / GROQ / structured content modelling** | **Vertex** (Sanity schemas, GROQ, Portable Text, Sanity Context MCP) — flag it as a tutorial build-along; pair with the custom Supabase-backed CMS behind the portfolio and `/notes`, and Zod-validated MDX content in OlamideVerse |
+| **Headless CMS / Sanity / GROQ / structured content modelling** | ⭐ **Vertex** (Sanity schemas, GROQ, Portable Text, Sanity Context MCP) — claim it plainly; pair with the custom Supabase-backed CMS behind the portfolio and `/notes`, and Zod-validated MDX content in OlamideVerse |
 | **MCP / grounded AI search / anti-hallucination retrieval** | **Vertex** (Sanity Context MCP generating GROQ queries so answers cite real lessons, with timestamp deep-links) + the portfolio concierge's dynamic Supabase RAG grounding |
 | **Auth-as-a-service (Clerk, Auth0-style)** | **Vertex** (Clerk); otherwise Supabase Auth and Neon Auth across most projects, plus biometric auth on Zora Market mobile |
 | **Product analytics / event instrumentation** | **Vertex** (PostHog), Plausible on the portfolio, Recharts dashboards in JobHustles, Streamlit + Plotly in the football model |
@@ -263,12 +263,6 @@ adaptable to Bitbucket," not "used Bitbucket").
 the co-founder's own post-mortem attributes that to Soliudeen Ogunsola. Say "Co-Founder &
 Brand/Visual Designer" and keep the claimed scope to logos, banners, and motion graphics. Never
 link getfidia.com (dead). Never imply the company still operates — it closed September 2023.
-
-**Tutorial build-along tier (added 2026-09-10):** **Vertex** — the portfolio page itself states his role
-as "build-along learner & implementing engineer" on a tutorial build. The Sanity, GROQ, Sanity Context
-MCP, Clerk, and PostHog work is real and he wrote the code, but the product concept is not his. Claim
-the tools, never the product. Say "shipped a Sanity/GROQ build-along" — never "built an AI learning
-platform" as if it were an original product or client work.
 
 **Familiar-but-not-shipped tier (be precise about this distinction in applications):** NestJS,
 Prisma — he has exposure/familiarity but no production project on either. Say "familiar with," never
