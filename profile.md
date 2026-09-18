@@ -20,6 +20,16 @@ as shipped, see Mark_me AI assistant). These six are tools he's used **very well
 to his stack — claim them directly and with confidence, not hedged (see the "Core stack" note under
 Skills below). None of this is sourced from the portfolio site.
 
+**New role (2026-09-18, from the signed EduPoint letter of engagement and role JD):** engaged as
+**Software Engineering Trainer (Full-Stack)** on the **Trinity University Skills Programme**,
+delivered onsite at Trinity University by **EduPoint Limited** (Yaba, Lagos — edupoint.org.ng).
+Part-time / sessional faculty, Thursdays, semester-cohort basis. This is his first
+**university-level** teaching engagement — it upgrades the training record from bootcamp/institute
+tutoring to degree-programme faculty. **Never state the session fee or payment terms in any
+application** — they are confidential commercial terms of a signed engagement letter, deliberately
+not recorded in this file (which is a public repo), and "part-time trainer" is the only framing a
+recruiter needs. Added to the portfolio CV (top of the experience list) the same day.
+
 **Experience-years correction (2026-08-18, stated directly by Ajibola):** his professional
 experience is **3+ years in software engineering, 5+ years in design, 10+ years combined as a
 working professional.** This supersedes the portfolio site's own "7 years" headline stat below,
@@ -55,7 +65,7 @@ traction, downloads, or user numbers.
 - **Title:** Full Stack Engineer
 - **Positioning strip on site:** FULL-STACK · DESIGN · EDUCATOR — "Design & Engineering. No Boundaries."
 - **Location:** Lagos, Nigeria
-- **Experience:** **3+ years professional software engineering · 5+ years professional design · 10+ years combined** (per Ajibola directly, 2026-08-18 — use this, not the line below, when a JD asks for years of experience) · 11 companies / institutions · **23 projects & experiments in database and sandbox** (21 listed on `/projects` + Color Lab and Mesh Lab in sandbox)
+- **Experience:** **3+ years professional software engineering · 5+ years professional design · 10+ years combined** (per Ajibola directly, 2026-08-18 — use this, not the line below, when a JD asks for years of experience) · 12 companies / institutions · **23 projects & experiments in database and sandbox** (21 listed on `/projects` + Color Lab and Mesh Lab in sandbox)
 - **Availability:** "Currently available for full-time roles, freelance work, and collaborations." Use this exact framing — it explicitly covers full-time, which matters for permanent-role applications.
 - **Site banner, verbatim:** "Full Stack Engineer ✦ Based in Lagos, Nigeria ✦ Available for projects ✦ FULL-STACK · DESIGN · EDUCATOR"
 - **Email:** ajiboladolapogenius@gmail.com
@@ -108,6 +118,7 @@ on the repo yet, so the portfolio page tells the story better).
 
 | Role | Company | Type | Dates | Substance |
 |---|---|---|---|---|
+| Software Engineering Trainer (Full-Stack) | EduPoint (Trinity University Skills Programme) | Part-Time / sessional faculty | 2026–Present | University-level full-stack software engineering and mobile development modules delivered onsite at Trinity University; lesson plans, coding exercises, practical labs and assessments; supervises student software projects and capstone activities |
 | Part-Time Software Developer Instructor | Lagos Data School (Mangrove Technologies) | Part-Time | 2026–Present | Delivering software development instruction and technical mentorship; teaching programming fundamentals, modern web development, and practical software engineering workflows |
 | Backend Developer | ALU Exchange | Contract | 2026 | Microservice APIs for trading, ledger, wallet, and identity systems; real-time financial calculation logic, state management, database schemas |
 | Full Stack Developer & Tutor | Deejoft | Full-Time | 2025–2026 | Led the development department; tutored programming; training in Python, HTML/CSS/JS, React, React Native; designed hands-on projects bridging theory and practice |
@@ -213,7 +224,7 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 | Apple Pay / Google Pay / native checkout | Zora Market mobile (Stripe React Native native payment sheets) |
 | Offline / low-bandwidth / emerging markets | Heka IQ (IndexedDB caching for 3G), Narvo News (offline PWA), Mark_me (Serwist sync) |
 | Community ops / WhatsApp automation / raffles / RBAC | **ANC** (Baileys bot, cron digests, automated raffles, PostgreSQL RLS, fine-grained RBAC, Sentry) |
-| Frontend frameworks, HTML/CSS/JS | Entire portfolio (Next.js 16, React 19, Tailwind CSS v4, OKLCH tokens, responsive 2xl grids); also taught these at Lagos Data School, Deejoft, and APTECH |
+| Frontend frameworks, HTML/CSS/JS | Entire portfolio (Next.js 16, React 19, Tailwind CSS v4, OKLCH tokens, responsive 2xl grids); also taught these at EduPoint (Trinity University), Lagos Data School, Deejoft, and APTECH |
 | Animation, motion, premium UI | Native View Transitions API (`useRouteTransition`), NEGOtivity, OlamideVerse (GSAP scrollytelling), Hotbite, GSAP repos, 3d_todo (React Three Fiber) |
 | **3D / WebGL / Three.js / Creative web engineering** | ⭐ **Mesh Lab** (`/sandbox/mesh-lab` — interactive Three.js/WebGL playground with 4 parametric buffer geometries, 3 render styles, pointer-drag physics, particle telemetry, reduced-motion compliance), `3d_todo_tobamsgroup` (React Three Fiber), Bruno Simon Three.js certification |
 | AI / ML / data science | Football analytics (XGBoost, xG, Elo, PPDA), Heka IQ (CatBoost "Sphinx" model), Narvo News (Gemini, YarnGPT), Mark_me (OpenRouter assistant) |
@@ -224,12 +235,12 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 | **MCP / grounded AI search / anti-hallucination retrieval** | **Vertex** (Sanity Context MCP generating GROQ queries so answers cite real lessons, with timestamp deep-links) + the portfolio concierge's dynamic Supabase RAG grounding |
 | **Auth-as-a-service (Clerk, Auth0-style)** | **Vertex** (Clerk); otherwise Supabase Auth and Neon Auth across most projects, plus biometric auth on Zora Market mobile |
 | **Product analytics / event instrumentation** | **Vertex** (PostHog), Plausible on the portfolio, Recharts dashboards in JobHustles, Streamlit + Plotly in the football model |
-| Video / learning platforms / EdTech | **Vertex** (transcript ingestion, timestamp deep-linking, quizzes, learning paths, progress tracking) alongside the teaching record at Lagos Data School, Deejoft, and APTECH |
+| Video / learning platforms / EdTech | **Vertex** (transcript ingestion, timestamp deep-linking, quizzes, learning paths, progress tracking) alongside the teaching record at EduPoint (university-level, Trinity University Skills Programme), Lagos Data School, Deejoft, and APTECH |
 | Analytics, reporting, dashboards | Football analytics (Streamlit + Plotly), JobHustles (Recharts), Narvo Platform, AfroGraph (centrality analytics), Plausible |
 | Security / auditing / compliance | Vibe Secure Me (OWASP Top 10, API, Mobile, LLM Top 10), Narvo Intelligence (WCAG 2.1 AA) |
 | Automation / process improvement | Vibe Secure Me (automated auditing), football model (scraping and feature pipelines) |
-| Documentation & technical writing | **Notes & Technical Articles** (`/notes` — database-backed CMS, dynamic per-slug OpenGraph cards, rich typography, GEO/SEO engine), Lagos Data School course materials, Narvo Platform (Mintlify API docs), APTECH curricula, Deejoft training, `lecture_notes` repo |
-| Training, mentoring, enablement | **Lagos Data School** (Software Developer Instructor), **Deejoft** (led dev dept, built curriculum), **APTECH** (wrote curricula, hands-on tutoring) |
+| Documentation & technical writing | **Notes & Technical Articles** (`/notes` — database-backed CMS, dynamic per-slug OpenGraph cards, rich typography, GEO/SEO engine), EduPoint lesson plans, labs and assessments for the Trinity University Skills Programme, Lagos Data School course materials, Narvo Platform (Mintlify API docs), APTECH curricula, Deejoft training, `lecture_notes` repo |
+| Training, mentoring, enablement | ⭐ **EduPoint / Trinity University** (Software Engineering Trainer, Full-Stack — university-level faculty, capstone supervision, assessment design), **Lagos Data School** (Software Developer Instructor), **Deejoft** (led dev dept, built curriculum), **APTECH** (wrote curricula, hands-on tutoring) |
 | Design / UI-UX / brand / design systems | Five years lead designer; **OKLCH & Display-P3 wide-gamut design tokens**; **asymmetric Bento grid** layout with persistent view switcher (`useSyncExternalStore`); NEGOtivity Figma-accurate build; Narvo design systems; two published VS Code themes |
 | Accessibility | Narvo Intelligence (WCAG 2.1 AA), Color Lab (WCAG contrast tooling), Mesh Lab (prefers-reduced-motion suspension), WCAG 2.4.1 bypass skip-links, focus traps |
 | Speed of delivery under pressure | Hotbite (48 hours), AfroGraph (1 week), Vibe Secure Me (1 weekend), the VS Code themes (1 weekend each) |
@@ -258,6 +269,14 @@ no orchestration-at-scale evidence); Java, C#, PHP, Go, Rust; formal QA automati
 (Playwright/Cypress/Jest at scale); Power BI or Tableau; SEO as a specialism; **Bitbucket** itself
 (his hosting experience is GitHub — same Git model, different host, so frame as "Git workflows,
 adaptable to Bitbucket," not "used Bitbucket").
+
+**EduPoint caution:** never state the session fee or the sessional payment terms — the engagement
+letter is confidential and the commercial terms are nobody's business in an application.
+"Part-time Software Engineering Trainer" is the whole framing. The programme runs Thursdays onsite
+at Trinity University in Lagos, so it is compatible with remote and full-time work but is a standing
+weekday commitment — if a JD asks about availability or conflicts, disclose it plainly rather than
+letting a recruiter discover it later. He is still **"available for full-time roles, freelance work,
+and collaborations"**; this does not change that line.
 
 **Fidia caution:** never call him "Design Lead" or claim product/UX design ownership at Fidia —
 the co-founder's own post-mortem attributes that to Soliudeen Ogunsola. Say "Co-Founder &
