@@ -51,6 +51,7 @@ If no job description is present, ask for it. Do not write a generic application
 - Describe Fidia as `Co-Founder & Brand/Visual Designer`.
 - Describe Zora as an app built and shipped by Ajibola, not as an app he published.
 - Treat `NestJS` and `Prisma` as familiar tools, not shipped production experience.
+- Cite BemaHub for production testing (`Vitest`, `Playwright`), containerized deployments (`Coolify` on AWS), and agile delivery (`Trello`, `Plane`).
 
 ## Refresh Evidence
 

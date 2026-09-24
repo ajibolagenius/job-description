@@ -7,6 +7,8 @@ are as stated on each project page — quote them, don't embellish them.
 ⚠️ **Repos marked PRIVATE return 404 publicly.** Never link them in an application. Cite the live
 URL or the portfolio project page instead.
 
+**Changed 2026-09-24:** Added production project dossier for **BemaHub & Bema Pages** (`/Users/ajibolagenius/Desktop/Bema`). Production evidence for **Coolify** (AWS container deployments), **Vitest** (91 files / 852 unit & integration tests), **Playwright** (cross-viewport E2E browser automation), **Trello** (daily sprint tracking with strict evidence labeling), and **Plane** (https://plane.so/ — issue tracking and QA handoffs). Engaged as Feature-Facing & Integration Lead.
+
 **Changed 2026-09-10:** New project page **Vertex** (`/projects/vertex`) — AI-driven learning platform on Sanity + GROQ + Sanity Context MCP, public repo `vertex-lms`, live at https://vertex-lms-app.vercel.app. First Sanity/headless-CMS, Clerk, and PostHog evidence in the portfolio — claim it as a shipped side project.
 
 **Changed 2026-09-09:** Shipped *"Match My Job Description" AI Recruiter Mode* (`matchJobDescription` tool in AI assistant & Command Palette), *Tactile Micro-Audio Sound Design* (zero-asset Web Audio API synthesis via `sound.ts` with global SoundToggle), and *Interactive System Architecture Visualizer* (`architecture-visualizer.tsx` multi-node packet simulation for Zora Market and AfroGraph). Confirmed canonical title as **Full Stack Engineer** across all platforms. *Mesh Lab* 3D experiment (`/sandbox/mesh-lab`), *Notes & Writing* platform (`/notes`), global *Command Palette (⌘K)*, native *View Transitions API*, and *OKLCH / P3 wide-gamut* design system remain as previously recorded.
@@ -17,6 +19,31 @@ applications must still use **"Co-Founder & Brand/Visual Designer"** per the Med
 ---
 
 ## Tier 1 — commerce and money (lead with these for most roles)
+
+### ⭐ BemaHub & Bema Pages  *(Creator monetization, EchoLoop referral engine, and checkout activation)*
+- **Tagline:** Creator monetization, EchoLoop referral engine, and campaign platform connecting African artists and diaspora communities with digital and physical access tiers.
+- **Role:** Feature-Facing & Integration Lead · **Active (September 2026–Present)** · Client (Bema) · Live & Active Sprint
+- **Surfaces:** `bemahub-app-frontend` (Next.js App Router for core web platform, campaigns, wallet, QPPs, sales onboarding), `bemahub-pages` (artist subdomain & builder on Next.js 16 / React 19).
+- **Domains:** `app.bemahub.com`, `wp.bemahub.com`, `bemahub.com`, `pages.bemahub.com`, staging at `hub-r7k2.bemahub.com`.
+- **Problem:** Diaspora and Nigerian fans required dependable access to artist campaigns across local (Paystack) and international (PayPal) payment rails, while Nigerian Sales Representatives needed friction-free onboarding, tamper-proof referral attribution (LoopLocks), and transparent earnings without manual calculation or cash-settlement risks. Outages had previously occurred from undocumented frontend/backend assumptions and unverified browser interactions.
+- **Solution:** Leading the Commercial Activation Wave:
+  - **Sales Representative Onboarding:** Responsive wizard (Profile review → Agreement v3.1 → SVG/Canvas digital signature → Bank/payout detail capture → Activation).
+  - **Attribution & Growth Links:** Issuing unique Growth Links (`/g/[token]`), retaining LoopCode, tracking parameters, and campaign IDs throughout session and return paths.
+  - **Checkout Recovery:** Eliminated return-path drop-offs from Paystack & PayPal; retained LoopCode and amount on return; recoverable retry UI on failed/cancelled transactions with zero phantom QPPs.
+  - **Consent-Aware Analytics:** GTM container injected strictly after consent; allowlisted `window.dataLayer` funnel events (`campaign_view`, `preview_view`, `begin_checkout`) with strict PII scrubbing.
+  - **Security & Authorization:** Layered WordPress capability + organization membership checks; TOTP MFA UI gating for privileged finance/admin roles.
+  - **Financial Waterfall:** Immutable FX snapshots (`rate_from_usd`, `rate_to_usd`) and 12-day cooling hold for wallet settlements.
+- **Testing, Quality & Discipline:**
+  - **Vitest:** Fast unit and integration tests (91 files / 852 tests in CI as of 2026-09-23) mocking API services and custom React Query hooks, enforced by GitHub Actions typecheck and test ratchets.
+  - **Playwright:** End-to-end browser automation validating multi-viewport journeys across mobile and desktop, payment return recovery, and interactive button verification.
+  - **Samuel's 7 Rules & Evidence Labeling:** Enforces strict evidence tags in PRs and sprint updates: `OBSERVED` (verified live), `DERIVED` (computed formula), `CODE` (exists but unrun), `UNPROVEN` (unverified). Rule 7: "Click the button yourself" browser validation.
+- **DevOps & Work Tools:**
+  - **Coolify:** Automated container deployment on AWS EC2 (`3.9.19.192`) triggered by GitHub branch pushes; container SHA verification on Test/Staging environments.
+  - **Trello:** Daily sprint task tracking, standups, and BAU task master (`AJIBOLA'S DAILY TASKS/ TRACKER` card) collaborating with QA, Backend, and Ops leads.
+  - **Plane (https://plane.so/):** Open-source project management, ticket tracking, and staging QA release handoffs to independent QA.
+- **Stack:** Next.js 16/15 (App Router), React 19/18, TypeScript (strict mode, API mappers), Tailwind CSS, WordPress BMH REST API (`/wp-json/bmh/v1`), Paystack (NGN), PayPal (USD), Coolify (AWS), Vitest, Playwright, GTM & GA4 DataLayer, Zod, TanStack Query, Axios, Trello, Plane.
+- **Repo:** Private client repo (`/Users/ajibolagenius/Desktop/Bema`).
+- **Use for:** ⭐ Vitest unit/integration testing; Playwright E2E browser automation; Coolify container deployments on AWS; Agile sprint execution with Trello and Plane (plane.so); multi-gateway payments (Paystack + PayPal); referral/attribution engines; consent-aware analytics; Next.js 16 App Router; strict QA and release gates.
 
 ### ⭐ Zora Market — Mobile App  *(the strongest item in the portfolio)*
 - **Tagline:** Customer-facing iOS and Android app for the Zora marketplace.

@@ -8,27 +8,19 @@ Projects https://ajibolagenius.vercel.app/projects ·
 Sandbox https://ajibolagenius.vercel.app/sandbox ·
 GitHub https://github.com/ajibolagenius
 
-**Last verified: 2026-09-09** — verified against latest codebase, database, sitemap, and live deployment.
-New since the previous revision: "Match My Job Description" AI Recruiter Mode (`matchJobDescription` tool in streaming AI concierge and global Command Palette ⌘K), Tactile Micro-Audio & Procedural Sound Engine (zero-asset Web Audio API synthesis via `sound.ts`, SoundToggle mute control, and sound cues on theme switcher, palette, and assistant), Interactive System Architecture Visualizer (multi-node animated topology visualizer for Zora Market and AfroGraph), and confirmed canonical role as Full Stack Engineer across personal info, Supabase database, and CVs. Mesh Lab 3D experiment, Notes platform, View Transitions API, and OKLCH / P3 tokens remain as previously recorded.
+**Last verified: 2026-09-24** — updated with **BemaHub** engagement and production work tools: **Coolify, Trello, Plane (https://plane.so/), Vitest, Playwright**. Verified against BemaHub Frontend Technical Handbook, sprint trackers, and codebase (`/Users/ajibolagenius/Desktop/Bema`). Engaged as **Feature-Facing & Integration Lead** at **Bema (BemaHub & Bema Pages)** (September 2026–Present). Leads commercial activation, frontend architecture, and service integration across Next.js 16/15 App Router, WordPress BMH REST API, Paystack & PayPal checkout flows, consent-aware GTM/GA4 dataLayer, and Coolify containerized CI/CD on AWS; testing suites with Vitest (unit/integration) and Playwright (E2E browser automation).
 
-**Tools added (2026-09-05, stated directly by Ajibola):** Render, Railway, Upstash, Turso, Locomotive
-Scroll, Firebase — used at least once each, depth not yet itemized against a shipped project (see the
-"Used-at-least-once tier" note under Skills below). **Core stack, per Ajibola's own correction the
-same day:** NativeWind (already covered — confirmed as shipped, see Zora Market mobile stack), Tone.js,
-Howler.js, Resend/React Email, Google Stitch, Claude Design, OpenRouter (already covered — confirmed
-as shipped, see Mark_me AI assistant). These six are tools he's used **very well** and considers core
-to his stack — claim them directly and with confidence, not hedged (see the "Core stack" note under
-Skills below). None of this is sourced from the portfolio site.
+**Tools added (2026-09-24, from BemaHub production work):**
+- **Coolify:** Self-hosted PaaS on AWS (`3.9.19.192`) running automated Docker container builds on git push to development branch.
+- **Trello:** Daily sprint task tracking, standups, and BAU task management (`AJIBOLA'S DAILY TASKS/ TRACKER` card) with Samuel's strict evidence labeling protocol (`OBSERVED`, `DERIVED`, `CODE`, `UNPROVEN`).
+- **Plane (https://plane.so/):** Open-source project management, ticket tracking, and staging QA release handoffs to independent QA.
+- **Vitest:** Unit and integration testing for API services, hooks, and UI components (91 files / 852 tests running in GitHub Actions CI with ratchet gates).
+- **Playwright:** End-to-end (E2E) browser automation, testing cross-viewport journeys across mobile and desktop, payment return paths, and live button verification.
+*(These 5 tools are active production tools at BemaHub — claim them directly and with confidence).*
 
-**New role (2026-09-18, from the signed EduPoint letter of engagement and role JD):** engaged as
-**Software Engineering Trainer (Full-Stack)** on the **Trinity University Skills Programme**,
-delivered onsite at Trinity University by **EduPoint Limited** (Yaba, Lagos — edupoint.org.ng).
-Part-time / sessional faculty, Thursdays, semester-cohort basis. This is his first
-**university-level** teaching engagement — it upgrades the training record from bootcamp/institute
-tutoring to degree-programme faculty. **Never state the session fee or payment terms in any
-application** — they are confidential commercial terms of a signed engagement letter, deliberately
-not recorded in this file (which is a public repo), and "part-time trainer" is the only framing a
-recruiter needs. Added to the portfolio CV (top of the experience list) the same day.
+**Previous additions:**
+- **EduPoint engagement (2026-09-18):** Software Engineering Trainer (Full-Stack) on the Trinity University Skills Programme delivered onsite at Trinity University by EduPoint Limited. First university-level teaching engagement.
+- **Tools added (2026-09-05, stated directly by Ajibola):** Render, Railway, Upstash, Turso, Locomotive Scroll, Firebase — used at least once each. Core stack: NativeWind, Tone.js, Howler.js, Resend/React Email, Google Stitch, Claude Design, OpenRouter.
 
 **Experience-years correction (2026-08-18, stated directly by Ajibola):** his professional
 experience is **3+ years in software engineering, 5+ years in design, 10+ years combined as a
@@ -65,7 +57,7 @@ traction, downloads, or user numbers.
 - **Title:** Full Stack Engineer
 - **Positioning strip on site:** FULL-STACK · DESIGN · EDUCATOR — "Design & Engineering. No Boundaries."
 - **Location:** Lagos, Nigeria
-- **Experience:** **3+ years professional software engineering · 5+ years professional design · 10+ years combined** (per Ajibola directly, 2026-08-18 — use this, not the line below, when a JD asks for years of experience) · 12 companies / institutions · **23 projects & experiments in database and sandbox** (21 listed on `/projects` + Color Lab and Mesh Lab in sandbox)
+- **Experience:** **3+ years professional software engineering · 5+ years professional design · 10+ years combined** (per Ajibola directly, 2026-08-18 — use this, not the line below, when a JD asks for years of experience) · 13 companies / institutions · **24 projects & experiments in database, sandbox, and active production** (21 listed on `/projects` + Color Lab and Mesh Lab in sandbox + BemaHub in production)
 - **Availability:** "Currently available for full-time roles, freelance work, and collaborations." Use this exact framing — it explicitly covers full-time, which matters for permanent-role applications.
 - **Site banner, verbatim:** "Full Stack Engineer ✦ Based in Lagos, Nigeria ✦ Available for projects ✦ FULL-STACK · DESIGN · EDUCATOR"
 - **Email:** ajiboladolapogenius@gmail.com
@@ -118,6 +110,7 @@ on the repo yet, so the portfolio page tells the story better).
 
 | Role | Company | Type | Dates | Substance |
 |---|---|---|---|---|
+| Feature-Facing & Integration Lead | Bema (BemaHub & Bema Pages) | Contract / Lead | 2026–Present | Frontend architecture and commercial activation for creator platform; sales onboarding wizard, attribution/growth links, Paystack & PayPal checkout recovery, consent-aware GTM/GA4 dataLayer, Coolify AWS container CI/CD, Vitest unit suites, and Playwright E2E. |
 | Software Engineering Trainer (Full-Stack) | EduPoint (Trinity University Skills Programme) | Part-Time / sessional faculty | 2026–Present | University-level full-stack software engineering and mobile development modules delivered onsite at Trinity University; lesson plans, coding exercises, practical labs and assessments; supervises student software projects and capstone activities |
 | Part-Time Software Developer Instructor | Lagos Data School (Mangrove Technologies) | Part-Time | 2026–Present | Delivering software development instruction and technical mentorship; teaching programming fundamentals, modern web development, and practical software engineering workflows |
 | Backend Developer | ALU Exchange | Contract | 2026 | Microservice APIs for trading, ledger, wallet, and identity systems; real-time financial calculation logic, state management, database schemas |
@@ -187,14 +180,16 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 
 - **Languages:** TypeScript, JavaScript, Python
 - **Frontend:** React, React 19, Next.js (13→16), Tailwind CSS (v3/v4), OKLCH & Display-P3 wide-gamut design tokens, shadcn/ui, HTML/CSS, MDX, D3.js
+- **Testing & QA:** Vitest (unit & integration testing, mocked services/hooks, 850+ tests in production CI with ratchet gate), Playwright (E2E browser automation, cross-viewport journeys across mobile and desktop, payment return verification), Testing Library, Zod schema validation, ESLint
 - **Mobile (shipped to the App Store):** React Native 0.83, Expo SDK 55, Expo Router, EAS build/submit, Expo Updates (OTA), NativeWind, MMKV, AsyncStorage persistence, Reanimated, expo-local-authentication (Face ID/Touch ID), expo-notifications (push), React Native Maps, Stripe React Native (native payment sheets, Apple Pay/Google Pay), PWA (Serwist), offline-first architecture
-- **Backend & APIs:** Node.js, Express, FastAPI, REST, GraphQL, tRPC, microservices, Vercel AI SDK
+- **Backend & APIs:** Node.js, Express, FastAPI, REST, WordPress BMH REST API, GraphQL, tRPC, microservices, Vercel AI SDK
 - **Databases, Graph & Data Layer:** PostgreSQL, Supabase, Neon Postgres, Firebase (Firestore / Realtime Database), Turso (edge SQLite / libSQL), Upstash (serverless Redis, Vector), CognoDB Cloud, openCypher, neo4j-driver, Drizzle ORM, SQLAlchemy, MongoDB, IndexedDB / Dexie.js, schema design
 - **State & fetching:** Zustand, TanStack Query, React Hook Form, Zod
-- **Payments:** Paystack (Nigeria), Stripe, custom wallet/coin systems, automated escrow
-- **Cloud & infra:** Vercel, Cloudflare Pages / Workers / Wrangler, Render, Railway, Firebase, Turborepo monorepos, Git/GitHub, Docker, Redis, Google Cloud Platform
+- **Payments:** Paystack (Nigeria), Stripe, PayPal (USD), custom wallet/coin systems, automated escrow
+- **Cloud & infra:** Vercel, Cloudflare Pages / Workers / Wrangler, Coolify (self-hosted PaaS on AWS for Docker container deployments), Render, Railway, Firebase, Turborepo monorepos, Git/GitHub, Docker, Redis, Google Cloud Platform
+- **Project Management & Collaboration:** Trello (daily sprint task tracking, standups, and BAU task management with Samuel's strict evidence-labeling protocol: OBSERVED/DERIVED/CODE/UNPROVEN), Plane (https://plane.so/ — issue tracking, sprint management, staging QA release handoffs)
 - **Backend frameworks (familiarity, not yet a shipped production project):** NestJS, Prisma — conceptually transferable from his Express/FastAPI and Drizzle/SQLAlchemy work, but he has not shipped a production app on either. Frame as "familiar with," not "built with."
-- **Auth & security:** Supabase Auth, Neon Auth, Clerk, biometric authentication, client-side token authorisation, OWASP-aligned security auditing
+- **Auth & security:** Supabase Auth, Neon Auth, Clerk, biometric authentication, client-side token authorisation, OWASP-aligned security auditing, TOTP MFA Authenticator UI gating
 - **AI/ML & LLM:** Vercel AI SDK (tool-calling, streaming, dynamic RAG grounding), OpenAI, OpenRouter, Gemini, Groq, MCP-grounded retrieval (Sanity Context MCP → LLM-generated GROQ queries), XGBoost, CatBoost, Scikit-Learn, Pandas, Streamlit, Plotly, YarnGPT (TTS), speech synthesis
 - **AI Development & Productivity Tools:** Advanced proficiency with AI development, agentic workflows, and productivity tools, including Gemini, Codex, ChatGPT, Claude, and similar AI CLI tools (agent skills, CLI-driven development, prompt engineering, rapid prototyping, and automated code review). Built and shipped the portfolio AI concierge with custom tool calling (`recommendProject`, `recommendNote`, `getLiveStatus`, and `"Match My Job Description"` recruiter mode via `matchJobDescription`).
 - **Motion, 3D & Interactive Systems:** Three.js & WebGL (custom parametric buffer geometries, wireframe/shaded/points shaders, inertial drag physics, reduced-motion compliance in Mesh Lab), Interactive System Architecture Visualizer (`architecture-visualizer.tsx` multi-node animated packet simulation for Zora Market and AfroGraph), GSAP + ScrollTrigger, Framer Motion, Lenis, Locomotive Scroll, React Three Fiber, View Transitions API (`document.startViewTransition`)
@@ -259,16 +254,20 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 | **Transactional email, email templating (React-based)** | ⭐ **Resend + React Email** — core stack, claim with confidence |
 | Smooth scroll / parallax (Locomotive Scroll specifically named) | Locomotive Scroll — used at least once; alongside Lenis, which has actual shipped-project evidence (NEGOtivity, Hotbite) |
 | **AI-assisted UI design / rapid prototyping / mockup generation** | ⭐ **Google Stitch and Claude Design** — core stack, claim with confidence, alongside Figma |
+| **Unit & Integration Testing / Vitest / Test-driven development** | ⭐ **BemaHub** (Vitest test suites for mocked API services, hooks, and components; 91 files / 852 unit & integration tests running in GitHub Actions CI with ratchet gate) + Zod schema validation |
+| **E2E Testing / Browser Automation / Playwright** | ⭐ **BemaHub** (Playwright end-to-end browser journeys across desktop and mobile viewports, payment return recovery, and interactive button verification) |
+| **PaaS / Container Deployment / Coolify / AWS** | ⭐ **BemaHub** (Coolify self-hosted PaaS on AWS EC2, automated Git push-to-deploy Docker builds, staging and test container SHA management) |
+| **Agile Sprint Tracking / Issue Management / Trello / Plane** | ⭐ **BemaHub** (daily sprint execution and BAU task tracker in Trello with Samuel's evidence-labeling protocol [OBSERVED/DERIVED/CODE/UNPROVEN]; issue management and staging QA release handoffs in Plane [plane.so]) |
 
 ## Known gaps — never claim these
 
 No shipped evidence for: **Shopify, WooCommerce, Wix, Squarespace**; named **ERP** systems (SAP,
-Odoo, Microsoft Dynamics, NetSuite); named **CRMs** (Salesforce, HubSpot, Zoho); **AWS / GCP /
-Azure** (his cloud work is Vercel and Cloudflare); Kubernetes at scale (he has Docker experience, but
-no orchestration-at-scale evidence); Java, C#, PHP, Go, Rust; formal QA automation suites
-(Playwright/Cypress/Jest at scale); Power BI or Tableau; SEO as a specialism; **Bitbucket** itself
+Odoo, Microsoft Dynamics, NetSuite); named **CRMs** (Salesforce, HubSpot, Zoho); **GCP /
+Azure** (his cloud work is Vercel, Cloudflare, and Coolify containerized on AWS); Kubernetes at scale (he has Docker experience, but
+no orchestration-at-scale evidence); Java, C#, PHP, Go, Rust; Power BI or Tableau; SEO as a specialism; **Bitbucket** itself
 (his hosting experience is GitHub — same Git model, different host, so frame as "Git workflows,
 adaptable to Bitbucket," not "used Bitbucket").
+*(Note on QA & Testing: previously lacked formal QA automation suites; now actively shipping with **Vitest** for unit/integration testing and **Playwright** for E2E browser automation at BemaHub).*
 
 **EduPoint caution:** never state the session fee or the sessional payment terms — the engagement
 letter is confidential and the commercial terms are nobody's business in an application.
@@ -304,11 +303,13 @@ to my stack," "extensive experience with"), the same register used for React, Ne
 Do not apply the hedged "has used" / "hands-on experience with" phrasing from the tier above to
 these six.
 
+**BemaHub production tools (2026-09-24, confirmed via BemaHub codebase & handbook):** Coolify (containerized deployments on AWS), Trello (daily task tracking & structured evidence protocol), Plane (https://plane.so/ — issue tracking & QA handoffs), Vitest (850+ unit/integration tests in CI), Playwright (E2E browser automation). These are active production tools from his Feature-Facing & Integration Lead role at Bema — claim them with direct confidence in any testing, DevOps, or agile workflow context.
+
 When a JD requires one of these, name the closest thing he **has** shipped and let the parallel
 argue for itself. State the parallel; never state the tool.
 
 - *Shopify* → a custom apparel storefront (NEGOtivity) with catalogue, Naira currency handling, and payment integration built from scratch — harder than configuring a hosted platform.
 - *ERP / inventory* → Zora's inventory management, multi-vendor checkout, regional delivery, and admin governance dashboards.
 - *CRM* → Zora and Nego tiered dashboards with verification and moderation workflows.
-- *AWS/GCP* → production deployments on Vercel and Cloudflare Pages/Workers, with Wrangler.
-- *Enterprise QA* → Zod validation throughout, ESLint discipline, and OWASP-aligned auditing via Vibe Secure Me.
+- *AWS/GCP* → Coolify container deployments on AWS for BemaHub, plus production deployments on Vercel and Cloudflare Pages/Workers, with Wrangler.
+- *Enterprise QA / Automated Testing* → Production testing at BemaHub with Vitest (unit/integration, 850+ tests) and Playwright (cross-viewport E2E browser journeys), alongside Zod validation and OWASP-aligned auditing via Vibe Secure Me.
