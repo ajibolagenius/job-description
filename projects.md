@@ -1,11 +1,13 @@
 # Project dossier — Ajibola Akelebe
 
-Every project on https://ajibolagenius.vercel.app/projects, verified 2026-09-10.
-Site's own database holds **24 projects & sandbox toys** (22 listed on `/projects` + Color Lab and Mesh Lab on `/sandbox`). Roles, durations, and stacks
+Every project on https://ajibolagenius.vercel.app/projects, verified 2026-10-08.
+Site's own database holds **25 projects & sandbox toys** (23 listed on `/projects` + Color Lab and Mesh Lab on `/sandbox`). Roles, durations, and stacks
 are as stated on each project page — quote them, don't embellish them.
 
 ⚠️ **Repos marked PRIVATE return 404 publicly.** Never link them in an application. Cite the live
 URL or the portfolio project page instead.
+
+**Changed 2026-10-08:** New project page **Branda V2** (`/projects/branda-v2`) — four-market service-ordering storefront (NG/US/UK/CA) built solo in **24 hours**, public repo `branda-v2-frontend`, live at https://branda-v2-theta.vercel.app; now first on the CV's Selected Projects. Portfolio repo corrected to the public `ajibolagenius/ajibolagenius` (the old `ajibola-portfolio` URL 404s). Portfolio gained the **Naija Vintage Radio** cassette player, **EN/YÓ (Yoruba) language switcher**, and **PostHog** analytics with owner-visit exclusion.
 
 **Changed 2026-09-10:** New project page **Vertex** (`/projects/vertex`) — AI-driven learning platform on Sanity + GROQ + Sanity Context MCP, public repo `vertex-lms`, live at https://vertex-lms-app.vercel.app. First Sanity/headless-CMS, Clerk, and PostHog evidence in the portfolio — claim it as a shipped side project.
 
@@ -65,6 +67,18 @@ applications must still use **"Co-Founder & Brand/Visual Designer"** per the Med
 - **Stack:** React, Next.js, Cloudflare, Supabase, GSAP, Lucide, Lenis, Resend, Zustand, Tailwind CSS, Wrangler, ESLint, TypeScript
 - **Live:** https://negotivity.com · **Repo: PRIVATE**
 - **Use for:** ⭐ **the single best proof for any fashion, apparel, or retail-brand role.** Also design-to-code fidelity, Naira/currency handling, storefront UX.
+
+### Branda V2 — Multi-Market Service Ordering Storefront
+- **Tagline:** "A service ordering interface for Branda, a Nigerian branding company, built in 24 hours as a frontend screening task."
+- **Role:** Solo Developer · **24 hours** · 2026 · Side · Live · Featured (homepage reel)
+- **Categories (site):** E-commerce, Multi-market Storefront, Branding Services
+- **Problem:** Branda's existing site served Nigeria only with naira pricing, lacked international SEO, and loaded slowly on mobile. Brief: a four-region interface inside 24 hours.
+- **Solution:** Market subfolders `/ng`, `/us`, `/uk`, `/ca`, each with its own currency, tax, delivery fee and free-delivery threshold; switching market keeps the same page and filters. Server Components by default (static market home and service pages per market, per-request catalogue). Catalogue across five studios (Create, Prints, Gifts, Studio, Digital) with word-matching search, industry/turnaround/use-case filters, sorting and pagination — **every filter lives in the URL**, so results are shareable and indexable. Service pages with live option pricing; one `orderSummary()` function owns subtotal/tax/delivery/total for drawer, cart and checkout, covered by Node test runner checks. Zustand cart persisted to the browser, hydration-safe. **Native HTML over libraries:** `<dialog>` cart, popover API for search and mobile menu, `<select>` market switcher, radio-input options. CSS-only motion, all reduced-motion aware. Loading skeletons, error boundary with retry, styled 404, designed empty states. Mock checkout — no payment taken.
+- **SEO:** per-page titles/descriptions, canonical + `hreflang` for all four markets, Product structured data, sitemap, `robots.txt`.
+- **Stack:** Next.js 16 (App Router), React, TypeScript, Tailwind CSS v4, Zustand, Lucide React, Node test runner, Vercel
+- **Live:** https://branda-v2-theta.vercel.app (redirects to `/ng`) · **Repo (public):** https://github.com/ajibolagenius/branda-v2-frontend — README carries the written answers (performance, architecture, site review).
+- **Use for:** ⭐ multi-market / multi-currency / international e-commerce, technical SEO (hreflang, structured data), Server Components rendering strategy, URL-as-state, native-HTML accessibility, testing money logic, and speed (**24 hours**, faster than Hotbite).
+- **Caution:** it was a **hiring screening task**, not a client engagement. Branda did not commission or ship it. Say "built a four-market storefront in 24 hours" — never "built for Branda" or "Branda's new site", and never imply payments processed (checkout is mocked).
 
 ### Heka IQ
 - **Tagline:** An automated football prediction platform designed for the African market.
@@ -222,8 +236,12 @@ His GitHub company field is `@narvo_news`; these live under the `Narvo-Intellige
   - **Notes Publication Platform**: Full-stack technical article CMS with dynamic per-slug OpenGraph cards, admin CMS editing, rich-text typography, and GEO/SEO architecture.
   - **Design System & Visual Engineering**: Modernized design tokens in `oklch()` color space with `@media (color-gamut: p3)` wide-gamut accents, asymmetric Bento grid with persistent `useSyncExternalStore` view switcher, and responsive `xl`/`2xl` scaling.
   - **App-Grade Interaction Primitives**: Global Command Palette (⌘K) with fuzzy indexing and recruiter match shortcut, native cross-route View Transitions API (`document.startViewTransition`), and live "Now" activity widget tracking Lagos WAT time and real-time GitHub commits.
-- **Stack:** Next.js 16, React 19, TypeScript, Supabase, Vercel AI SDK, Tailwind CSS 4, OKLCH, Three.js, Phosphor Icons
-- **Live:** https://ajibolagenius.vercel.app · **Repo:** https://github.com/ajibolagenius/ajibola-portfolio
+  - **Naija Vintage Radio** (2026-09): cassette-deck audio player ("HIGH BIAS · C-90 · SIDE A") playing classic Nigerian tracks (e.g. King Sunny Ade's *Synchro System*, 1983) from local files with prebuffering, autoplay with unmount cleanup, per-track source citations (Apple Music), and a sidebar variant sharing one hook.
+  - **Internationalisation — EN / YÓ:** language provider and switcher localising the UI into **Yoruba**.
+  - **PostHog analytics** (2026-09): event capture across AI assistant, CV download, contact form, share buttons and project cards; owner visits flagged out of insights; PostHog hosts allow-listed in the CSP.
+  - **Hardening:** CSP, error boundaries, WCAG skip link, smoke tests; a deliberate simplification pass removed dead code and duplication.
+- **Stack:** Next.js 16, React 19, TypeScript, Supabase, Vercel AI SDK, Tailwind CSS 4, OKLCH, Three.js, PostHog, Phosphor Icons
+- **Live:** https://ajibolagenius.vercel.app · **Repo (public):** https://github.com/ajibolagenius/ajibolagenius (the older `ajibola-portfolio` URL returns 404 — do not use it)
 - **Use for:** ⭐ AI engineering, agentic UI / tool calling, RAG, Next.js 16 App Router architecture, modern CSS/OKLCH, View Transitions, design systems, performance, technical writing.
 
 ---
@@ -263,6 +281,9 @@ Both themes and the Webflow build are good proof of **design-system thinking, co
 Worth mentioning only when directly relevant:
 
 - **lagos-spots** — HTML. Full-stack app for exploring Lagos attractions, restaurants, and landmarks. Another Nigeria-first build; light on depth, cite only if the role is local-discovery or maps adjacent.
+- **lagos-spots-web** — newer companion repo to lagos-spots, no description yet. Same rule.
+- **EduPoint** — programme repository for the EduPoint Professional Skills Development Programme at Trinity University, Yaba (Faculty of Science and Technology). Public teaching evidence; safe to link for training/mentoring roles.
+- **bemahub-swe-assessment** — his BemaHub Software Engineer hiring assessment. **Do not cite** — it is an employer's screening exercise, and Bema evidence comes from the employment itself.
 - **massweddings** — TypeScript. Data mappings of mass weddings in Nigeria over the past 10 years. Data-collection/mapping side work.
 - **corpsmart** — TypeScript. "Nigeria's most trusted marketplace exclusively for NYSC corps members." Another Nigerian marketplace build.
 - **narvo** — JavaScript, archived. The original mobile-first, voice-first news platform that became Narvo News.
@@ -278,7 +299,7 @@ Worth mentioning only when directly relevant:
 - **Nigeria-first engineering:** Paystack, Naira currency systems, 3G-optimised offline caching, five-language localisation, NYSC and diaspora marketplaces. He builds for real Nigerian constraints, not just for a global template.
 - **Agentic AI & Tool Calling in production:** The portfolio AI concierge isn't a wrapper or chatbot iframe — it's an integrated streaming agent built on Vercel AI SDK with custom client-rendered tool calling (`recommendProject`, `recommendNote`, `getLiveStatus`), in-process rate-limiting, and dynamic Supabase context grounding.
 - **Modern CSS & wide-gamut design systems:** OKLCH perceptually uniform color tokens, Display-P3 wide-gamut media queries, asymmetric Bento grid architecture with persistent `useSyncExternalStore` view switcher, responsive `xl`/`2xl` scaling, and native cross-route View Transitions API (`document.startViewTransition`).
-- **End-to-end ownership:** credited "Solo Designer & Developer" or "Solo Developer" on **9 of the 18** projects — design, build, deploy, and maintain.
-- **Range of tempo:** 48 hours (Hotbite) to 18 months (Narvo News). Pick whichever the JD implies it values.
+- **End-to-end ownership:** credited "Solo Designer & Developer" or "Solo Developer" on **10 of the 23** projects — design, build, deploy, and maintain.
+- **Range of tempo:** 24 hours (Branda V2), 48 hours (Hotbite) to 18 months (Narvo News). Pick whichever the JD implies it values.
 - **Production payments across two gateways:** Paystack and Stripe, plus a custom wallet with automated escrow.
 - **Design systems as a habit:** Swiss Grid, neo-brutalist, Swiss-brutalist, 8pt grids, WCAG AA — carried from the design career into engineering.

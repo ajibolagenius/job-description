@@ -49,7 +49,7 @@ No JD present? Ask for one. Never produce a generic letter.
 
 Read `profile.md`. Read `projects.md` too unless the JD is trivial.
 
-Both were last verified on **2026-09-24** (added **Bema Integrated Services** role — Full-Stack Software Engineer [Frontend-Strong] / Feature-Facing & Integration Lead — and production work tools: **Coolify**, **Trello**, **Plane** [https://plane.so/], **Vitest**, **Playwright**; CV verified at https://ajibolagenius.vercel.app/cv; previously added EduPoint Trinity University faculty engagement 2026-09-18; Vertex Sanity/GROQ/MCP 2026-09-10; and "Match My Job Description" AI recruiter mode / tactile audio 2026-09-09). Refresh when the snapshot looks stale, the user says something changed, or the role is high-stakes.
+Both were last verified on **2026-10-08** (added **Branda V2** — 24-hour four-market storefront, public repo; Bema's WordPress/PHP maintenance scope from the live CV; portfolio Vintage Radio, EN/YÓ i18n, PostHog; portfolio repo corrected to `ajibolagenius/ajibolagenius`. Before that, 2026-09-24 added **Bema Integrated Services** role — Full-Stack Software Engineer [Frontend-Strong] / Feature-Facing & Integration Lead — and production work tools: **Coolify**, **Trello**, **Plane** [https://plane.so/], **Vitest**, **Playwright**; CV verified at https://ajibolagenius.vercel.app/cv; previously added EduPoint Trinity University faculty engagement 2026-09-18; Vertex Sanity/GROQ/MCP 2026-09-10; and "Match My Job Description" AI recruiter mode / tactile audio 2026-09-09). Refresh when the snapshot looks stale, the user says something changed, or the role is high-stakes.
 
 **Cheap change-detection first.** `curl` the sitemap and compare `<loc>`/`<lastmod>` against
 `projects.md`; check the GitHub API's `pushed_at` and repo count. Two calls reveal what moved —
@@ -87,7 +87,8 @@ things well beats listing ten.
 - **Quote the site's own numbers**: role titles, durations (48 hours → 18 months), stacks. They're already specific; don't inflate them and don't invent metrics the site doesn't state.
 - Lead with the **industry match** when one exists; with the **hardest technical requirement** when one doesn't.
 - Turn the **design career and teaching work** into role-specific arguments, not biography. Design → customer experience, brand judgment, design-to-code fidelity. Teaching → explaining trade-offs to non-technical stakeholders, and documentation discipline.
-- Match **tempo** to what the JD values: Hotbite (48 hours) for speed under deadline; Narvo News (18 months) or OlamideVerse (13 months) for long-haul ownership.
+- **Branda V2 carries the multi-market, technical SEO, and rendering-strategy evidence.** Four markets (NG/US/UK/CA) with per-market currency, tax and delivery, `hreflang` and structured data, Server Components with URL-persisted filters, tested pricing logic — built solo in 24 hours. It was a **screening task**: never say "built for Branda" or imply Branda uses it, and never imply real payments (checkout is mocked). Strong for international e-commerce, frontend screening-heavy hiring, and "show us your judgment" roles — the public README documents every decision.
+- Match **tempo** to what the JD values: Branda V2 (24 hours) or Hotbite (48 hours) for speed under deadline; Narvo News (18 months) or OlamideVerse (13 months) for long-haul ownership.
 - **Nigeria-first engineering** is a differentiator for Nigerian and Africa-focused employers: Paystack, Naira handling, 3G optimisation, local-language localisation. Say it plainly.
 - **AI development & productivity tooling:** For roles valuing engineering velocity, modern AI workflows, AI-assisted development, or prompt engineering, highlight his advanced proficiency with AI development and productivity tools (Gemini Codex, ChatGPT, Claude, and similar AI CLI tools / coding assistants), backed by custom agent skill authoring (Vibe Secure Me), production AI integrations (Narvo News, Mark_me, Heka IQ), and the portfolio's streaming AI concierge with tool calling (including the `"Match My Job Description"` recruiter mode).
 - **Interactive engineering & tactile sound:** Point to the interactive System Architecture Visualizer (multi-node packet simulation) and custom Web Audio API synthesis engine as proof of creative frontend and systems engineering beyond standard component assembly.
@@ -104,7 +105,8 @@ Eight project repos are **private and return 404** to anyone not signed in: `zor
 Cite the **live product URL**, the **App Store listing**, or the portfolio project page instead.
 Live URLs in `projects.md` were confirmed reachable on 2026-08-12 (ANC portfolio page added
 2026-08-16 — no separate live product URL captured yet). Public repos safe to link are listed in
-`profile.md` — `vibe-secure-me` joined that list on 2026-08-12; `vertex-lms` on 2026-09-10.
+`profile.md` — `vibe-secure-me` joined that list on 2026-08-12; `vertex-lms` on 2026-09-10; `branda-v2-frontend` on
+2026-10-08. The portfolio's own source is `ajibolagenius/ajibolagenius` — `ajibola-portfolio` 404s.
 
 Also: the projects index is **`/projects`**, not `/work`. Verify any project link against
 `projects.md` before writing it.

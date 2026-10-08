@@ -48,6 +48,7 @@ If no job description is present, ask for it. Do not write a generic application
 - Never link a private repository. Use a live product URL or portfolio project page instead.
 - Always include the portfolio, CV, and GitHub links in the primary email.
 - Include the App Store link for mobile, e-commerce, and consumer-product roles.
+- Describe Branda V2 as a 24-hour screening build, never as client work for Branda.
 - Describe Fidia as `Co-Founder & Brand/Visual Designer`.
 - Describe Zora as an app built and shipped by Ajibola, not as an app he published.
 - Treat `NestJS` and `Prisma` as familiar tools, not shipped production experience.
