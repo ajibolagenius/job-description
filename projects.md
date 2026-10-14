@@ -7,14 +7,12 @@ are as stated on each project page — quote them, don't embellish them.
 ⚠️ **Repos marked PRIVATE return 404 publicly.** Never link them in an application. Cite the live
 URL or the portfolio project page instead.
 
-**Changed 2026-10-08:** New project page **Branda V2** (`/projects/branda-v2`) — four-market service-ordering storefront (NG/US/UK/CA) built solo in **24 hours**, public repo `branda-v2-frontend`, live at https://branda-v2-theta.vercel.app; now first on the CV's Selected Projects. Portfolio repo corrected to the public `ajibolagenius/ajibolagenius` (the old `ajibola-portfolio` URL 404s). Portfolio gained the **Naija Vintage Radio** cassette player, **EN/YÓ (Yoruba) language switcher**, and **PostHog** analytics with owner-visit exclusion.
+**Changelog**
 
-**Changed 2026-09-10:** New project page **Vertex** (`/projects/vertex`) — AI-driven learning platform on Sanity + GROQ + Sanity Context MCP, public repo `vertex-lms`, live at https://vertex-lms-app.vercel.app. First Sanity/headless-CMS, Clerk, and PostHog evidence in the portfolio — claim it as a shipped side project.
-
-**Changed 2026-09-09:** Shipped *"Match My Job Description" AI Recruiter Mode* (`matchJobDescription` tool in AI assistant & Command Palette), *Tactile Micro-Audio Sound Design* (zero-asset Web Audio API synthesis via `sound.ts` with global SoundToggle), and *Interactive System Architecture Visualizer* (`architecture-visualizer.tsx` multi-node packet simulation for Zora Market and AfroGraph). Confirmed canonical title as **Full Stack Engineer** across all platforms. *Mesh Lab* 3D experiment (`/sandbox/mesh-lab`), *Notes & Writing* platform (`/notes`), global *Command Palette (⌘K)*, native *View Transitions API*, and *OKLCH / P3 wide-gamut* design system remain as previously recorded.
-Fidia page on site labels the role "Co-founder & Design Lead" —
-applications must still use **"Co-Founder & Brand/Visual Designer"** per the Medium post-mortem
-(see `profile.md`); do not elevate the claim to Design Lead just because the portfolio page does.
+- **2026-10-08** — New page **Branda V2** (`/projects/branda-v2`): four-market service-ordering storefront (NG/US/UK/CA), built solo in **24 hours**, public repo `branda-v2-frontend`, live at https://branda-v2-theta.vercel.app; now first on the CV's Selected Projects. Portfolio repo corrected to the public `ajibolagenius/ajibolagenius` (the old `ajibola-portfolio` URL 404s). Portfolio gained the **Naija Vintage Radio** cassette player, **EN/YÓ (Yoruba) language switcher**, and **PostHog** analytics with owner-visit exclusion.
+- **2026-09-10** — New page **Vertex** (`/projects/vertex`): AI-driven learning platform on Sanity + GROQ + Sanity Context MCP, public repo `vertex-lms`, live at https://vertex-lms-app.vercel.app. First Sanity/headless-CMS, Clerk and PostHog evidence in the portfolio — claim it as a shipped side project.
+- **2026-09-09** — Shipped **"Match My Job Description"** AI recruiter mode (`matchJobDescription` tool in the AI assistant and Command Palette), **Tactile Micro-Audio** (zero-asset Web Audio synthesis via `sound.ts`, global SoundToggle), and the **Interactive System Architecture Visualizer** (`architecture-visualizer.tsx`, packet simulation for Zora Market and AfroGraph). Canonical title confirmed **Full Stack Engineer** across platforms. Mesh Lab, Notes/Writing, Command Palette (⌘K), View Transitions API and the OKLCH/P3 design system remain as previously recorded.
+- **Site-vs-rules conflict, worth knowing before a recruiter checks:** the Fidia page on the site labels the role "Co-founder & Design Lead". Applications must still say **"Co-Founder & Brand/Visual Designer"** per the Medium post-mortem (see `profile.md`). Don't elevate the claim just because the page does.
 
 ---
 

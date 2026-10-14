@@ -8,32 +8,33 @@ Projects https://ajibolagenius.vercel.app/projects ·
 Sandbox https://ajibolagenius.vercel.app/sandbox ·
 GitHub https://github.com/ajibolagenius
 
-**Last verified: 2026-10-08** — added **Branda V2** (24-hour, four-market storefront; public repo), the live site's broader Bema scope (**targeted changes in existing WordPress/PHP code**, APIs and relational databases; loading/error/empty/validation/authenticated UI states; gamified experiences), portfolio additions (Vintage Radio, EN/YÓ Yoruba i18n, PostHog), corrected the portfolio repo to `ajibolagenius/ajibolagenius`, and GitHub public repos 47 → 53.
+**Evidence last verified 2026-10-08.** **Voice and gap rules calibrated 2026-10-14** from a letter he
+sent (Klooqi — Frontend Tech Lead / Senior Full Stack Engineer, remote, ₦350–400k/month): he expanded
+all contractions, removed every em-dash, spelled out acronyms ("over-the-air updates" for "OTA"),
+softened casual idioms ("component collections" for "component piles"), wrote "independently" for
+"solo", cut build durations and Bema's internal test count, **kept all five evidence blocks**, and
+closed with an honest-gap paragraph. Rules live in `SKILL.md` → "Voice and register" and "The gap
+paragraph".
 
-**Verified 2026-09-24** — updated with **Bema Integrated Services** role and production work tools: **Coolify, Trello, Plane (https://plane.so/), Vitest, Playwright**. Verified against offer letter, live CV (https://ajibolagenius.vercel.app/cv), and BemaHub Frontend Technical Handbook (`/Users/ajibolagenius/Desktop/Bema`). Role: **Full-Stack Software Engineer (Frontend-Strong)** at **Bema Integrated Services** (Full-Time, September 2026–Present; internally serving as **Feature-Facing & Integration Lead** on the commercial activation wave). Bema platforms (BemaHub, Bema Pages) are company products (not personal portfolio projects), so they remain strictly as professional engineering employment experience.
+**Changelog**
 
-**Tools added (2026-09-24, from Bema Integrated Services production work):**
-- **Coolify:** Self-hosted PaaS on AWS (`3.9.19.192`) running automated Docker container builds on git push to development branch.
-- **Trello:** Daily sprint task tracking, standups, and BAU task management (`AJIBOLA'S DAILY TASKS/ TRACKER` card) with Samuel's strict evidence labeling protocol (`OBSERVED`, `DERIVED`, `CODE`, `UNPROVEN`).
-- **Plane (https://plane.so/):** Open-source project management, ticket tracking, and staging QA release handoffs to independent QA.
-- **Vitest:** Unit and integration testing for API services, hooks, and UI components (91 files / 852 tests running in GitHub Actions CI with ratchet gates).
-- **Playwright:** End-to-end (E2E) browser automation, testing cross-viewport journeys across mobile and desktop, payment return paths, and live button verification.
-*(These 5 tools are active production tools at Bema Integrated Services — claim them directly and with confidence).*
+- **2026-10-08** — Branda V2 added (24-hour four-market storefront, public repo); Bema scope widened from the live CV (targeted WordPress/PHP changes, APIs and relational databases, loading/error/empty/validation/authenticated UI states, gamified experiences); portfolio gained Vintage Radio, EN/YÓ i18n, PostHog; portfolio repo corrected to `ajibolagenius/ajibolagenius`; GitHub public repos 47 → 53.
+- **2026-09-24** — **Bema Integrated Services** role and tools (Coolify, Trello, Plane, Vitest, Playwright), verified against his offer letter, live CV, and the BemaHub Frontend Technical Handbook at `/Users/ajibolagenius/Desktop/Bema`. Full-Stack Software Engineer (Frontend-Strong), full-time Sept 2026–present, internally **Feature-Facing & Integration Lead** on the commercial activation wave. BemaHub and Bema Pages are **company products, not portfolio projects** — employment experience only.
+- **2026-09-18** — EduPoint engagement: Software Engineering Trainer (Full-Stack), Trinity University Skills Programme, onsite at Trinity University by EduPoint Limited. First university-level teaching engagement.
+- **2026-09-10** — Vertex added (Sanity / GROQ / MCP). **2026-09-09** — "Match My Job Description" recruiter mode, tactile audio, System Architecture Visualizer; canonical title confirmed **Full Stack Engineer**.
+- **2026-09-05** — tools stated directly by Ajibola: used at least once (Render, Railway, Upstash, Turso, Locomotive Scroll, Firebase) and core stack (NativeWind, Tone.js, Howler.js, Resend/React Email, Google Stitch, Claude Design, OpenRouter).
+- **2026-08-18** — **years-of-experience ground truth, below.** **2026-08-14** — Fidia entry. **2026-08-12** — links and live URLs checked; `vibe-secure-me` made public.
 
-**Previous additions:**
-- **EduPoint engagement (2026-09-18):** Software Engineering Trainer (Full-Stack) on the Trinity University Skills Programme delivered onsite at Trinity University by EduPoint Limited. First university-level teaching engagement.
-- **Tools added (2026-09-05, stated directly by Ajibola):** Render, Railway, Upstash, Turso, Locomotive Scroll, Firebase — used at least once each. Core stack: NativeWind, Tone.js, Howler.js, Resend/React Email, Google Stitch, Claude Design, OpenRouter.
+### Years of experience — ground truth (supersedes the site and this table)
 
-**Experience-years correction (2026-08-18, stated directly by Ajibola):** his professional
-experience is **3+ years in software engineering, 5+ years in design, 10+ years combined as a
-working professional.** This supersedes the portfolio site's own "7 years" headline stat below,
-and — more importantly — supersedes the cautious "his engineering-titled roles only go back to
-2025, so ~1.5 years" framing used in applications before this date. **Use "3+ years professional
-software engineering experience" going forward** wherever a JD gates on years (e.g. "3-5 years
-professional backend development experience" no longer needs hedging — it's a legitimate match).
-The Experience table below only lists formally titled roles and still shows engineering starting
-2025-2026; that table hasn't been re-itemized with earlier project/freelance engineering work, so
-don't over-index on it for a start date — go with the 3+/5+/10+ figures as ground truth.
+**3+ years professional software engineering · 5+ years professional design · 10+ years combined as a
+working professional** (stated directly by Ajibola, 2026-08-18). This overrides the portfolio's own
+"7 years" headline stat, and it overrides the older cautious framing ("engineering-titled roles only go
+back to 2025, so ~1.5 years") used in applications before that date. **Wherever a JD gates on years,
+state "3+ years professional software engineering" directly — do not hedge or dodge the number**, and
+treat a "3–5 years" gate as a legitimate match. The Experience table below lists only formally titled
+roles and still shows engineering starting 2025–2026; it has not been re-itemized with earlier project
+and freelance engineering work, so don't over-index on it for a start date.
 
 ## Headline credential — lead with this where it fits
 
@@ -59,7 +60,7 @@ traction, downloads, or user numbers.
 - **Title:** Full Stack Engineer
 - **Positioning strip on site:** FULL-STACK · DESIGN · EDUCATOR — "Design & Engineering. No Boundaries."
 - **Location:** Lagos, Nigeria
-- **Experience:** **3+ years professional software engineering · 5+ years professional design · 10+ years combined** (per Ajibola directly, 2026-08-18 — use this, not the line below, when a JD asks for years of experience) · 13 companies / institutions · **25 projects & experiments in database and sandbox** (23 listed on `/projects` + Color Lab and Mesh Lab in sandbox, as of 2026-10-08)
+- **Experience:** **3+ years professional software engineering · 5+ years professional design · 10+ years combined** (see "Years of experience — ground truth" above — use this, never the Experience table, when a JD gates on years) · 13 companies / institutions · **25 projects & experiments** (23 listed on `/projects` + Color Lab and Mesh Lab in sandbox, as of 2026-10-08)
 - **Availability:** "Currently available for full-time roles, freelance work, and collaborations." Use this exact framing — it explicitly covers full-time, which matters for permanent-role applications.
 - **Site banner, verbatim:** "Full Stack Engineer ✦ Based in Lagos, Nigeria ✦ Available for projects ✦ FULL-STACK · DESIGN · EDUCATOR"
 - **Email:** ajiboladolapogenius@gmail.com
@@ -102,13 +103,10 @@ Store listing were confirmed 200 on 2026-08-12.
 
 Public repos safe to link directly: `afrograph`, `nego`, `mark_me`, `olamideverse`, `hotbite`, `gorant`, `rant`,
 `football-predictive-model`, `corpsmart`, `claude-ai-theme`, `narvo-news-theme`,
-`3d_todo_tobamsgroup`, `vibe-secure-me`, `vertex-lms`, `branda-v2-frontend` (2026-10-08), `EduPoint`
-(teaching programme repo), `ajibolagenius` (the portfolio's own source), `narvo` (archived).
-**Do not** link `ajibola-portfolio` — that URL 404s; the portfolio source is `ajibolagenius/ajibolagenius`.
-
-⚠️ `vibe-secure-me` **was made public on 2026-08-12** — it 404'd earlier the same day. It is now
-safe to link: https://github.com/ajibolagenius/vibe-secure-me (note: no description or topics set
-on the repo yet, so the portfolio page tells the story better).
+`3d_todo_tobamsgroup`, `vibe-secure-me` (public since 2026-08-12), `vertex-lms` (2026-09-10),
+`branda-v2-frontend` (2026-10-08), `EduPoint` (teaching programme repo), `ajibolagenius` (the
+portfolio's own source), `narvo` (archived). **Do not** link `ajibola-portfolio` — that URL 404s; the
+portfolio source is `ajibolagenius/ajibolagenius`.
 
 ## Experience
 
@@ -139,31 +137,19 @@ on software/backend/development experience, state "3+ years professional softwar
 directly — do not hedge or dodge the number.**
 
 **Founder experience — Fidia (2020–2023):** Co-founded with Soliudeen Ogunsola and Gbadebo Bello.
-Fidia was a crowdfunding and creator-monetisation platform for African creators — payment links,
-creator profiles, product pages for digital goods, and education pushing creators to seek fan
-support. Publicly launched July 2021; covered by TechCabal (2022-05-11,
+Crowdfunding and creator-monetisation platform for African creators — payment links, creator profiles,
+product pages for digital goods, creator education. Launched July 2021; covered by TechCabal
+(2022-05-11,
 https://techcabal.com/2022/05/11/fidia-the-unwavering-bridge-for-african-creators-crowdfunding/).
-Ogunsola led product design/UI-UX and overall product direction; Bello built the frontend
-(vanilla JS, later Vue/Nuxt); Ajibola's contribution was brand and visual identity — logos,
-banners, motion graphics — per Ogunsola's own post-mortem
+Ogunsola led product design/UI-UX and product direction; Bello built the frontend (vanilla JS, later
+Vue/Nuxt); **Ajibola's contribution was brand and visual identity — logos, banners, motion graphics**,
+per Ogunsola's own post-mortem
 (https://medium.com/soliudeen-case-studies/the-chronicles-of-fidia-post-mortem-edition-b6de681f6bef).
-**Frame the title as "Co-Founder & Brand/Visual Designer," not "Design Lead"** — the post-mortem
-credits product/UX design leadership to Ogunsola specifically, and a recruiter who reads it will
-notice the mismatch. The company shut down in September 2023 after failing to raise further
-funding — its accelerator (OnDeck) had internal funding issues, and a single committed investor
-never wired the promised money. `getfidia.com` is dead (no DNS response as of 2026-08-14) —
-**do not link it.** Cite the TechCabal article or the Medium post-mortem instead if a link is
-needed. Use this experience for: startup/founder-facing roles, early-stage or 0-to-1 teams,
-resilience and honest reckoning with failure, brand/visual design work distinct from product
-design, and crowdfunding/creator-economy/fintech-adjacent domains. Do not claim product design,
-UX, or engineering ownership of Fidia — that was Ogunsola's and Bello's territory respectively.
 
-*Provenance note: this entry was added 2026-08-14 from LinkedIn (about page blocked scraping —
-login wall), TechCabal, x.com/getfidia (blocked — JS-rendered, no static bio available), and the
-Medium post-mortem. It is not sourced from the portfolio site — the CV page's existing "Lead
-Designer, Fidia Creatives Inc., 2020–2023" row uses a company name ("Fidia Creatives Inc.") that
-doesn't match any public source, which all just say "Fidia" (getfidia.com). Worth checking whether
-the live CV needs correcting.*
+- **Title rule:** say **"Co-Founder & Brand/Visual Designer"**, never "Design Lead" or "Lead Designer" for Fidia. The post-mortem credits product/UX leadership to Ogunsola specifically, and a recruiter who reads it will notice the mismatch. Do not claim product design, UX, or engineering ownership of Fidia.
+- **Company is dead.** `getfidia.com` returns no DNS (as of 2026-08-14) — **never link it.** Cite the TechCabal article or the Medium post-mortem if a link is needed. Never imply it still operates; it closed **September 2023** when its accelerator (OnDeck) ran out of funding and a single committed investor never wired the money.
+- **Use it for:** startup/founder-facing roles, early-stage 0-to-1 teams, resilience and honest reckoning with failure, brand/visual work distinct from product design, crowdfunding/creator-economy/fintech-adjacent domains.
+- *Provenance (added 2026-08-14):* LinkedIn (about page blocked scraping — login wall), TechCabal, x.com/getfidia (JS-rendered, no static bio), and the Medium post-mortem. Not from the portfolio site — and the live CV's row reads "Lead Designer, Fidia Creatives Inc.", a company name no public source uses (all say "Fidia"). **Worth checking whether the CV needs correcting.**
 
 ## Education
 
@@ -195,7 +181,7 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 - **Payments:** Paystack (Nigeria), Stripe, PayPal (USD), custom wallet/coin systems, automated escrow
 - **Cloud & infra:** Vercel, Cloudflare Pages / Workers / Wrangler, Coolify (self-hosted PaaS on AWS for Docker container deployments), Render, Railway, Firebase, Turborepo monorepos, Git/GitHub, Docker, Redis, Google Cloud Platform
 - **Project Management & Collaboration:** Trello (daily sprint task tracking, standups, and BAU task management with Samuel's strict evidence-labeling protocol: OBSERVED/DERIVED/CODE/UNPROVEN), Plane (https://plane.so/ — issue tracking, sprint management, staging QA release handoffs)
-- **Backend frameworks (familiarity, not yet a shipped production project):** NestJS, Prisma — conceptually transferable from his Express/FastAPI and Drizzle/SQLAlchemy work, but he has not shipped a production app on either. Frame as "familiar with," not "built with."
+- **Backend frameworks:** NestJS, Prisma — **familiar only, not shipped**. See "Claim tiers" for the exact phrasing.
 - **Auth & security:** Supabase Auth, Neon Auth, Clerk, biometric authentication, client-side token authorisation, OWASP-aligned security auditing, TOTP MFA Authenticator UI gating
 - **AI/ML & LLM:** Vercel AI SDK (tool-calling, streaming, dynamic RAG grounding), OpenAI, OpenRouter, Gemini, Groq, MCP-grounded retrieval (Sanity Context MCP → LLM-generated GROQ queries), XGBoost, CatBoost, Scikit-Learn, Pandas, Streamlit, Plotly, YarnGPT (TTS), speech synthesis
 - **AI Development & Productivity Tools:** Advanced proficiency with AI development, agentic workflows, and productivity tools, including Gemini, Codex, ChatGPT, Claude, and similar AI CLI tools (agent skills, CLI-driven development, prompt engineering, rapid prototyping, and automated code review). Built and shipped the portfolio AI concierge with custom tool calling (`recommendProject`, `recommendNote`, `getLiveStatus`, and `"Match My Job Description"` recruiter mode via `matchJobDescription`).
@@ -211,6 +197,7 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 |---|---|
 | Webflow / No-Code / CMS / Visual site builders | Personal portfolio in Webflow (2022, https://ajibolagenius.webflow.io) alongside custom responsive frontend engineering (Next.js, Tailwind CSS) and Figma-to-code fidelity |
 | E-commerce / storefront / checkout | Zora African Market, NEGOtivity, Branda V2, Hotbite |
+| **Food, restaurant, food-tech, delivery / grocery discovery** | **Hotbite** (street-food brand site, mobile-optimised, 48h), **Zora** (grocery marketplace: regional delivery, multi-vendor checkout, vendor + admin dashboards), **Branda V2** (product-option customisation with one tested `orderSummary()` owning subtotal/tax/delivery/total). Klooqi-shaped briefs (food discovery → storefront browsing → customisation → checkout) map straight onto these three. |
 | **Multi-market / international / multi-currency / localisation** | ⭐ **Branda V2** (NG/US/UK/CA subfolders, per-market currency, tax, delivery thresholds, `hreflang`), portfolio EN/YÓ Yoruba i18n, Narvo News five-language TTS |
 | **Technical SEO / structured data / indexable filters** | **Branda V2** (canonical + `hreflang`, Product structured data, sitemap, URL-persisted filters), portfolio `/notes` (per-slug OG cards, GEO/SEO). Technical SEO only — not SEO as a marketing specialism |
 | **Server Components / rendering strategy / performance** | **Branda V2** (static vs per-request vs client per route, documented in the README's rendering table), portfolio (Next.js 16, Speed Insights) |
@@ -224,10 +211,8 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 | APIs, third-party integrations | ALU Exchange microservices; Narvo Platform (developer portal, API playground, Mintlify docs); Zora (Stripe, Google Maps); football model (4 external data APIs) |
 | Databases / data management | Supabase and Postgres across most projects; Neon + Drizzle (Mark_me); SQLAlchemy + Postgres (football model); schema design at ALU Exchange |
 | **Graph databases / Knowledge graphs / Network visualization / openCypher / D3.js** | **AfroGraph** (CognoDB Cloud, openCypher over Bolt via neo4j-driver, Next.js 16, D3.js, shortest-path algorithms, blast radius trees, interactive Cypher Query Studio) |
-| **Native mobile / iOS / Android / app store** | ⭐ **Zora Market — Mobile App: live on the Apple App Store**, single Expo codebase, Face ID, native Stripe payment sheets, OTA updates via EAS. The only portfolio item that survived app-store review — lead with it for any mobile role. |
-| Mobile / cross-platform | Zora Market mobile app + Zora web from one Turborepo (shared TypeScript types and API client), Heka IQ (offline-first PWA + native) |
-| Push notifications, biometrics, OTA delivery | Zora Market mobile (expo-notifications, expo-local-authentication, Expo Updates, EAS) |
-| Apple Pay / Google Pay / native checkout | Zora Market mobile (Stripe React Native native payment sheets) |
+| **Native mobile / iOS / Android / app store / cross-platform (React Native, Expo)** | ⭐ **Zora Market — live on the Apple App Store and Google Play**, built on a single Expo codebase; the Zora web surfaces come from the same Turborepo (shared TypeScript types and API client); Heka IQ for offline-first PWA + native Expo. The only portfolio item that survived app-store review — lead with it for any mobile role. |
+| **Push notifications, biometrics, OTA delivery, Apple Pay / Google Pay native checkout** | Zora Market mobile: expo-notifications, expo-local-authentication (Face ID/Touch ID), Expo Updates + EAS build/submit, Stripe React Native native payment sheets |
 | Offline / low-bandwidth / emerging markets | Heka IQ (IndexedDB caching for 3G), Narvo News (offline PWA), Mark_me (Serwist sync) |
 | Community ops / WhatsApp automation / raffles / RBAC | **ANC** (Baileys bot, cron digests, automated raffles, PostgreSQL RLS, fine-grained RBAC, Sentry) |
 | Frontend frameworks, HTML/CSS/JS | Entire portfolio (Next.js 16, React 19, Tailwind CSS v4, OKLCH tokens, responsive 2xl grids); also taught these at EduPoint (Trinity University), Lagos Data School, Deejoft, and APTECH |
@@ -246,7 +231,8 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 | Security / auditing / compliance | Vibe Secure Me (OWASP Top 10, API, Mobile, LLM Top 10), Narvo Intelligence (WCAG 2.1 AA) |
 | Automation / process improvement | Vibe Secure Me (automated auditing), football model (scraping and feature pipelines) |
 | Documentation & technical writing | **Notes & Technical Articles** (`/notes` — database-backed CMS, dynamic per-slug OpenGraph cards, rich typography, GEO/SEO engine), EduPoint lesson plans, labs and assessments for the Trinity University Skills Programme, Lagos Data School course materials, Narvo Platform (Mintlify API docs), APTECH curricula, Deejoft training, `lecture_notes` repo |
-| Training, mentoring, enablement | ⭐ **EduPoint / Trinity University** (Software Engineering Trainer, Full-Stack — university-level faculty, capstone supervision, assessment design), **Lagos Data School** (Software Developer Instructor), **Deejoft** (led dev dept, built curriculum), **APTECH** (wrote curricula, hands-on tutoring) |
+| **Tech lead / team lead / people management / mentoring engineers** | Deejoft (**led the development department**, built curriculum), Bema (Feature-Facing and Integration Lead: code reviews in Git-based workflows, staging QA handoffs), plus university-level teaching (Trinity University, Yaba) as "regularly explaining technical trade-offs and reviewing others' code". **Honest scope:** none of these were headcount management of a team. He got this line into a Lead-role letter on 2026-10-14 without inflating it — keep that framing, and flag in Confirm-before-sending that interview will probe direct reports. |
+| **Training, mentoring, enablement** | ⭐ **EduPoint / Trinity University** (Software Engineering Trainer, Full-Stack — university-level faculty, capstone supervision, assessment design), **Lagos Data School** (Software Developer Instructor), **Deejoft** (led dev dept, built curriculum), **APTECH** (wrote curricula, hands-on tutoring) |
 | Design / UI-UX / brand / design systems | Five years lead designer; **OKLCH & Display-P3 wide-gamut design tokens**; **asymmetric Bento grid** layout with persistent view switcher (`useSyncExternalStore`); NEGOtivity Figma-accurate build; Narvo design systems; two published VS Code themes |
 | Accessibility | Narvo Intelligence (WCAG 2.1 AA), Color Lab (WCAG contrast tooling), Mesh Lab (prefers-reduced-motion suspension), WCAG 2.4.1 bypass skip-links, focus traps |
 | Speed of delivery under pressure | Branda V2 (24 hours, four markets, tested money logic), Hotbite (48 hours), AfroGraph (1 week), Vibe Secure Me (1 weekend), the VS Code themes (1 weekend each) |
@@ -256,29 +242,33 @@ requirements. Lead with it for technical roles; the B.Sc. is supporting detail.
 | Startup / founder / 0-to-1 / early-stage | Fidia — first-time co-founder, 2020–2023, brand/visual design for a crowdfunding platform for African creators |
 | Resilience / failure / honest reflection under pressure | Fidia — company closed Sept 2023 when promised investor funding fell through; he can speak to this candidly if asked |
 | Crowdfunding / creator economy / fintech-adjacent | Fidia (crowdfunding, payment links, creator monetisation), alongside ALU Exchange and Nego for fintech proper |
-| Deployment platforms / PaaS beyond Vercel (Render, Railway) | Has used both directly (see Used-at-least-once tier) — say "has deployed on Render/Railway," not "extensive experience" |
-| BaaS / Firebase-style backends | Firebase — has used directly; production BaaS depth otherwise sits with Supabase and Neon |
-| Serverless Redis, caching, rate limiting, vector search at the edge | Upstash (Redis, Vector) |
-| Edge SQLite / libSQL / lightweight embedded-replica databases | Turso |
-| **Web Audio, interactive sound, music-making in the browser** | ⭐ **Tone.js & Web Audio API** (`sound.ts` procedural synthesis engine) — core stack, claim with confidence |
-| **Cross-browser audio playback, game/UI sound effects** | ⭐ **Howler.js** — core stack, claim with confidence |
+| **Event-driven / message queues / async distributed systems** | Approved generic phrasing (he sent this on 2026-10-14): "I have designed asynchronous cron workflows, real-time event flows, and queue-backed messaging patterns." Backed by ANC (cron digests, audited raffle draws, Baileys bot), Zora (Supabase realtime order tracking), ALU Exchange (microservices, ledger/wallet state). **Never name a pattern he hasn't shipped** — Transactional Outbox, Service Bus, Kafka, RabbitMQ stay out unless he supplies evidence. |
+| **Azure / .NET (unclaimable)** | Don't claim. Use the gap paragraph in `SKILL.md` and the substitution below: Node.js and Python backends, deployed on GCP, Vercel, Cloudflare Workers, and Docker on AWS via Coolify. |
+| PaaS / BaaS / Redis / edge SQLite beyond Vercel (Render, Railway, Firebase, Upstash, Turso) | Tier **"used at least once"** → "has used", "has deployed on"; never "extensive experience". Production BaaS depth is Supabase and Neon; serverless Redis/vector is Upstash; edge SQLite is Turso. |
+| **Web Audio, interactive sound, music in the browser, game/UI sound effects, cross-browser audio** | ⭐ **Tone.js + Howler.js + Web Audio API** (`sound.ts` procedural synthesis engine, zero-asset tactile micro-audio) — core stack, claim with confidence |
 | **Transactional email, email templating (React-based)** | ⭐ **Resend + React Email** — core stack, claim with confidence |
 | Smooth scroll / parallax (Locomotive Scroll specifically named) | Locomotive Scroll — used at least once; alongside Lenis, which has actual shipped-project evidence (NEGOtivity, Hotbite) |
 | **AI-assisted UI design / rapid prototyping / mockup generation** | ⭐ **Google Stitch and Claude Design** — core stack, claim with confidence, alongside Figma |
-| **Unit & Integration Testing / Vitest / Test-driven development** | ⭐ **Bema Integrated Services** (Full-Stack Software Engineer [Frontend-Strong]: Vitest test suites for mocked API services, hooks, and components; 91 files / 852 unit & integration tests running in GitHub Actions CI with ratchet gate) + Zod schema validation |
-| **E2E Testing / Browser Automation / Playwright** | ⭐ **Bema Integrated Services** (Full-Stack Software Engineer [Frontend-Strong]: Playwright end-to-end browser journeys across desktop and mobile viewports, payment return recovery, and interactive button verification) |
-| **PaaS / Container Deployment / Coolify / AWS** | ⭐ **Bema Integrated Services** (Coolify self-hosted PaaS on AWS EC2, automated Git push-to-deploy Docker builds, staging and test container SHA management) |
-| **Agile Sprint Tracking / Issue Management / Trello / Plane** | ⭐ **Bema Integrated Services** (daily sprint execution and BAU task tracker in Trello with Samuel's evidence-labeling protocol [OBSERVED/DERIVED/CODE/UNPROVEN]; issue management and staging QA release handoffs in Plane [plane.so]) |
+| **Unit & Integration Testing / Vitest / TDD / E2E / Playwright / browser automation** | ⭐ **Bema Integrated Services** — Full-Stack Software Engineer (Frontend-Strong): Vitest suites over mocked API services, hooks and components (91 files / 852 tests, GitHub Actions CI with a ratchet gate); Playwright journeys across desktop and mobile viewports, payment return recovery, live button verification. Plus Zod validation and Node test runner (Branda V2). **Employer-internal counts: cite internally, cut from the letter.** |
+| **Containers / PaaS / CI-CD / Coolify / AWS / agile sprint tracking / issue management / Trello / Plane** | ⭐ **Bema Integrated Services** — Coolify self-hosted PaaS on AWS EC2 (git push-to-deploy Docker builds, staging/test container SHAs); daily sprint and BAU tracking in Trello (with Samuel's evidence-labeling protocol OBSERVED/DERIVED/CODE/UNPROVEN); issue management and staging QA release handoffs in Plane (plane.so). |
 
 ## Known gaps — never claim these
 
-No shipped evidence for: **Shopify, WooCommerce, Wix, Squarespace**; named **ERP** systems (SAP,
-Odoo, Microsoft Dynamics, NetSuite); named **CRMs** (Salesforce, HubSpot, Zoho); **GCP /
-Azure** (his cloud work is Vercel, Cloudflare, and Coolify containerized on AWS); Kubernetes at scale (he has Docker experience, but
-no orchestration-at-scale evidence); Java, C#, Go, Rust; PHP beyond targeted WordPress/PHP changes at Bema; Power BI or Tableau; SEO as a specialism; **Bitbucket** itself
-(his hosting experience is GitHub — same Git model, different host, so frame as "Git workflows,
-adaptable to Bitbucket," not "used Bitbucket").
-*(Note on QA & Testing: previously lacked formal QA automation suites; now actively shipping with **Vitest** for unit/integration testing and **Playwright** for E2E browser automation at Bema Integrated Services).*
+No shipped evidence for: **Shopify, WooCommerce, Wix, Squarespace**; named **ERP** systems (SAP, Odoo,
+Microsoft Dynamics, NetSuite); named **CRMs** (Salesforce, HubSpot, Zoho); **Azure** and **.NET/C#**;
+Kubernetes at scale (he has Docker experience, no orchestration-at-scale evidence); Java, C#, Go, Rust;
+PHP beyond the targeted WordPress/PHP changes at Bema; Power BI or Tableau; SEO as a marketing
+specialism (technical SEO is claimable — see the cheatsheet); **Bitbucket** itself (his hosting
+experience is GitHub — same Git model, different host, so frame as "Git workflows, adaptable to
+Bitbucket," not "used Bitbucket").
+
+**Cloud claims, corrected 2026-10-14.** **GCP came off the gap list** — he sent an application stating
+"I've deployed on GCP, Vercel, Cloudflare Workers, and Docker containers on AWS via Coolify", which
+matches "Google Cloud Platform" in Skills. Use exactly that scope: **"has deployed on GCP"**, never
+"extensive GCP experience" or "production GCP". **Azure and .NET/C# remain gaps**; the Klooqi brief
+required both and his letter named Azure only. When a required skill is unclaimed, list every one of
+them in Confirm-before-sending and ask which he wants named — never silently drop a gate.
+*(Older wording here read "GCP / Azure — his cloud work is Vercel, Cloudflare, and Coolify containerized on AWS"; superseded. Also superseded: "no formal QA automation" — he now ships Vitest and Playwright in production at Bema.)*
 
 **EduPoint caution:** never state the session fee or the sessional payment terms — the engagement
 letter is confidential and the commercial terms are nobody's business in an application.
@@ -288,33 +278,17 @@ weekday commitment — if a JD asks about availability or conflicts, disclose it
 letting a recruiter discover it later. He is still **"available for full-time roles, freelance work,
 and collaborations"**; this does not change that line.
 
-**Fidia caution:** never call him "Design Lead" or claim product/UX design ownership at Fidia —
-the co-founder's own post-mortem attributes that to Soliudeen Ogunsola. Say "Co-Founder &
-Brand/Visual Designer" and keep the claimed scope to logos, banners, and motion graphics. Never
-link getfidia.com (dead). Never imply the company still operates — it closed September 2023.
+**Fidia caution:** see the Fidia block under Experience — title is "Co-Founder & Brand/Visual Designer", no getfidia.com link, company closed September 2023.
 
-**Familiar-but-not-shipped tier (be precise about this distinction in applications):** NestJS,
-Prisma — he has exposure/familiarity but no production project on either. Say "familiar with," never
-"built with" or "shipped with."
+### Claim tiers — pick the phrasing from the tier, every time
 
-**Used-at-least-once tier (confirmed directly by Ajibola, 2026-09-05):** Render, Railway, Firebase,
-Upstash, Turso, Locomotive Scroll. He has hands-on experience with each, but depth hasn't been
-itemized against a specific shipped project in `projects.md` the way Vercel/Cloudflare or Resend
-have. Say "has used" or "hands-on experience with," not "extensive experience with" or "production
-expertise in," unless a later project audit turns up a specific shipped example — then move the
-tool into its project's dossier entry and drop this caveat for it. Fine to state plainly (no need
-to hedge with "familiar with" the way NestJS/Prisma are hedged) — the difference is he's actually
-used these, just not at production scale yet.
-
-**Core stack tier (corrected directly by Ajibola, 2026-09-05 — do not down-rank these):** NativeWind,
-Tone.js, Howler.js, Resend/React Email, Google Stitch, Claude Design. He has used these **very
-well** and considers them core to his stack, not one-off tools — treat them the same as anything
-else in the main Skills list above. Claim them plainly and with confidence ("built with," "core
-to my stack," "extensive experience with"), the same register used for React, Next.js, or Supabase.
-Do not apply the hedged "has used" / "hands-on experience with" phrasing from the tier above to
-these six.
-
-**Bema production tools (2026-09-24, confirmed via Bema Integrated Services codebase & handbook):** Coolify (containerized deployments on AWS), Trello (daily task tracking & structured evidence protocol), Plane (https://plane.so/ — issue tracking & QA handoffs), Vitest (850+ unit/integration tests in CI), Playwright (E2E browser automation). These are active production tools from his Full-Stack Software Engineer (Frontend-Strong) role at Bema Integrated Services (Feature-Facing & Integration Lead) — claim them with direct confidence in any testing, DevOps, or agile workflow context.
+| Tier | Tools | Allowed phrasing |
+|---|---|---|
+| **Production-shipped** (claim with full confidence) | React, Next.js, TypeScript, Tailwind CSS, Supabase, Node.js, Express, FastAPI, PostgreSQL, MongoDB, Expo/React Native, EAS, Stripe, Paystack, Sanity/GROQ, Clerk, PostHog, **and Bema's production toolchain: Vitest (850+ tests in CI), Playwright (E2E), Coolify (Docker on AWS), Trello, Plane [https://plane.so/]** | "built", "shipped", "production experience", "core to my stack". **But**: drop employer-internal counts from the letter itself (2026-10-14). |
+| **Core stack, corrected directly by Ajibola 2026-09-05 — do not down-rank** | NativeWind, Tone.js, Howler.js, Resend/React Email, Google Stitch, Claude Design | Same register as Production-shipped: "built with", "extensive experience with". **Never** apply the hedged "has used" phrasing from the tier below to these. |
+| **Used at least once** (confirmed by Ajibola 2026-09-05) | Render, Railway, Firebase, Upstash, Turso, Locomotive Scroll, GCP | "has used", "has deployed on", "hands-on experience with" — **not** "extensive experience" or "production expertise". Fine to state plainly (no "familiar with" hedge); he has actually used them, just not at production depth itemized in `projects.md`. If a later audit finds a shipped example, move the tool into that project's dossier and drop the caveat. |
+| **Familiar, not shipped** | NestJS, Prisma | "familiar with" **only** — never "built with" or "shipped with". Conceptually transferable from his Express/FastAPI and Drizzle/SQLAlchemy work; no production app on either. |
+| **Never claim** | Everything in "Known gaps" above | State the closest shipped thing instead (substitution table below). |
 
 When a JD requires one of these, name the closest thing he **has** shipped and let the parallel
 argue for itself. State the parallel; never state the tool.
@@ -322,5 +296,6 @@ argue for itself. State the parallel; never state the tool.
 - *Shopify* → a custom apparel storefront (NEGOtivity) with catalogue, Naira currency handling, and payment integration built from scratch — harder than configuring a hosted platform.
 - *ERP / inventory* → Zora's inventory management, multi-vendor checkout, regional delivery, and admin governance dashboards.
 - *CRM* → Zora and Nego tiered dashboards with verification and moderation workflows.
-- *AWS/GCP* → Coolify container deployments on AWS for Bema Integrated Services (BemaHub), plus production deployments on Vercel and Cloudflare Pages/Workers, with Wrangler.
-- *Enterprise QA / Automated Testing* → Production testing at Bema Integrated Services with Vitest (unit/integration, 850+ tests) and Playwright (cross-viewport E2E browser journeys), alongside Zod validation and OWASP-aligned auditing via Vibe Secure Me.
+- *AWS/GCP* → deployed on GCP, plus Coolify container deployments on AWS for Bema Integrated Services (BemaHub), and production deployments on Vercel and Cloudflare Pages/Workers with Wrangler.
+- *Azure* → same container-and-cloud work on AWS, GCP, Vercel and Cloudflare; name it as a gap, not a substitute.
+- *Enterprise QA / Automated Testing* → Production testing at Bema Integrated Services with Vitest (unit/integration, 850+ tests) and Playwright (cross-viewport E2E browser journeys), alongside Zod validation and OWASP-aligned auditing via Vibe Secure Me. **Cite the 850+ test count internally only** — he removes employer-internal metrics from application letters (2026-10-14).
