@@ -42,7 +42,8 @@ a generic letter.
 Read `profile.md`, and `projects.md` too unless the JD is trivial.
 
 Evidence verified **2026-10-08**; voice, length and gap rules calibrated **2026-10-14** from a letter
-he sent (Klooqi Frontend Tech Lead). **A letter he actually sent is better evidence of his preference
+he sent (Klooqi Frontend Tech Lead); the **Narvo family was re-verified from repo source on 2026-10-14**
+when the org made four repos public. **A letter he actually sent is better evidence of his preference
 than any draft he edited.** Refresh when the snapshot looks stale, he says something changed, or the
 role is high-stakes.
 
@@ -51,12 +52,25 @@ role is high-stakes.
 only that. His site changes often, so verify rather than assume. WebFetch caches 15 minutes per URL;
 add a throwaway query param (`?fresh=1`) to re-check a page you just read.
 
+**Narvo check, cheap version** — visibility is the thing that changes here, and it changes what may be
+linked. One call per repo tells you both:
+
+```
+gh api repos/Narvo-Intelligence/narvo_news --jq '.visibility+" "+.pushed_at'
+```
+
+Run it for `narvo_news`, `narvo_platform`, `legacy_code_2`, `narvo-app-proto`, `narvo_intelligence` and
+`documentations`. When one flips to PUBLIC, read its `package.json` / `requirements.txt`, `README.md` and
+any CI file before writing about it — the repo is more accurate than the portfolio page, and it is now
+what a reviewer will open.
+
 Full refresh sources:
 
 - https://ajibolagenius.vercel.app/cv
 - https://ajibolagenius.vercel.app/projects (index; per-project pages at `/projects/<slug>`)
 - https://ajibolagenius.vercel.app/sitemap.xml (fastest way to spot new or renamed projects)
 - https://api.github.com/users/ajibolagenius/repos?per_page=100&sort=pushed
+- https://api.github.com/orgs/Narvo-Intelligence/repos?per_page=100&sort=pushed (org repos — check visibility before linking)
 
 If a fetch contradicts the cache, update the file, note the date, and say what changed.
 
@@ -87,7 +101,7 @@ strong blocks.
 - Turn the **design career and teaching work** into role-specific arguments, not biography. Design → customer experience, brand judgment, design-to-code fidelity. Teaching → explaining trade-offs to non-technical stakeholders, documentation discipline.
 - **Match tempo** to what the JD values: Branda V2 (24 hours) or Hotbite (48 hours) for speed under deadline; Narvo News (18 months) or OlamideVerse (13 months) for long-haul ownership.
 - **Nigeria-first engineering** is a differentiator for Nigerian and Africa-focused employers: Paystack, Naira handling, 3G optimisation, local-language localisation. Say it plainly.
-- **AI tooling, interactive/tactile-sound engineering, headless CMS, testing, container deployment** all have dedicated cheatsheet rows — use the row, don't re-derive it.
+- **AI tooling, interactive/tactile-sound engineering, headless CMS, testing, container deployment, voice and TTS pipelines, API contract design, scheduled and asynchronous jobs, content ingestion and ETL, vector retrieval, prototyping, Postgres row-level security, Nigerian data-protection compliance** all have dedicated cheatsheet rows — use the row, don't re-derive it.
 
 ### Framing cautions — these get him caught out if written wrong
 
@@ -96,14 +110,29 @@ strong blocks.
 - **Bema Integrated Services** carries Vitest, Playwright, Coolify, Trello and Plane. Cite it as **employment engineering**, never as a portfolio project — BemaHub and Bema Pages are the employer's systems.
 - **Fidia** is "Co-Founder & Brand/Visual Designer", never "Design Lead", and never link getfidia.com (dead since the 2023 closure). Details in `profile.md`.
 - Where the JD names a tool he hasn't used, do **not** claim it. Use the substitution table at the end of `profile.md`: name the transferable thing he shipped and let the parallel do the work.
+- **Backend and platform roles now get the public-repo treatment.** For those roles the strongest single sentence is not an adjective, it is an invitation: "the FastAPI service is public if you would like to read it." Prefer exact nouns the repo can back — route and service decomposition instead of a monolith, one standardised error envelope carrying a request id, primary and fallback providers, rate limiting ahead of the handler, signature-verified cron ingestion, 35 pytest modules with mypy and pyright in the gate. A reviewer who opens the repo and finds those nouns is worth more than one who has to take his word.
+- **Never let the migration phase become an overclaim.** `narvo_news` currently serves shared typed fixtures from its `@narvo/mocks` workspace package, and its README states the backend is not scaffolded there; the shipping pipeline is in `legacy_code_2`. Say he **built the FastAPI pipeline** and **built the consumer surfaces in a pnpm monorepo**, not that the consumer monorepo runs on live data.
+- **Never inflate the GCP claim past "deployed".** The public repo shows the container and the Cloud Run target; it does not show operational history. "Designed and shipped this API as a Docker image on Google Cloud Run" is exactly the right size.
 
 ### Link safety — do not skip this
 
-**Eight** project repos are private or org-restricted and return 404 to anyone not signed in: `zora`,
-`hekaiq`, `negotivity`, `sonasdigital`, `Job-Hustles-Recruiting-Platform`, and the three
-`Narvo-Intelligence/*` repos. A recruiter sent to a 404 is worse than one sent nothing. Cite the
-**live product URL**, the **App Store listing**, or the portfolio project page instead. Public repos
+**Seven** project repos are private or org-restricted and return 404 to anyone not signed in: `zora`,
+`hekaiq`, `negotivity`, `sonasdigital`, `Job-Hustles-Recruiting-Platform`, and two
+`Narvo-Intelligence/*` repos (`narvo_intelligence`, `documentations`). A recruiter sent to a 404 is
+worse than one sent nothing. Cite the **live product URL**, the **App Store listing**, or the portfolio
+project page instead. Public repos
 safe to link, and the full policy, are listed in `profile.md`.
+
+**The Narvo org opened up on 2026-10-14.** `narvo_news`, `narvo_platform`, `legacy_code_2` (the shipping
+FastAPI backend) and `narvo-app-proto` are public and verified reachable without authentication. That
+matters in a specific way: **his backend claims are now checkable, not take-it-on-trust claims.** When a
+letter leans on Python, API design, LLM/TTS orchestration, scheduled jobs or containerised deploys,
+link the Narvo API repo and keep the prose precise enough to survive a code read — name the middleware,
+the error envelope, the provider fallbacks, the QStash cron, the pytest suite. Two rules ride along:
+refer to it in prose as **"the Narvo API"** or **"the Narvo backend"**, never "legacy code"; and remember
+that `narvo_news` is the **migration target** (its README says the backend is not scaffolded there and
+data comes from a shared mocks package) while the shipping pipeline is in the other repo. Do not let a
+reader conclude he claimed a live API inside the wrong repository.
 
 The projects index is **`/projects`**, not `/work`. The portfolio's own source is
 `ajibolagenius/ajibolagenius` — `ajibola-portfolio` 404s. Verify any project link against
@@ -139,8 +168,13 @@ principles transfer in one concrete line, close on transparency. Verified 2026-1
 > and queue-backed messaging patterns. However, I would need to learn the specific platforms, and I
 > prefer to be transparent about that from the outset.
 
+- The GCP clause in that paragraph became **harder evidence on 2026-10-14**, not weaker: the Narvo API
+  carries its own `Dockerfile` targeting Google Cloud Run, built from the repo root for Cloud Build. Where
+  the brief is cloud-heavy, he may add one clause and name it — "including a containerised FastAPI service
+  built for Google Cloud Run" — and it is verifiable in a public repo. Keep the sentence's shape: name the
+  gap, name what he has shipped instead, assert transfer in one concrete line, close on transparency.
 - "I do not yet have direct experience" — forward-looking. No apology, no "unfortunately", no promise to learn it fast.
-- "queue-backed messaging patterns" is approved generic phrasing for event-driven and queue briefs. **Never name a pattern he hasn't shipped** (Transactional Outbox, Service Bus, Kafka, RabbitMQ).
+- "queue-backed messaging patterns" is the approved generic phrasing for event-driven and queue briefs, and it stays true. **Since 2026-10-14 he can also be concrete, because the code is public:** Upstash **QStash** scheduled-message delivery with inbound signature verification and dual signing keys, `pywebpush` fan-out, Supabase realtime, cron cleanup jobs. Name those when a brief is about schedulers, webhooks or asynchronous jobs — specificity that survives a repo read beats a generic phrase. **Still never name a broker he hasn't shipped**: Transactional Outbox, Azure Service Bus, Kafka, RabbitMQ, SQS, Celery.
 - In the Klooqi letter he named **Azure only** and left **.NET unmentioned**, though the JD required both. That is his call, not a licence to hide a gate: list every unclaimed required skill in Confirm-before-sending and ask which to name. **Default to naming all of them.**
 
 ## Voice and register
@@ -190,6 +224,7 @@ End with a short **"Confirm before sending"** list covering every assumption:
 - **Location and work mode** — he is in **Lagos**. Flag any assumption about relocation, commute, or on-site work.
 - **Salary** — omit it when the posting states a figure. If a form demands an expectation, ask him for a number; never invent one, and never negotiate against himself in a first message.
 - **Attachments** — restate what the posting asked for (CV, portfolio, GitHub, cover letter, samples) and whether the draft references something he must actually attach.
+- **Whether the Narvo API repo goes in the links block.** It is public and it is the only place his Python, container and scheduled-job claims can be checked. Link it for backend and AI-infrastructure roles, keep it out for pure frontend roles that will not read it, and never link `narvo_intelligence` or `documentations`. Say which choice the draft made, since he may have a view.
 - **Every required skill he cannot claim** — list them all and ask which to name in the gap paragraph. A silent gap discovered in the interview is worse than the awkward paragraph now.
 - **Employer-internal numbers and build durations** — draft them in, flag them for deletion; his default is to cut them.
 - **Sensitive verticals** — Nego is an adult-adjacent companionship marketplace. Lead with the technical substance (wallet, escrow, Paystack, tiered access control) and flag the vertical so he can decide. For conservative or family-brand employers, prefer Zora as the payments example.
