@@ -29,6 +29,7 @@ symlink — never a duplicated tree. A second full copy means a stale fork: dele
 |---|---|
 | `profile.md` | **Always.** Identity, contact, experience, skills, the requirement→evidence mapping cheatsheet, claim tiers, never-claim list. |
 | `projects.md` | Whenever project depth is needed — role, duration, stack, problem/solution, features, live links, per-project cautions. |
+| `~/Desktop/Ajibola/CV — Ajibola - ATS.html` | **Always.** The ATS CV he attaches (the `.pdf` beside it). The letter must agree with it, and the ATS keyword match is checked against it. Conventions in `profile.md` → "The ATS CV". |
 
 ## Inputs
 
@@ -39,11 +40,14 @@ a generic letter.
 
 ## Step 1 — Load the evidence
 
-Read `profile.md`, and `projects.md` too unless the JD is trivial.
+Read `profile.md`, the ATS CV, and `projects.md` too unless the JD is trivial. If the CV file is
+missing, fall back to the conventions in `profile.md` → "The ATS CV" and say the keyword match ran
+without it.
 
 Evidence verified **2026-10-08**; voice, length and gap rules calibrated **2026-10-14** from a letter
 he sent (Klooqi Frontend Tech Lead); the **Narvo family was re-verified from repo source on 2026-10-14**
-when the org made four repos public. **A letter he actually sent is better evidence of his preference
+when the org made four repos public; the **ATS CV and this skill were aligned on 2026-10-15** (one
+rulebook, see "ATS rules"). **A letter he actually sent is better evidence of his preference
 than any draft he edited.** Refresh when the snapshot looks stale, he says something changed, or the
 role is high-stakes.
 
@@ -108,7 +112,7 @@ strong blocks.
 - **Branda V2** carries multi-market, technical-SEO and rendering-strategy evidence, and it was a **screening task**. Never "built for Branda", never imply Branda uses it, never imply real payments (checkout is mocked). Say "built a four-market storefront in 24 hours".
 - **Vertex** carries Sanity / GROQ / MCP / Clerk / PostHog. Claim it plainly as a **shipped side project** — built in a week, live, public repo. Don't hedge it, and never call it client work.
 - **Bema Integrated Services** carries Vitest, Playwright, Coolify, Trello and Plane. Cite it as **employment engineering**, never as a portfolio project — BemaHub and Bema Pages are the employer's systems.
-- **Fidia** is "Co-Founder & Brand/Visual Designer", never "Design Lead", and never link getfidia.com (dead since the 2023 closure). Details in `profile.md`.
+- **Fidia** is "Co-Founder and Brand/Visual Designer", never "Design Lead", and never link getfidia.com (dead since the 2023 closure). Details in `profile.md`.
 - Where the JD names a tool he hasn't used, do **not** claim it. Use the substitution table at the end of `profile.md`: name the transferable thing he shipped and let the parallel do the work.
 - **Backend and platform roles now get the public-repo treatment.** For those roles the strongest single sentence is not an adjective, it is an invitation: "the FastAPI service is public if you would like to read it." Prefer exact nouns the repo can back — route and service decomposition instead of a monolith, one standardised error envelope carrying a request id, primary and fallback providers, rate limiting ahead of the handler, signature-verified cron ingestion, 35 pytest modules with mypy and pyright in the gate. A reviewer who opens the repo and finds those nouns is worth more than one who has to take his word.
 - **Never let the migration phase become an overclaim.** `narvo_news` currently serves shared typed fixtures from its `@narvo/mocks` workspace package, and its README states the backend is not scaffolded there; the shipping pipeline is in `legacy_code_2`. Say he **built the FastAPI pipeline** and **built the consumer surfaces in a pnpm monorepo**, not that the consumer monorepo runs on live data.
@@ -140,7 +144,7 @@ The projects index is **`/projects`**, not `/work`. The portfolio's own source i
 
 ## Step 4 — Write the message
 
-Produce **two versions** unless told otherwise.
+Produce **two versions plus the ATS keyword match** unless told otherwise.
 
 **A. Primary email** — 250–500 words. Lead and senior applications run long: he sends every evidence
 block the JD asks for, then cuts numbers, not substance.
@@ -151,10 +155,29 @@ block the JD asks for, then cuts numbers, not substance.
 - **One honest-gap paragraph**, near the end, from the template below. He kept it in the sent letter; it is not optional.
 - Availability and logistics: location, on-site vs remote, start date.
 - The links, each on its own line.
-- Sign-off block: name, title, email, phone, LinkedIn.
+- Sign-off block: name, title, email, phone, LinkedIn, written exactly as the CV header writes them.
 
 **B. Short version** — 100–150 words for WhatsApp, a LinkedIn DM, a recruiter reply, or an
-application form's free-text box. Same evidence, stripped to claims and links.
+application form's free-text box. Same evidence, stripped to claims and links. Any skills it lists
+are tool names only (see "ATS rules").
+
+**C. ATS keyword match** — after the short version, before Confirm before sending. The check a
+parser would run, done honestly against the ATS CV:
+
+```
+ATS keyword match: <role title exactly as posted>
+Required keywords on the CV verbatim: 9 of 12
+- On the CV: React, TypeScript, Next.js, REST APIs, Git
+- On the CV under another spelling: Postgres (CV: PostgreSQL); the letter uses the posting's spelling
+- Evidenced but missing from the CV: Lenis, Webflow; add to the CV skills for this application?
+- Not claimable: Azure, .NET; named in the gap paragraph
+Preferred keywords on the CV verbatim: 4 of 7
+```
+
+- **Counts, never scores.** "9 of 12" can be checked; an invented "87% match" cannot.
+- Required and preferred are counted separately, from the Step 2 extraction.
+- "Not claimable" is the same set as the gap paragraph (or the Confirm-before-sending question about it). If the two lists differ, one of them is wrong.
+- "Evidenced but missing from the CV" only lists skills `profile.md` backs. The fix for those is the CV, not a louder letter: name the line to add, and edit the CV only when he asks.
 
 ### The gap paragraph — the template he sends
 
@@ -207,15 +230,37 @@ track record", "results-driven", "leverage", "synergy", "I believe I would be a 
 forward to the opportunity to discuss further" — and any sentence that would survive unchanged in an
 application to a different company.
 
-## ATS compliance — it clears a parser before a person reads it
+## ATS rules — one rulebook for the CV and the letter
 
-- **Plain text structure.** No tables, columns, text boxes, images, icons, headers or footers in the body. Strip markdown before it goes into a form field or plain-text client (bold becomes nothing; a bullet becomes a hyphen).
-- **Standard section order.** Subject/opener → fit → evidence → gap → logistics → links → sign-off. Don't bury the role title or strongest match three lines down.
-- **Mirror the JD's keywords once, verbatim.** If it says "REST APIs", write "REST APIs", not "RESTful services" — matching is literal, and a correct synonym can still miss the filter.
-- **Spell out the posting's role title at least once**, exactly as written; some parsers gate on an exact match.
-- **Links as plain URLs on their own line**, never anchor text ("click here", "my portfolio") — parsers strip the href and keep the anchor.
-- **Standard punctuation only** — no bullet glyphs (•, ▸), no emoji, plain hyphen for lists, and no em-dashes (see the letter register above).
-- Fonts and design elements apply to the CV attachment, not this output — but if the posting demands a specific format (e.g. ".docx not PDF"), flag it in Confirm-before-sending; some parsers still fail on PDF.
+A parser reads the ATS CV before any person does, and the letter is parsed against the same JD and
+read next to that CV. Both documents follow one set of rules. If the letter and the CV disagree, the
+recruiter is reading about two different candidates.
+
+**Same facts as the CV**
+
+- Titles, employers and project names exactly as the CV writes them: "Full Stack Engineer" (headline), "Full-Stack Software Engineer (Frontend-Strong)" at Bema Integrated Services, "Co-Founder and Brand/Visual Designer" at Fidia, "Narvo API".
+- **Dates: start year only.** The CV shows one year per role (Bema 2026, Deejoft 2025, APTECH 2024, Fidia 2020). The letter never writes a range or an end year the CV does not show. Experience is "3+ years of professional software engineering", the same figure as the CV summary.
+- No number in the letter that the CV deliberately leaves out. Employer-internal counts stay out of both.
+- A claim resting on something the CV leaves out (Nego, NEGOtivity, Hotbite, Heka IQ, Mark_me, OlamideVerse) is fine, but put the live URL or portfolio project page in the same block, because the reader will not find it on the CV.
+
+**Same names as the CV**
+
+- Name each tool the way the CV's Technical Skills block does: "Next.js", "PostgreSQL", "Google Cloud Run", "GitHub Actions", "Tailwind CSS". One spelling per tool across both documents.
+- **Exception: the JD's spelling wins.** Matching is literal. If the posting says "Postgres", "NodeJS" or "REST APIs", write it the posting's way at least once, and record the mismatch in the ATS keyword match. A correct synonym can still miss the filter.
+
+**Tools, not annotations**
+
+- Any *list* of skills (the short version, a form's skills field, a keyword line) is tool names only, with no versions, sub-features or brackets, exactly like the CV skills block: "React, Next.js, TypeScript, FastAPI, Docker", not "Next.js (App Router, Server Components, static export)".
+- Evidence *prose* keeps exact detail where the detail is the proof: Expo SDK 55, React 19, 35 pytest modules. Lists are for parsers; prose is for people.
+
+**Same structure**
+
+- Plain text, one column. No tables, columns, text boxes, images, icons, headers or footers in the body. Strip markdown before it goes into a form field or a plain-text client (bold becomes nothing; a bullet becomes a hyphen).
+- Standard order: subject/opener → fit → evidence → gap → logistics → links → sign-off. The posting's role title, spelled exactly as written, and the strongest match appear in the first two lines.
+- Mirror each required JD keyword once, verbatim, wherever it is true.
+- Links are plain URLs on their own line, never anchor text ("click here", "my portfolio"); parsers drop the href and keep the anchor.
+- Standard punctuation only: a hyphen for lists, a pipe for inline separators (as the CV uses), no bullet glyphs (•, ▸), no emoji, and no em-dashes in the letter.
+- If the posting demands a file format (".docx, not PDF"), flag it in Confirm before sending; some parsers still fail on PDF.
 
 ## Step 5 — Flag, don't assume
 
@@ -224,11 +269,12 @@ End with a short **"Confirm before sending"** list covering every assumption:
 - **Location and work mode** — he is in **Lagos**. Flag any assumption about relocation, commute, or on-site work.
 - **Salary** — omit it when the posting states a figure. If a form demands an expectation, ask him for a number; never invent one, and never negotiate against himself in a first message.
 - **Attachments** — restate what the posting asked for (CV, portfolio, GitHub, cover letter, samples) and whether the draft references something he must actually attach.
+- **CV alignment** — confirm the attached PDF is the current ATS CV, and ask whether to add the "evidenced but missing from the CV" keywords before sending.
 - **Whether the Narvo API repo goes in the links block.** It is public and it is the only place his Python, container and scheduled-job claims can be checked. Link it for backend and AI-infrastructure roles, keep it out for pure frontend roles that will not read it, and never link `narvo_intelligence` or `documentations`. Say which choice the draft made, since he may have a view.
 - **Every required skill he cannot claim** — list them all and ask which to name in the gap paragraph. A silent gap discovered in the interview is worse than the awkward paragraph now.
 - **Employer-internal numbers and build durations** — draft them in, flag them for deletion; his default is to cut them.
 - **Sensitive verticals** — Nego is an adult-adjacent companionship marketplace. Lead with the technical substance (wallet, escrow, Paystack, tiered access control) and flag the vertical so he can decide. For conservative or family-brand employers, prefer Zora as the payments example.
-- **Branda V2 and Fidia framing** — screening build, not client work; "Co-Founder & Brand/Visual Designer", no dead links.
+- **Branda V2 and Fidia framing** — screening build, not client work; "Co-Founder and Brand/Visual Designer", no dead links.
 - **Anything you softened** because the evidence was thin, so he can strengthen it if you were wrong.
 - **Standing commitments** — the EduPoint programme runs Thursdays onsite at Trinity University, Lagos. Disclose plainly if the JD asks about availability; never state the sessional fee or terms.
 
@@ -240,6 +286,6 @@ before a recruiter clicks through. Only when genuinely useful; skip rather than 
 - **Never fabricate.** No invented metrics, employers, dates, certifications, or tools. If it isn't in `profile.md`, `projects.md`, or a fresh fetch, it doesn't go in the message.
 - **Never link a private repo.** See Link safety.
 - **Always include** portfolio, CV, and GitHub in the primary email; at least portfolio and GitHub in the short version. App Store link for mobile, e-commerce and consumer-product roles.
-- **Every draft clears both checks** — Voice and register (no banned phrases, no boasting, no filler, formal letter register) and ATS compliance (plain structure, verbatim keywords, plain URLs) — before it is shown to him.
+- **Every draft clears three checks** before he sees it: Voice and register (no banned phrases, no boasting, no filler, formal letter register), ATS rules (plain structure, verbatim keywords, plain URLs, tool-only lists), and CV agreement (the same titles, start years, tool names and exclusions as the ATS CV).
 - Output drafts as copy-pasteable markdown in the reply. Only write files when asked.
 - **Never send anything anywhere.** Drafting only — he sends it.

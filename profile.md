@@ -18,6 +18,7 @@ paragraph".
 
 **Changelog**
 
+- **2026-10-15 (ATS CV)** — The ATS CV (`~/Desktop/Ajibola/CV — Ajibola - ATS.html` / `.pdf`) was rebuilt from this evidence and the skill was aligned to it: one rulebook for both (see `SKILL.md` → "ATS rules"). Fidia corrected on the CV to "Co-Founder and Brand/Visual Designer" with brand-only bullets; Bema's internal test count removed; Jest removed (no evidence anywhere in these files); Narvo API and Branda V2 added as featured projects; skills reduced to tool names only; one start year per role. See "The ATS CV" below.
 - **2026-10-14 (repos)** — **`Narvo-Intelligence` opened four repos to the public**: `narvo_news`, `narvo_platform`, `legacy_code_2` (the shipping Narvo FastAPI backend) and `narvo-app-proto` all return 200 anonymously and are now link-safe. `narvo_intelligence` and `documentations` still 404. Stacks re-read from repo source, which **promoted Python/FastAPI, Docker on Google Cloud Run, Upstash (Redis, Ratelimit, Vector, QStash), pytest, GitHub Actions CI and Mintlify into production-shipped evidence** — see the tier table and the new cheatsheet rows. Private-repo count 8 → 7.
 - **2026-10-08** — Branda V2 added (24-hour four-market storefront, public repo); Bema scope widened from the live CV (targeted WordPress/PHP changes, APIs and relational databases, loading/error/empty/validation/authenticated UI states, gamified experiences); portfolio gained Vintage Radio, EN/YÓ i18n, PostHog; portfolio repo corrected to `ajibolagenius/ajibolagenius`; GitHub public repos 47 → 53.
 - **2026-09-24** — **Bema Integrated Services** role and tools (Coolify, Trello, Plane, Vitest, Playwright), verified against his offer letter, live CV, and the BemaHub Frontend Technical Handbook at `/Users/ajibolagenius/Desktop/Bema`. Full-Stack Software Engineer (Frontend-Strong), full-time Sept 2026–present, internally **Feature-Facing & Integration Lead** on the commercial activation wave. BemaHub and Bema Pages are **company products, not portfolio projects** — employment experience only.
@@ -124,7 +125,23 @@ portfolio's own source), `narvo` (archived). **New on 2026-10-14, under the org:
 Narvo backend", never as "legacy code"), `Narvo-Intelligence/narvo-app-proto`. **Do not** link
 `ajibola-portfolio` — that URL 404s; the portfolio source is `ajibolagenius/ajibolagenius`.
 
+## The ATS CV — the attachment every letter must agree with
+
+Source `~/Desktop/Ajibola/CV — Ajibola - ATS.html`; he attaches the `.pdf` beside it, printed from that
+HTML. It is a separate document from the web CV at `/cv`, which can lag behind it. When the two
+differ, **the ATS CV wins for applications**, because it is the one that gets parsed.
+
+- **Headline:** Full Stack Engineer · Lagos, Nigeria · phone, email, portfolio, GitHub, LinkedIn, X.
+- **Section order:** Professional Summary → Technical Skills → Professional Experience → Featured Projects → Education → Certifications. One column, standard headings, Outfit font, two US Letter pages.
+- **Dates:** one start year per role (Bema 2026, EduPoint 2026, Lagos Data School 2026, ALU Exchange 2026, Deejoft 2025, APTECH 2024, Fidia 2020, prior design roles 2019). The table below keeps full ranges for accuracy; letters follow the CV and show the start year only.
+- **Technical Skills:** tool names only, no versions or brackets, grouped as Languages, Frontend, Mobile, Backend and APIs, AI and LLM, Databases, Testing/DevOps/Cloud, Integrations, Design and Workflow, Spoken Languages. Read the block from the file rather than copying it here, so there is only one copy.
+- **Featured Projects, in order:** Zora Market (App Store and Google Play), Narvo API (narvo.news and the public repo), Branda V2 (24-hour screening task), Vertex, AfroGraph. Mark_me and OlamideVerse were cut for space, not for accuracy; they remain claimable in letters with their live links.
+- **Deliberately absent:** employer-internal numbers (Bema test counts), Jest, the dead Fidia domain, and any repo on the private list.
+- **Fidia line:** "Co-Founder and Brand/Visual Designer", with brand and visual identity bullets only.
+
 ## Experience
+
+Full date ranges, kept for accuracy. The CV and letters show the start year only (see above).
 
 | Role | Company | Type | Dates | Substance |
 |---|---|---|---|---|
@@ -134,7 +151,7 @@ Narvo backend", never as "legacy code"), `Narvo-Intelligence/narvo-app-proto`. *
 | Backend Developer | ALU Exchange | Contract | 2026 | Microservice APIs for trading, ledger, wallet, and identity systems; real-time financial calculation logic, state management, database schemas |
 | Full Stack Developer & Tutor | Deejoft | Full-Time | 2025–2026 | Led the development department; tutored programming; training in Python, HTML/CSS/JS, React, React Native; designed hands-on projects bridging theory and practice |
 | Web Tutor | APTECH Computer Education | Part-Time | 2024–2025 | Built curricula for HTML, CSS, JavaScript fundamentals; mentored learners with growth-focused feedback |
-| Co-Founder & Brand/Visual Designer | Fidia | Co-founded startup | 2020–2023 (closed) | Crowdfunding and monetisation platform for African creators — payment links, creator profiles, product pages, creator education. One of three co-founders (with Soliudeen Ogunsola and Gbadebo Bello); designed logos, banners, and motion graphics. Featured in TechCabal (2022). Company shut down September 2023 when a promised investor wire never came through. |
+| Co-Founder and Brand/Visual Designer | Fidia | Co-founded startup | 2020–2023 (closed) | Crowdfunding and monetisation platform for African creators — payment links, creator profiles, product pages, creator education. One of three co-founders (with Soliudeen Ogunsola and Gbadebo Bello); designed logos, banners, and motion graphics. Featured in TechCabal (2022). Company shut down September 2023 when a promised investor wire never came through. |
 | Lead Designer | Cavemen Agency | Contract | 2020–2021 | Brand identity and marketing visuals; directed initiatives; optimised team workflows under tight deadlines |
 | Visual Designer | Quru Lab | Contract | 2021 | Social, presentation, and product demo visuals; print and digital launch assets; design standards and delivery processes |
 | Visual Designer | Kuwego Global | Contract | 2020 | Defined product design strategy and creative goals; built and led a design team; managed vendors |
@@ -162,10 +179,10 @@ Vue/Nuxt); **Ajibola's contribution was brand and visual identity — logos, ban
 per Ogunsola's own post-mortem
 (https://medium.com/soliudeen-case-studies/the-chronicles-of-fidia-post-mortem-edition-b6de681f6bef).
 
-- **Title rule:** say **"Co-Founder & Brand/Visual Designer"**, never "Design Lead" or "Lead Designer" for Fidia. The post-mortem credits product/UX leadership to Ogunsola specifically, and a recruiter who reads it will notice the mismatch. Do not claim product design, UX, or engineering ownership of Fidia.
+- **Title rule:** say **"Co-Founder and Brand/Visual Designer"**, never "Design Lead" or "Lead Designer" for Fidia. The post-mortem credits product/UX leadership to Ogunsola specifically, and a recruiter who reads it will notice the mismatch. Do not claim product design, UX, or engineering ownership of Fidia.
 - **Company is dead.** `getfidia.com` returns no DNS (as of 2026-08-14) — **never link it.** Cite the TechCabal article or the Medium post-mortem if a link is needed. Never imply it still operates; it closed **September 2023** when its accelerator (OnDeck) ran out of funding and a single committed investor never wired the money.
 - **Use it for:** startup/founder-facing roles, early-stage 0-to-1 teams, resilience and honest reckoning with failure, brand/visual work distinct from product design, crowdfunding/creator-economy/fintech-adjacent domains.
-- *Provenance (added 2026-08-14):* LinkedIn (about page blocked scraping — login wall), TechCabal, x.com/getfidia (JS-rendered, no static bio), and the Medium post-mortem. Not from the portfolio site — and the live CV's row reads "Lead Designer, Fidia Creatives Inc.", a company name no public source uses (all say "Fidia"). **Worth checking whether the CV needs correcting.**
+- *Provenance (added 2026-08-14):* LinkedIn (about page blocked scraping — login wall), TechCabal, x.com/getfidia (JS-rendered, no static bio), and the Medium post-mortem. Not from the portfolio site — and the web CV's row read "Lead Designer, Fidia Creatives Inc.", a company name no public source uses (all say "Fidia"). **The ATS CV was corrected on 2026-10-15**; the web CV at `/cv` and the portfolio's Fidia page ("Co-founder & Design Lead") still need the same fix.
 
 ## Education
 
@@ -294,7 +311,8 @@ into a Django or Airflow brief without naming it as a gap**; PHP beyond the targ
 changes at Bema; Power BI or Tableau; SEO as a marketing
 specialism (technical SEO is claimable — see the cheatsheet); **Bitbucket** itself (his hosting
 experience is GitHub — same Git model, different host, so frame as "Git workflows, adaptable to
-Bitbucket," not "used Bitbucket").
+Bitbucket," not "used Bitbucket"); **Jest** (it was on the pre-2026-10-15 CV, but no project in these
+files uses it; offer Vitest, which shares the API, and ask him before claiming Jest).
 
 **Cloud claims, corrected 2026-10-14.** **GCP came off the gap list** — he sent an application stating
 "I've deployed on GCP, Vercel, Cloudflare Workers, and Docker containers on AWS via Coolify", which
@@ -324,7 +342,7 @@ weekday commitment — if a JD asks about availability or conflicts, disclose it
 letting a recruiter discover it later. He is still **"available for full-time roles, freelance work,
 and collaborations"**; this does not change that line.
 
-**Fidia caution:** see the Fidia block under Experience — title is "Co-Founder & Brand/Visual Designer", no getfidia.com link, company closed September 2023.
+**Fidia caution:** see the Fidia block under Experience — title is "Co-Founder and Brand/Visual Designer", no getfidia.com link, company closed September 2023.
 
 ### Claim tiers — pick the phrasing from the tier, every time
 
