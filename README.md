@@ -51,10 +51,11 @@ Read `profile.md` and the ATS CV for every application; read `projects.md` when 
 - Describe Fidia as `Co-Founder and Brand/Visual Designer`; never link getfidia.com.
 - Describe Zora as an app built and shipped by Ajibola, not one he published (it ships under ZORA AFRICA LIMITED, 0 reviews).
 - State 3+ years professional software engineering, 5+ years design, 10+ years combined.
-- Claim tiers decide phrasing: production-shipped tools claim plainly; tools used once say "has used" / "has deployed on" (this still includes **GCP** as a platform-depth claim, even though the Narvo API's Cloud Run `Dockerfile` is public); **Upstash moved up to production-shipped on 2026-10-14** (its wiring is in the public backend); `NestJS` and `Prisma` are "familiar with" only; **Azure and .NET are gaps** and must be named in the gap paragraph.
-- Cite Bema Integrated Services (`Full-Stack Software Engineer (Frontend-Strong)`) for Vitest, Playwright, Coolify, Trello and Plane — as employment, never as portfolio work, and without employer-internal test counts in the letter.
+- Claim tiers decide phrasing: production-shipped tools claim plainly (includes React, Next.js, TypeScript, FastAPI, Python, PostgreSQL, MongoDB, Expo/React Native, Docker, etc.); tools known and used include **MongoDB** for document schema modelling, collections, indexing and aggregation; tools used once say "has used" / "has deployed on" (this still includes **GCP** as a platform-depth claim, even though the Narvo API's Cloud Run `Dockerfile` is public); **Upstash moved up to production-shipped on 2026-10-14** (its wiring is in the public backend); `NestJS` and `Prisma` are "familiar with" only; **Azure and .NET are gaps** and must be named in the gap paragraph.
+- Cite Bema Integrated Services (`Full-Stack Software Engineer (Frontend-Strong)`) for Vitest, Playwright, Coolify, Trello and Plane — as employment, never as portfolio work, and without employer-internal test counts in the letter. **Never frame Bema (or any role) as current employment in generated messages**; frame all experience as past jobs or neutral track-record experience.
 - The letter is formal: expanded contractions, no em-dashes, spelled-out acronyms. A letter he has actually sent outranks any draft he edited.
 - **One rulebook for the CV and the letter:** the same titles, start years only, the same tool names (the JD's spelling wins when it differs), tool-only skill lists, and no number the CV leaves out.
+- **Never specify current employment in generated messages:** always frame roles as past jobs or neutral experience; never write "currently working", "in my current role", or "my current employer".
 - Never send anything. Drafting only.
 
 ## Refresh evidence
