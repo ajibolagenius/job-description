@@ -23,7 +23,7 @@ This directory is the source of truth; keep other agent skill directories linked
 - `SKILL.md` — workflow, voice and register rules, ATS rules, link policy, hard constraints.
 - `profile.md` — identity, contact, education, experience, skills, mapping cheatsheet, claim tiers, never-claim list.
 - `projects.md` — project dossiers, stacks, live links, project-specific cautions.
-- `~/Desktop/Ajibola/CV — Ajibola - ATS.html` (outside this directory) — the ATS CV he attaches as a PDF. The letter must agree with it; conventions are recorded in `profile.md` → "The ATS CV".
+- `~/Desktop/Ajibola/Ajibola_Akelebe_CV.html` (outside this directory) — the ATS CV he attaches as a PDF. The letter must agree with it; conventions are recorded in `profile.md` → "The ATS CV".
 
 Read `profile.md` and the ATS CV for every application; read `projects.md` when the role needs project evidence.
 

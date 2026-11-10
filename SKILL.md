@@ -29,7 +29,7 @@ symlink — never a duplicated tree. A second full copy means a stale fork: dele
 |---|---|
 | `profile.md` | **Always.** Identity, contact, experience, skills, the requirement→evidence mapping cheatsheet, claim tiers, never-claim list. |
 | `projects.md` | Whenever project depth is needed — role, duration, stack, problem/solution, features, live links, per-project cautions. |
-| `~/Desktop/Ajibola/CV — Ajibola - ATS.html` | **Always.** The ATS CV he attaches (the `.pdf` beside it). The letter must agree with it, and the ATS keyword match is checked against it. Conventions in `profile.md` → "The ATS CV". |
+| `~/Desktop/Ajibola/Ajibola_Akelebe_CV.html` | **Always.** The ATS CV he attaches (the `.pdf` beside it). The letter must agree with it, and the ATS keyword match is checked against it. Conventions in `profile.md` → "The ATS CV". |
 
 ## Inputs
 
@@ -47,7 +47,9 @@ without it.
 Evidence verified **2026-10-08**; voice, length and gap rules calibrated **2026-10-14** from a letter
 he sent (Klooqi Frontend Tech Lead); the **Narvo family was re-verified from repo source on 2026-10-14**
 when the org made four repos public; the **ATS CV and this skill were aligned on 2026-10-15** (one
-rulebook, see "ATS rules"). **A letter he actually sent is better evidence of his preference
+rulebook, see "ATS rules"); the **CV was restructured on 2026-11-10** (engineering first, teaching and
+design in their own sections, QA CV merged in, renamed `Ajibola_Akelebe_CV`), and SwiftTransit, Mark_me
+and the Narvo API's CI were re-verified from repo source that day. **A letter he actually sent is better evidence of his preference
 than any draft he edited.** Refresh when the snapshot looks stale, he says something changed, or the
 role is high-stakes.
 
@@ -112,10 +114,12 @@ strong blocks.
 - **No current-employment framing across all generated messages:** Whenever generating application messages (emails, cover notes, recruiter DMs, referrals), **never specify or imply that Ajibola is currently working anywhere** (at Bema Integrated Services or elsewhere). Either frame roles as **past jobs** ("At Bema Integrated Services, I built...", "As Full-Stack Software Engineer at Bema...", "In my time at Deejoft...") or make them **neutral** ("I have built and shipped production interfaces...", "Production experience with Vitest and Playwright..."). Never use "currently", "in my current position", "my current role", or "present employer".
 - **Branda V2** carries multi-market, technical-SEO and rendering-strategy evidence, and it was a **screening task**. Never "built for Branda", never imply Branda uses it, never imply real payments (checkout is mocked). Say "built a four-market storefront in 24 hours".
 - **Vertex** carries Sanity / GROQ / MCP / Clerk / PostHog. Claim it plainly as a **shipped side project** — built in a week, live, public repo. Don't hedge it, and never call it client work.
+- **AfroGraph** was a **take-home assignment**: its public README opens "Wexa AI Take-Home Assignment". Treat it like Branda V2 — "built a graph application on CognoDB and openCypher in a week", never client work, never imply Wexa uses it. A reviewer who opens the repo sees the header, so the letter must not contradict it.
+- **SwiftTransit** is **in development**, not shipped: no store listing, payments mocked (README and scope say so). Its strength is the public data and test layer — claim the Postgres trust boundary, the policy test suites and the CI gate (details in `projects.md`), never users, launches or real payments.
 - **Bema Integrated Services** carries Vitest, Playwright, Coolify, Trello and Plane. Cite it as **employment engineering**, never as a portfolio project — BemaHub and Bema Pages are the employer's systems. **Never frame Bema as current employment:** do not write "currently working at Bema", "in my current role at Bema", or "currently builds". Frame experience as a past job ("At Bema Integrated Services, I built...") or neutrally ("Production experience with Vitest, Playwright, and Coolify CI/CD...").
 - **Fidia** is "Co-Founder and Brand/Visual Designer", never "Design Lead", and never link getfidia.com (dead since the 2023 closure). Details in `profile.md`.
 - Where the JD names a tool he hasn't used, do **not** claim it. Use the substitution table at the end of `profile.md`: name the transferable thing he shipped and let the parallel do the work.
-- **Backend and platform roles now get the public-repo treatment.** For those roles the strongest single sentence is not an adjective, it is an invitation: "the FastAPI service is public if you would like to read it." Prefer exact nouns the repo can back — route and service decomposition instead of a monolith, one standardised error envelope carrying a request id, primary and fallback providers, rate limiting ahead of the handler, signature-verified cron ingestion, 35 pytest modules with mypy and pyright in the gate. A reviewer who opens the repo and finds those nouns is worth more than one who has to take his word.
+- **Backend and platform roles now get the public-repo treatment.** For those roles the strongest single sentence is not an adjective, it is an invitation: "the FastAPI service is public if you would like to read it." Prefer exact nouns the repo can back — route and service decomposition instead of a monolith, one standardised error envelope carrying a request id, primary and fallback providers, rate limiting ahead of the handler, signature-verified cron ingestion, 35 pytest modules with mypy and pyright configured. **That repo has no CI workflow (checked 2026-11-10)**, so never say its tests or type checks run "in CI" or "in the gate"; the public GitHub Actions gates are on `narvo_news` and `narvo_platform` (lint, typecheck, build) and on SwiftTransit (typecheck, lint, Jest, database policy suites). A reviewer who opens the repo and finds those nouns is worth more than one who has to take his word.
 - **Never let the migration phase become an overclaim.** `narvo_news` currently serves shared typed fixtures from its `@narvo/mocks` workspace package, and its README states the backend is not scaffolded there; the shipping pipeline is in `legacy_code_2`. Say he **built the FastAPI pipeline** and **built the consumer surfaces in a pnpm monorepo**, not that the consumer monorepo runs on live data.
 - **Never inflate the GCP claim past "deployed".** The public repo shows the container and the Cloud Run target; it does not show operational history. "Designed and shipped this API as a Docker image on Google Cloud Run" is exactly the right size.
 
@@ -239,10 +243,11 @@ recruiter is reading about two different candidates.
 
 **Same facts as the CV**
 
-- Titles, employers and project names exactly as the CV writes them: "Full Stack Engineer" (headline), "Full-Stack Software Engineer (Frontend-Strong)" at Bema Integrated Services, "Co-Founder and Brand/Visual Designer" at Fidia, "Narvo API". In generated messages, always frame experience in the past tense or neutral phrasing, never as active/current employment.
-- **Dates: start year only.** The CV shows one year per role (Bema 2026, Deejoft 2025, APTECH 2024, Fidia 2020). The letter never writes a range, "Present", or an end year the CV does not show. Never write "2026–Present" or "currently" in letters; write "2026", "previously", or keep neutral. Experience is "3+ years of professional software engineering", the same figure as the CV summary.
+- Titles, employers and project names exactly as the CV writes them: "Full Stack Engineer" (headline), "Full-Stack Software Engineer (Frontend-Strong)" at Bema Integrated Services, "Backend Developer" at ALU Exchange, "Co-Founder and Brand/Visual Designer" at Fidia, "Narvo API". **Deejoft is split on the CV:** "Full Stack Developer" under Professional Experience (led the development department) and "Technical Tutor" under Teaching Experience (curriculum). Use the title that fits the evidence block; never merge them back into "Full Stack Developer and Technical Tutor". In generated messages, always frame experience in the past tense or neutral phrasing, never as active/current employment.
+- **Dates: start year only.** The CV shows one year per role (Bema 2026, Deejoft 2025, APTECH 2024, Fidia 2020). The letter never writes a range, "Present", or an end year the CV does not show. Never write "2026–Present" or "currently" in letters; write "2026", "previously", or keep neutral.
+- **Years of experience are not on the CV** (removed from the summary 2026-11-10). State "3+ years of professional software engineering" in a letter **only when the JD gates on years**; otherwise leave the number out so the two documents read alike.
 - No number in the letter that the CV deliberately leaves out. Employer-internal counts stay out of both.
-- A claim resting on something the CV leaves out (Nego, NEGOtivity, Hotbite, Heka IQ, Mark_me, OlamideVerse) is fine, but put the live URL or portfolio project page in the same block, because the reader will not find it on the CV.
+- A claim resting on something the CV leaves out (Branda V2, Vertex, AfroGraph, Nego, NEGOtivity, Hotbite, Heka IQ, OlamideVerse) is fine, but put the live URL or portfolio project page in the same block, because the reader will not find it on the CV.
 
 **Same names as the CV**
 
@@ -262,6 +267,8 @@ recruiter is reading about two different candidates.
 - Links are plain URLs on their own line, never anchor text ("click here", "my portfolio"); parsers drop the href and keep the anchor.
 - Standard punctuation only: a hyphen for lists, a pipe for inline separators (as the CV uses), no bullet glyphs (•, ▸), no emoji, and no em-dashes in the letter.
 - If the posting demands a file format (".docx, not PDF"), flag it in Confirm before sending; some parsers still fail on PDF.
+- **The CV PDF must extract as clean text.** It is set in a system font (Helvetica Neue, falling back to Arial) because the old Outfit web font, a variable font, was embedded by Chrome as Type 3 glyphs and `pdftotext -raw` returned every line with its word spaces gone ("FullStackEngineerwhoowns…"). Never regenerate the CV in a variable web font. After any CV edit, `pdffonts` must show only TrueType fonts and `pdftotext -raw` must show normal spacing. Older PDFs (ATS v1.7, QA v1.1, Customer Support) were printed in Outfit; do not attach them.
+- **Attach the CV as `Ajibola_Akelebe_CV.pdf`.** No em-dashes or spaces in the filename; some upload forms reject them.
 
 ## Step 5 — Flag, don't assume
 
