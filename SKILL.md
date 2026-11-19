@@ -49,7 +49,10 @@ he sent (Klooqi Frontend Tech Lead); the **Narvo family was re-verified from rep
 when the org made four repos public; the **ATS CV and this skill were aligned on 2026-10-15** (one
 rulebook, see "ATS rules"); the **CV was restructured on 2026-11-10** (engineering first, teaching and
 design in their own sections, QA CV merged in, renamed `Ajibola_Akelebe_CV`), and SwiftTransit, Mark_me
-and the Narvo API's CI were re-verified from repo source that day. **A letter he actually sent is better evidence of his preference
+and the Narvo API's CI were re-verified from repo source that day; **Nego (`ajibolagenius/nego`) was
+updated from live production and repo source on 2026-11-19** (Cloudflare Workers via `vinext`/Vite 8,
+Workers Response Store on SQLite Durable Objects + R2, R2 custom-domain object storage migration,
+native Cloudflare Cron Triggers, and serverless CPU/egress optimization). **A letter he actually sent is better evidence of his preference
 than any draft he edited.** Refresh when the snapshot looks stale, he says something changed, or the
 role is high-stakes.
 
@@ -107,7 +110,7 @@ strong blocks.
 - Turn the **design career and teaching work** into role-specific arguments, not biography. Design → customer experience, brand judgment, design-to-code fidelity. Teaching → explaining trade-offs to non-technical stakeholders, documentation discipline.
 - **Match tempo** to what the JD values: Branda V2 (24 hours) or Hotbite (48 hours) for speed under deadline; Narvo News (18 months) or OlamideVerse (13 months) for long-haul ownership.
 - **Nigeria-first engineering** is a differentiator for Nigerian and Africa-focused employers: Paystack, Naira handling, 3G optimisation, local-language localisation. Say it plainly.
-- **AI tooling, interactive/tactile-sound engineering, headless CMS, testing, container deployment, voice and TTS pipelines, API contract design, scheduled and asynchronous jobs, content ingestion and ETL, vector retrieval, prototyping, Postgres row-level security, MongoDB / NoSQL document databases, Nigerian data-protection compliance** all have dedicated cheatsheet rows — use the row, don't re-derive it.
+- **AI tooling, interactive/tactile-sound engineering, headless CMS, testing, container deployment, Cloudflare Workers / R2 / edge compute, performance & cloud cost optimisation, voice and TTS pipelines, API contract design, scheduled and asynchronous jobs, content ingestion and ETL, vector retrieval, prototyping, Postgres row-level security, MongoDB / NoSQL document databases, Nigerian data-protection compliance** all have dedicated cheatsheet rows — use the row, don't re-derive it.
 
 ### Framing cautions — these get him caught out if written wrong
 
@@ -202,7 +205,7 @@ principles transfer in one concrete line, close on transparency. Verified 2026-1
   built for Google Cloud Run" — and it is verifiable in a public repo. Keep the sentence's shape: name the
   gap, name what he has shipped instead, assert transfer in one concrete line, close on transparency.
 - "I do not yet have direct experience" — forward-looking. No apology, no "unfortunately", no promise to learn it fast.
-- "queue-backed messaging patterns" is the approved generic phrasing for event-driven and queue briefs, and it stays true. **Since 2026-10-14 he can also be concrete, because the code is public:** Upstash **QStash** scheduled-message delivery with inbound signature verification and dual signing keys, `pywebpush` fan-out, Supabase realtime, cron cleanup jobs. Name those when a brief is about schedulers, webhooks or asynchronous jobs — specificity that survives a repo read beats a generic phrase. **Still never name a broker he hasn't shipped**: Transactional Outbox, Azure Service Bus, Kafka, RabbitMQ, SQS, Celery.
+- "queue-backed messaging patterns" is the approved generic phrasing for event-driven and queue briefs, and it stays true. **Since 2026-10-14 (and 2026-11-19 for Cloudflare) he can also be concrete, because the code is public:** Upstash **QStash** scheduled-message delivery with inbound signature verification and dual signing keys, **native Cloudflare Workers Cron Triggers** (`scheduled()` dispatching in-process with `CRON_SECRET` verification in `ajibolagenius/nego`), `pywebpush` / `web-push` fan-out, Supabase realtime, cron cleanup jobs. Name those when a brief is about schedulers, webhooks or asynchronous jobs — specificity that survives a repo read beats a generic phrase. **Still never name a broker he hasn't shipped**: Transactional Outbox, Azure Service Bus, Kafka, RabbitMQ, SQS, Celery.
 - In the Klooqi letter he named **Azure only** and left **.NET unmentioned**, though the JD required both. That is his call, not a licence to hide a gate: list every unclaimed required skill in Confirm-before-sending and ask which to name. **Default to naming all of them.**
 
 ## Voice and register
@@ -281,7 +284,7 @@ End with a short **"Confirm before sending"** list covering every assumption:
 - **Whether the Narvo API repo goes in the links block.** It is public and it is the only place his Python, container and scheduled-job claims can be checked. Link it for backend and AI-infrastructure roles, keep it out for pure frontend roles that will not read it, and never link `narvo_intelligence` or `documentations`. Say which choice the draft made, since he may have a view.
 - **Every required skill he cannot claim** — list them all and ask which to name in the gap paragraph. A silent gap discovered in the interview is worse than the awkward paragraph now.
 - **Employer-internal numbers and build durations** — draft them in, flag them for deletion; his default is to cut them.
-- **Sensitive verticals** — Nego is an adult-adjacent companionship marketplace. Lead with the technical substance (wallet, escrow, Paystack, tiered access control) and flag the vertical so he can decide. For conservative or family-brand employers, prefer Zora as the payments example.
+- **Sensitive verticals** — Nego is an adult-adjacent companionship marketplace. Lead with the technical substance (Cloudflare Workers/R2 edge architecture, caching and cost optimization, wallet, escrow, Paystack, tiered access control) and flag the vertical so he can decide. For conservative or family-brand employers, prefer Zora as the payments example.
 - **Branda V2 and Fidia framing** — screening build, not client work; "Co-Founder and Brand/Visual Designer", no dead links.
 - **Anything you softened** because the evidence was thin, so he can strengthen it if you were wrong.
 - **Standing commitments** — the EduPoint programme runs Thursdays onsite at Trinity University, Lagos. Disclose plainly if the JD asks about availability; never state the sessional fee or terms.
